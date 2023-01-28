@@ -1,0 +1,145 @@
+@using System.Data
+@model System.Data.DataTable
+@{
+    ViewData["Title"] = "User Profile";
+}
+<section style="background-color: #f9f9f8;">
+    <div class="container py-4">
+        <div class="row">
+            <div class="col">
+                <div class="card my-4">
+                    <div class="card-body">
+                        <div class="card-title d-flex">
+                            <h3>Tests</h3>
+                            <div class="control-group ms-auto  d-none d-sm-block">
+                            @if(Context.Request.Query["PatientUsername"].ToString() != null && Context.Request.Query["PatientUsername"] != "" && Context.Session.GetString("UserType") == "Employee"){
+                                @if(@Context.Request.Query["select"] == "Upcoming"){
+                                    <a type="button" class="btn btn-outline-primary m-1" data-mdb-ripple-color="dark" asp-action="Index" asp-route-select="All" asp-route-PatientUsername='@Context.Request.Query["PatientUsername"]'>All</a>
+                                    <a type="button" class="btn btn-primary m-1" data-mdb-ripple-color="dark" asp-action="Index" asp-route-select="Upcoming" asp-route-PatientUsername='@Context.Request.Query["PatientUsername"]'>Upcoming</a>
+                                    <a type="button" class="btn btn-outline-primary m-1" data-mdb-ripple-color="dark" asp-action="Index" asp-route-select="Completed" asp-route-PatientUsername='@Context.Request.Query["PatientUsername"]'>Completed</a>
+                                    <a type="button" class="btn btn-outline-primary m-1" data-mdb-ripple-color="dark" asp-action="Index" asp-route-select="Cancelled" asp-route-PatientUsername='@Context.Request.Query["PatientUsername"]'>Cancelled</a>
+                                }else if(@Context.Request.Query["select"] == "Completed"){
+                                    <a type="button" class="btn btn-outline-primary m-1" data-mdb-ripple-color="dark" asp-action="Index" asp-route-select="All" asp-route-PatientUsername='@Context.Request.Query["PatientUsername"]'>All</a>
+                                    <a type="button" class="btn btn-outline-primary m-1" data-mdb-ripple-color="dark" asp-action="Index" asp-route-select="Upcoming" asp-route-PatientUsername='@Context.Request.Query["PatientUsername"]'>Upcoming</a>
+                                    <a type="button" class="btn btn-primary m-1" data-mdb-ripple-color="dark" asp-action="Index" asp-route-select="Completed" asp-route-PatientUsername='@Context.Request.Query["PatientUsername"]'>Completed</a>
+                                    <a type="button" class="btn btn-outline-primary m-1" data-mdb-ripple-color="dark" asp-action="Index" asp-route-select="Cancelled" asp-route-PatientUsername='@Context.Request.Query["PatientUsername"]'>Cancelled</a>
+                                }else if(@Context.Request.Query["select"] == "Cancelled"){
+                                    <a type="button" class="btn btn-outline-primary m-1" data-mdb-ripple-color="dark" asp-action="Index" asp-route-select="All" asp-route-PatientUsername='@Context.Request.Query["PatientUsername"]'>All</a>
+                                    <a type="button" class="btn btn-outline-primary m-1" data-mdb-ripple-color="dark" asp-action="Index" asp-route-select="Upcoming" asp-route-PatientUsername='@Context.Request.Query["PatientUsername"]'>Upcoming</a>
+                                    <a type="button" class="btn btn-outline-primary m-1" data-mdb-ripple-color="dark" asp-action="Index" asp-route-select="Completed" asp-route-PatientUsername='@Context.Request.Query["PatientUsername"]'>Completed</a>
+                                    <a type="button" class="btn btn-primary m-1" data-mdb-ripple-color="dark" asp-action="Index" asp-route-select="Cancelled" asp-route-PatientUsername='@Context.Request.Query["PatientUsername"]'>Cancelled</a>
+                                }else{
+                                    <a type="button" class="btn btn-primary m-1" data-mdb-ripple-color="dark" asp-action="Index" asp-route-select="All" asp-route-PatientUsername='@Context.Request.Query["PatientUsername"]'>All</a>
+                                    <a type="button" class="btn btn-outline-primary m-1" data-mdb-ripple-color="dark" asp-action="Index" asp-route-select="Upcoming" asp-route-PatientUsername='@Context.Request.Query["PatientUsername"]'>Upcoming</a>
+                                    <a type="button" class="btn btn-outline-primary m-1" data-mdb-ripple-color="dark" asp-action="Index" asp-route-select="Completed" asp-route-PatientUsername='@Context.Request.Query["PatientUsername"]'>Completed</a>
+                                    <a type="button" class="btn btn-outline-primary m-1" data-mdb-ripple-color="dark" asp-action="Index" asp-route-select="Cancelled" asp-route-PatientUsername='@Context.Request.Query["PatientUsername"]'>Cancelled</a>
+                                }
+                            }else{
+                                @if(@Context.Request.Query["select"] == "Upcoming"){
+                                    <a type="button" class="btn btn-outline-primary m-1" data-mdb-ripple-color="dark" asp-action="Index" asp-route-select="All">All</a>
+                                    <a type="button" class="btn btn-primary m-1" data-mdb-ripple-color="dark" asp-action="Index" asp-route-select="Upcoming">Upcoming</a>
+                                    <a type="button" class="btn btn-outline-primary m-1" data-mdb-ripple-color="dark" asp-action="Index" asp-route-select="Completed">Completed</a>
+                                    <a type="button" class="btn btn-outline-primary m-1" data-mdb-ripple-color="dark" asp-action="Index" asp-route-select="Cancelled">Cancelled</a>
+                                }else if(@Context.Request.Query["select"] == "Completed"){
+                                    <a type="button" class="btn btn-outline-primary m-1" data-mdb-ripple-color="dark" asp-action="Index" asp-route-select="All">All</a>
+                                    <a type="button" class="btn btn-outline-primary m-1" data-mdb-ripple-color="dark" asp-action="Index" asp-route-select="Upcoming">Upcoming</a>
+                                    <a type="button" class="btn btn-primary m-1" data-mdb-ripple-color="dark" asp-action="Index" asp-route-select="Completed">Completed</a>
+                                    <a type="button" class="btn btn-outline-primary m-1" data-mdb-ripple-color="dark" asp-action="Index" asp-route-select="Cancelled">Cancelled</a>
+                                }else if(@Context.Request.Query["select"] == "Cancelled"){
+                                    <a type="button" class="btn btn-outline-primary m-1" data-mdb-ripple-color="dark" asp-action="Index" asp-route-select="All">All</a>
+                                    <a type="button" class="btn btn-outline-primary m-1" data-mdb-ripple-color="dark" asp-action="Index" asp-route-select="Upcoming">Upcoming</a>
+                                    <a type="button" class="btn btn-outline-primary m-1" data-mdb-ripple-color="dark" asp-action="Index" asp-route-select="Completed">Completed</a>
+                                    <a type="button" class="btn btn-primary m-1" data-mdb-ripple-color="dark" asp-action="Index" asp-route-select="Cancelled">Cancelled</a>
+                                }else{
+                                    <a type="button" class="btn btn-primary m-1" data-mdb-ripple-color="dark" asp-action="Index" asp-route-select="All">All</a>
+                                    <a type="button" class="btn btn-outline-primary m-1" data-mdb-ripple-color="dark" asp-action="Index" asp-route-select="Upcoming">Upcoming</a>
+                                    <a type="button" class="btn btn-outline-primary m-1" data-mdb-ripple-color="dark" asp-action="Index" asp-route-select="Completed">Completed</a>
+                                    <a type="button" class="btn btn-outline-primary m-1" data-mdb-ripple-color="dark" asp-action="Index" asp-route-select="Cancelled">Cancelled</a>
+                                }                                
+                            }
+
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="row">
+                            @foreach (DataRow Test in Model.Rows){
+                                <div class="col-lg-6 mt-2 mb-4" id='@Test["Test_ID"]'>
+                                    <div class="card">
+                                        <div class="card-body">
+                                            <div class="d-flex justify-content-between align-items-center">
+                                            <div class="d-flex align-items-center">
+                                                    @if(Context.Session.GetString("UserType") == "Patient"){
+                                                        @if(!string.IsNullOrWhiteSpace(Test["Profile_Pic1"].ToString())){
+                                                            <img src='~/images/@Test["Profile_Pic1"]' alt="" style="width: 45px; height: 45px" class="rounded-circle"/>
+                                                        }else{
+                                                            <img src='~/images/pfp.jpg' alt="" style="width: 45px; height: 45px" class="rounded-circle"/>
+                                                        }   
+                                                    }else{
+                                                        @if(!string.IsNullOrWhiteSpace(Test["Profile_Pic"].ToString())){
+                                                            <img src='~/images/@Test["Profile_Pic"]' alt="" style="width: 45px; height: 45px" class="rounded-circle"/>
+                                                        }else{
+                                                            <img src='~/images/pfp.jpg' alt="" style="width: 45px; height: 45px" class="rounded-circle"/>
+                                                        }   
+                                                    }    
+
+                                                <div class="ms-3">
+                                                <p class="fw-bold mb-1">@Test["Type_Name"]</p>
+                                                <p class="mb-0">
+                                                    <span>Patient : </span> <span class="text-muted ">@Test["Patient_Username"]</span>
+                                                </p>
+                                                <p class="mb-0">
+                                                    @if(string.IsNullOrWhiteSpace(@Test["Room_Number"].ToString())){
+                                                        <span>Room : </span> <span class="text-muted ">Unspecified</span>
+                                                    }else{
+                                                        <span>Room : </span> <span class="text-muted ">@Test["Room_Prefix"] @Test["Room_Number"]</span>
+                                                    }
+                                                    <span class="ms-3">Time : </span> <span class="text-muted ">@Convert.ToDateTime(Test["Test_Date"]).ToString("dd/MM/yyyy")</span>
+                                                </p>
+                                                </div>
+                                            </div>
+                                                @if(Convert.ToBoolean(@Test["Test_Is_Rejected"]) == false && Convert.ToBoolean(@Test["Test_Is_Confirmed"]) == false){
+                                                    <span class="badge badge-warning">Awaiting Confirmation</span>
+                                                }else if(Convert.ToBoolean(@Test["Test_Is_Rejected"]) == true){
+                                                    <span class="badge badge-danger">Cancelled</span>
+                                                }else if(Convert.ToDateTime(@Test["Test_Date"]) > DateTime.Now){
+                                                    <span class="badge badge-success">Upcoming</span>
+                                                }else if(Convert.ToDateTime(@Test["Test_Date"]) < DateTime.Now){
+                                                    <span class="badge badge-primary">Completed</span>
+                                                }
+                                            </div>
+                                        </div>
+                                    <div class="card-footer border-0 bg-light p-2 d-flex justify-content-around test-data">
+                                        <input value='@Test["Test_ID"]' class="d-none"/>
+                                        @if(Context.Session.GetString("UserType") == "Employee"){
+                                            @if(!string.IsNullOrEmpty(@Test["Test_Report_File"].ToString())){ 
+                                                <a  class="btn btn-link m-0 text-reset add-test" role="button" data-ripple-color="dark"><i class="bi bi-journal-medical" style="color:blue"></i> &nbsp; Add Test File </a>
+                                            }else{
+                                                <a  class="btn btn-link m-0 text-reset add-test" role="button" data-ripple-color="dark"><i class="bi bi-journal-medical"></i> &nbsp; Add Test File </a>
+                                            }
+                                        }else{
+                                            @if(!string.IsNullOrEmpty(@Test["Test_Report_File"].ToString())){ 
+                                                <a  class="btn btn-link m-0 text-reset add-test" target="_blank" role="button" data-ripple-color="dark" href='~/files/@Test["Test_Report_File"]'><i class="bi bi-cloud-arrow-down"></i> &nbsp; Download Test File</a>
+                                            }
+                                        }
+                                            @if (Context.Session.GetString("UserType") == "Patient")
+                                            {
+                                                <a  class="btn btn-link m-0 text-reset disabled" role="button" data-ripple-color="dark" asp-controller="Home" asp-action="PatientProfile" asp-route-PatientUsername='@Test["Patient_Username"]'><i class="bi bi-chat-right-text"></i> &nbsp; View Profile</a>
+
+                                            }else{
+                                                <a  class="btn btn-link m-0 text-reset" role="button" data-ripple-color="dark" asp-controller="Home" asp-action="PatientProfile" asp-route-PatientUsername='@Test["Patient_Username"]'><i class="bi bi-chat-right-text"></i> &nbsp; View Profile</a>
+                                            }                           
+                                        </div>
+                                    </div>
+                                </div>
+                            }                            
+                            <form method="POST" id="UploadFileForm" name="UploadFileForm" enctype="multipart/form-data" asp-action="UploadTestFile">
+                                    <input type="file" class="d-none" name="TestFile" id="UploadBtn"/>
+                                    <input type="hidden" name="TID" id="TestId"/>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

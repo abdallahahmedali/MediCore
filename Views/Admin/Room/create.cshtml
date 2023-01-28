@@ -1,0 +1,56 @@
+﻿@model HospitalAppl.Models.Room
+@{
+    // Configurations
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+    ViewBag.Title = "Rooms";
+}
+
+<div class="container bg-white p-5">
+    <h2>Create Room</h2>
+    
+    <form asp-action="Create" method="POST">
+        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+        <div class="row py-3">
+            <div class="col-md-6">
+                <div class="mb-3">
+                    <label asp-for="Room_Type_Name" class="form-label">Room Type Name </label>
+                    @*<input type="text" name="Room_Type_Name" class="form-control" asp-for="Room_Type_Name">*@
+                    <select name="Room_Type_Name" class="form-select" asp-for="Room_Type_Name">
+                        @foreach (var RoomType in ViewBag.RoomTypes)
+                        {
+                            <option value="@RoomType["Room_Type_Name"]">@RoomType["Room_Type_Name"]</option>
+                        }
+                    </select>
+                </div>
+                <div class="mb-3">
+                    <label asp-for="Room_Capacity" class="form-label">Room Capacity </label>
+                    <input type="number" min="1" name="Room_Capacity" class="form-control" asp-for="Room_Capacity">
+                </div>
+                <div class="mb-3">
+                    <label asp-for="Room_Cost" class="form-label">Room Cost</label>
+                    <input type="number" min="0" name="Room_Cost" class="form-control" asp-for="Room_Cost">
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="mb-3">
+                    <label asp-for="Room_Number" class="form-label">Room Number </label>
+                    <input type="number" min="1" class="form-control" asp-for="Room_Number" name="Room_Number">
+                </div>
+                <div class="mb-3">
+                    <label asp-for="Room_Excess_Capacity" class="form-label">Room Excess Capacity </label>
+                    <input type="number" min="0" name="Room_Excess_Capacity" class="form-control" asp-for="Room_Excess_Capacity">
+                </div>
+                <div class="mb-3">
+                    <label asp-for="Room_Companion" class="form-label">Has Companion </label>
+                    <div>
+                        <input type="checkbox" selected="selected" name="Room_Companion" class="form-check-input" asp-for="Room_Companion">
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="col-12 text-center">
+            <button type="submit" class="btn btn-medi">Create</button>
+        </div>
+    </form>
+</div>

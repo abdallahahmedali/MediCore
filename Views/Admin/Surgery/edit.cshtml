@@ -1,0 +1,135 @@
+﻿@model HospitalAppl.Models.Surgery
+@{
+    // Configurations
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+    ViewBag.Title = "Surgery";
+
+}
+
+<div class="container bg-white p-5">
+    <h2>Edit Surgery</h2>
+    
+    <form asp-action="Update" method="POST">
+        <input type="hidden" name="Surgery_ID" asp-for="Surgery_ID" value="@ViewBag.SurgeryObj["Surgery_ID"]" />
+        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+        <div class="row pt-3">
+            <div class="col-md-6">
+                <div class="mb-3">
+                    <label asp-for="Visit_Start_Date" class="form-label fw-bold">Visit Start Date </label><br />
+                    @ViewBag.SurgeryObj["Visit_Start_Date"]
+                    <input type="hidden" asp-for="Visit_Start_Date" name="Visit_Start_Date" value="@ViewBag.SurgeryObj["Visit_Start_Date"]" />
+                </div>
+                <div class="mb-3">
+                    <label asp-for="Type_Name" class="form-label fw-bold">Service </label><br />
+                    @ViewBag.SurgeryObj["Type_Name"]
+                    <input type="hidden" asp-for="Type_Name" name="Type_Name" value="@ViewBag.SurgeryObj["Type_Name"]" />
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="mb-3">
+                    <label asp-for="Patient_Username" class="form-label fw-bold">Patient </label><br />
+                    @ViewBag.SurgeryObj["Patient_Username"]
+                    <input type="hidden" asp-for="Patient_Username" name="Patient_Username" value="@ViewBag.SurgeryObj["Patient_Username"]" />
+                </div>
+                <select class="form-select" asp-for="Doctor_Username" id="roomNumber">
+                    <option disabled selected>Select A Doctor</option>
+                    @foreach (var d in ViewBag.Doctors)
+                    {
+                        int num = 0;
+                        @if(ViewBag.SurgeryObj["Doctor_Username"] is not System.DBNull){
+                            @if(d["Username"] == ViewBag.SurgeryObj["Doctor_Username"]){
+                                <option selected="selected" value="@d["Username"]">@d["Username"]</option>
+                            }
+                        }else{
+                            <option value="@d["Username"]">@d["Username"]</option>
+                        }
+                    }
+                </select>
+            </div>
+        </div>
+        <hr />
+        <div class="row pt-3">
+            <div class="col-md-6">
+                <div class="mb-3">
+                    <label asp-for="Room_Type_Name" class="form-label fw-bold">Room Type</label><br />
+                    @ViewBag.SurgeryObj["Room_Type_Name"]
+                    @*<select class="form-select" id="typeName" asp-for="Room_Type_Name" name="Room_Type_Name">
+                        @foreach (var type in ViewBag.roomTypes)
+                        {
+                            <option value="@type["Room_Type_Name"]">@type["Room_Type_Name"]</option>
+                        }
+                    </select>*@
+                    <input type="hidden" asp-for="Room_Type_Name" name="Room_Type_Name" value="@ViewBag.SurgeryObj["Room_Type_Name"]" />
+
+                </div>
+                
+                <div class="mb-3">
+                    <label asp-for="Surgery_Date" class="form-label">Surgery Date</label>
+                    <input type="date" onchange="CalcCost()" value="@String.Format("{0:yyyy-MM-dd}",ViewBag.SurgeryObj["Surgery_Date"])" name="Surgery_Date" class="form-control" asp-for="Surgery_Date">
+                </div>
+                <div class="mb-3">
+                    <label asp-for="Surgery_Is_Confirmed" class="form-label">Approval Status </label>
+                    <div>
+                        @if(ViewBag.SurgeryObj["Surgery_Is_Confirmed"]){
+                            <input checked="checkeded" type="checkbox" name="Surgery_Is_Confirmed" class="form-Surgery-input" asp-for="Surgery_Is_Confirmed">
+                        }else{
+                            <input type="checkbox" asp-for="Surgery_Is_Confirmed" name="Surgery_Is_Confirmed" class="form-Surgery-input">
+                        }
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="mb-3">
+                    <label asp-for="Room_Number" class="form-label fw-bold">Room Number</label><br />
+                    <select class="form-select" asp-for="Room_Number" id="roomNumber" name="Room_Number">
+                        @foreach (var r in ViewBag.rooms)
+                        {
+                            int num = 0;
+                            @if(Int32.TryParse(ViewBag.SurgeryObj["Room_Number"].ToString(), out num) != false 
+                            && ViewBag.SurgeryObj["Room_Number"] != null 
+                            && r["Room_Number"] == ViewBag.SurgeryObj["Room_Number"]){
+                                <option selected="selected" value="@r["Room_Number"]">@r["Room_Number"]</option>
+                            }else{
+                                <option value="@r["Room_Number"]">@r["Room_Number"]</option>
+                            }
+                        }
+                    </select>
+                    
+                </div>
+@*                <div class="mb-3">
+                    <label asp-for="Reservation_End_Date" class="form-label">Reservation End Date</label>
+                    <input type="date" onchange="CalcCost()" value="@String.Format("{0:yyyy-MM-dd}",ViewBag.RoomRes["Reservation_End_Date"])" name="Reservation_End_Date" class="form-control" asp-for="Reservation_End_Date">
+                </div>*@
+                <div class="mb-3">
+                    <label asp-for="Surgery_Cost" class="form-label">Surgery Cost</label>
+                    <input type="number" min="0" disabled value="@ViewBag.SurgeryObj["Surgery_Cost"]" class="form-control" name="cost" disabled="disabled">
+                    <input type="hidden" name="Surgery_Cost" value="@ViewBag.SurgeryObj["Surgery_Cost"]" asp-for="Surgery_Cost" />
+                </div>
+
+            </div>
+        </div>
+
+        <div class="col-12 text-center">
+            <button type="submit" class="btn btn-medi">Edit Surgery Data</button>
+        </div>
+    </form>
+</div>
+
+@section Scripts{
+    <script>
+        //$("#typeName").change(function(){
+        //    $.ajax({
+        //        type: "GET",
+        //        url: "/Admin/AdminSurgery/FetchRoomNumbers/" + $("#typeName").val(),
+        //        success: function (viewHTML) { 
+        //            $("#roomNumber").html(viewHTML); 
+        //        },
+        //        error: function (errorData) {
+        //            console.log(errorData.responseText) 
+        //        }
+        //    });
+        //})
+            
+        
+    </script>
+}

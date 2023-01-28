@@ -1,0 +1,301 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = HospitalAppl
+build_property.RootNamespace = HospitalAppl
+build_property.ProjectDir = C:\Maestro\CMP\CMP-2\CMP-2020\Medicore\Medicore\HospitalAppl\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Maestro\CMP\CMP-2\CMP-2020\Medicore\Medicore\HospitalAppl
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Maestro/CMP/CMP-2/CMP-2020/Medicore/Medicore/HospitalAppl/Views/Admin/Check/create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQ2hlY2tcY3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Maestro/CMP/CMP-2/CMP-2020/Medicore/Medicore/HospitalAppl/Views/Admin/Check/edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQ2hlY2tcZWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Maestro/CMP/CMP-2/CMP-2020/Medicore/Medicore/HospitalAppl/Views/Admin/Check/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQ2hlY2tcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Maestro/CMP/CMP-2/CMP-2020/Medicore/Medicore/HospitalAppl/Views/Admin/Check/view_consult.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQ2hlY2tcdmlld19jb25zdWx0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Maestro/CMP/CMP-2/CMP-2020/Medicore/Medicore/HospitalAppl/Views/Admin/Department/create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cRGVwYXJ0bWVudFxjcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Maestro/CMP/CMP-2/CMP-2020/Medicore/Medicore/HospitalAppl/Views/Admin/Department/edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cRGVwYXJ0bWVudFxlZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Maestro/CMP/CMP-2/CMP-2020/Medicore/Medicore/HospitalAppl/Views/Admin/Department/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cRGVwYXJ0bWVudFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Maestro/CMP/CMP-2/CMP-2020/Medicore/Medicore/HospitalAppl/Views/Admin/Employee/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cRW1wbG95ZWVcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Maestro/CMP/CMP-2/CMP-2020/Medicore/Medicore/HospitalAppl/Views/Admin/Jobs/CreateJob.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cSm9ic1xDcmVhdGVKb2IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Maestro/CMP/CMP-2/CMP-2020/Medicore/Medicore/HospitalAppl/Views/Admin/Jobs/EditJob.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cSm9ic1xFZGl0Sm9iLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Maestro/CMP/CMP-2/CMP-2020/Medicore/Medicore/HospitalAppl/Views/Admin/Jobs/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cSm9ic1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Maestro/CMP/CMP-2/CMP-2020/Medicore/Medicore/HospitalAppl/Views/Admin/RoomReservation/create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cUm9vbVJlc2VydmF0aW9uXGNyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Maestro/CMP/CMP-2/CMP-2020/Medicore/Medicore/HospitalAppl/Views/Admin/RoomReservation/edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cUm9vbVJlc2VydmF0aW9uXGVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Maestro/CMP/CMP-2/CMP-2020/Medicore/Medicore/HospitalAppl/Views/Admin/RoomReservation/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cUm9vbVJlc2VydmF0aW9uXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Maestro/CMP/CMP-2/CMP-2020/Medicore/Medicore/HospitalAppl/Views/Admin/RoomType/create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cUm9vbVR5cGVcY3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Maestro/CMP/CMP-2/CMP-2020/Medicore/Medicore/HospitalAppl/Views/Admin/RoomType/edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cUm9vbVR5cGVcZWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Maestro/CMP/CMP-2/CMP-2020/Medicore/Medicore/HospitalAppl/Views/Admin/RoomType/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cUm9vbVR5cGVcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Maestro/CMP/CMP-2/CMP-2020/Medicore/Medicore/HospitalAppl/Views/Admin/Room/create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cUm9vbVxjcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Maestro/CMP/CMP-2/CMP-2020/Medicore/Medicore/HospitalAppl/Views/Admin/Room/edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cUm9vbVxlZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Maestro/CMP/CMP-2/CMP-2020/Medicore/Medicore/HospitalAppl/Views/Admin/Room/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cUm9vbVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Maestro/CMP/CMP-2/CMP-2020/Medicore/Medicore/HospitalAppl/Views/Admin/ServiceType/create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cU2VydmljZVR5cGVcY3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Maestro/CMP/CMP-2/CMP-2020/Medicore/Medicore/HospitalAppl/Views/Admin/ServiceType/edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cU2VydmljZVR5cGVcZWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Maestro/CMP/CMP-2/CMP-2020/Medicore/Medicore/HospitalAppl/Views/Admin/ServiceType/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cU2VydmljZVR5cGVcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Maestro/CMP/CMP-2/CMP-2020/Medicore/Medicore/HospitalAppl/Views/Admin/Surgery/create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cU3VyZ2VyeVxjcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Maestro/CMP/CMP-2/CMP-2020/Medicore/Medicore/HospitalAppl/Views/Admin/Surgery/edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cU3VyZ2VyeVxlZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Maestro/CMP/CMP-2/CMP-2020/Medicore/Medicore/HospitalAppl/Views/Admin/Surgery/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cU3VyZ2VyeVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Maestro/CMP/CMP-2/CMP-2020/Medicore/Medicore/HospitalAppl/Views/Admin/Test/create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cVGVzdFxjcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Maestro/CMP/CMP-2/CMP-2020/Medicore/Medicore/HospitalAppl/Views/Admin/Test/edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cVGVzdFxlZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Maestro/CMP/CMP-2/CMP-2020/Medicore/Medicore/HospitalAppl/Views/Admin/Test/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cVGVzdFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Maestro/CMP/CMP-2/CMP-2020/Medicore/Medicore/HospitalAppl/Views/Admin/Transactions/edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cVHJhbnNhY3Rpb25zXGVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Maestro/CMP/CMP-2/CMP-2020/Medicore/Medicore/HospitalAppl/Views/Admin/Transactions/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cVHJhbnNhY3Rpb25zXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Maestro/CMP/CMP-2/CMP-2020/Medicore/Medicore/HospitalAppl/Views/Admin/Transactions/pay.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cVHJhbnNhY3Rpb25zXHBheS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Maestro/CMP/CMP-2/CMP-2020/Medicore/Medicore/HospitalAppl/Views/Admin/TypeDetail/create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cVHlwZURldGFpbFxjcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Maestro/CMP/CMP-2/CMP-2020/Medicore/Medicore/HospitalAppl/Views/Admin/TypeDetail/edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cVHlwZURldGFpbFxlZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Maestro/CMP/CMP-2/CMP-2020/Medicore/Medicore/HospitalAppl/Views/Admin/TypeDetail/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cVHlwZURldGFpbFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Maestro/CMP/CMP-2/CMP-2020/Medicore/Medicore/HospitalAppl/Views/Admin/UserAdmin/CreateAdminUser.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cVXNlckFkbWluXENyZWF0ZUFkbWluVXNlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Maestro/CMP/CMP-2/CMP-2020/Medicore/Medicore/HospitalAppl/Views/Admin/UserAdmin/EditAdminUser.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cVXNlckFkbWluXEVkaXRBZG1pblVzZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Maestro/CMP/CMP-2/CMP-2020/Medicore/Medicore/HospitalAppl/Views/Admin/UserAdmin/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cVXNlckFkbWluXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Maestro/CMP/CMP-2/CMP-2020/Medicore/Medicore/HospitalAppl/Views/Admin/User/CreateAdminUser.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cVXNlclxDcmVhdGVBZG1pblVzZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Maestro/CMP/CMP-2/CMP-2020/Medicore/Medicore/HospitalAppl/Views/Admin/User/EditAdminUser.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cVXNlclxFZGl0QWRtaW5Vc2VyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Maestro/CMP/CMP-2/CMP-2020/Medicore/Medicore/HospitalAppl/Views/Admin/User/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cVXNlclxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Maestro/CMP/CMP-2/CMP-2020/Medicore/Medicore/HospitalAppl/Views/Admin/Visit/create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cVmlzaXRcY3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Maestro/CMP/CMP-2/CMP-2020/Medicore/Medicore/HospitalAppl/Views/Admin/Visit/edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cVmlzaXRcZWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Maestro/CMP/CMP-2/CMP-2020/Medicore/Medicore/HospitalAppl/Views/Admin/Visit/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cVmlzaXRcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Maestro/CMP/CMP-2/CMP-2020/Medicore/Medicore/HospitalAppl/Views/Admin/Visit/view_patient.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cVmlzaXRcdmlld19wYXRpZW50LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Maestro/CMP/CMP-2/CMP-2020/Medicore/Medicore/HospitalAppl/Views/Admin/Visit/view_visit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cVmlzaXRcdmlld192aXNpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Maestro/CMP/CMP-2/CMP-2020/Medicore/Medicore/HospitalAppl/Views/Check/CheckDetail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2hlY2tcQ2hlY2tEZXRhaWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Maestro/CMP/CMP-2/CMP-2020/Medicore/Medicore/HospitalAppl/Views/Check/CreateCheck.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2hlY2tcQ3JlYXRlQ2hlY2suY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Maestro/CMP/CMP-2/CMP-2020/Medicore/Medicore/HospitalAppl/Views/Check/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2hlY2tcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Maestro/CMP/CMP-2/CMP-2020/Medicore/Medicore/HospitalAppl/Views/Consult/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29uc3VsdFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Maestro/CMP/CMP-2/CMP-2020/Medicore/Medicore/HospitalAppl/Views/EmployeePatient/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVQYXRpZW50XEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Maestro/CMP/CMP-2/CMP-2020/Medicore/Medicore/HospitalAppl/Views/Home/EmployeeProfile.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxFbXBsb3llZVByb2ZpbGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Maestro/CMP/CMP-2/CMP-2020/Medicore/Medicore/HospitalAppl/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Maestro/CMP/CMP-2/CMP-2020/Medicore/Medicore/HospitalAppl/Views/Home/PatientProfile.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQYXRpZW50UHJvZmlsZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Maestro/CMP/CMP-2/CMP-2020/Medicore/Medicore/HospitalAppl/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Maestro/CMP/CMP-2/CMP-2020/Medicore/Medicore/HospitalAppl/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Maestro/CMP/CMP-2/CMP-2020/Medicore/Medicore/HospitalAppl/Views/Shared/_AdminLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9BZG1pbkxheW91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Maestro/CMP/CMP-2/CMP-2020/Medicore/Medicore/HospitalAppl/Views/Shared/_LoginPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Maestro/CMP/CMP-2/CMP-2020/Medicore/Medicore/HospitalAppl/Views/Shared/_RoomNumber.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Sb29tTnVtYmVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Maestro/CMP/CMP-2/CMP-2020/Medicore/Medicore/HospitalAppl/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Maestro/CMP/CMP-2/CMP-2020/Medicore/Medicore/HospitalAppl/Views/Surgery/CreateRequest.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3VyZ2VyeVxDcmVhdGVSZXF1ZXN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Maestro/CMP/CMP-2/CMP-2020/Medicore/Medicore/HospitalAppl/Views/Surgery/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3VyZ2VyeVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Maestro/CMP/CMP-2/CMP-2020/Medicore/Medicore/HospitalAppl/Views/Test/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVzdFxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Maestro/CMP/CMP-2/CMP-2020/Medicore/Medicore/HospitalAppl/Views/Test/CreateRequest.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVzdFxDcmVhdGVSZXF1ZXN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Maestro/CMP/CMP-2/CMP-2020/Medicore/Medicore/HospitalAppl/Views/Test/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVzdFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Maestro/CMP/CMP-2/CMP-2020/Medicore/Medicore/HospitalAppl/Views/User/CreateUser.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxDcmVhdGVVc2VyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Maestro/CMP/CMP-2/CMP-2020/Medicore/Medicore/HospitalAppl/Views/User/EditEmployee.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxFZGl0RW1wbG95ZWUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Maestro/CMP/CMP-2/CMP-2020/Medicore/Medicore/HospitalAppl/Views/User/EditPatient.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxFZGl0UGF0aWVudC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Maestro/CMP/CMP-2/CMP-2020/Medicore/Medicore/HospitalAppl/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Maestro/CMP/CMP-2/CMP-2020/Medicore/Medicore/HospitalAppl/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Maestro/CMP/CMP-2/CMP-2020/Medicore/Medicore/HospitalAppl/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-93wfbz11u0

@@ -1,0 +1,50 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+    ViewBag.Title = "Financial Transactions";
+}
+
+
+<div class="container bg-white p-5">
+    <h2 class="mb-5">
+        <i class="fa-solid fa-receipt"></i> Open Transactions For Payment
+    </h2>
+
+
+    <table class="table table-hover">
+        <thead>
+            <tr>
+                <th>#</th>
+                <th>Username</th>
+                <th>Visit Start Date</th>
+                <th>Total Cost</th>
+                <th>Total Paid Amount</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @if(ViewBag.Transactions != null)
+            {
+                int i = 1;
+                
+                @foreach (var T in ViewBag.Transactions)
+                {
+                    <tr>
+                        <td>@i</td>
+                        <td>@T["Patient_Username"]</td>
+                        <td>@T["Visit_Start_Date"]</td>
+                        <td>@T["Visit_Total_Cost"]</td>
+                        <td>@T["Total_Paid"]</td>
+                        <td>
+                            <a href="/Admin/Transaction/Pay/@T["Patient_Username"]?param2=@T["Visit_Start_Date"]" class="btn btn-info"><i class="fa-solid fa-wallet"></i></a>
+                        </td>
+                    </tr>
+                    i++;
+                }
+            }
+            
+        </tbody>
+    </table>
+</div>

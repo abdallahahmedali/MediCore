@@ -1,0 +1,49 @@
+﻿@model HospitalAppl.Models.TypeDetail
+@{
+    // Configurations
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+    ViewBag.Title = "Type Details";
+
+}
+
+<div class="container bg-white p-5">
+    <h2>Edit Type Detail</h2>
+    
+    <form asp-action="Edit" method="POST">
+        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+        <div class="row py-3">
+
+            <div class="col-md-6">
+                <div class="mb-3">
+                    <label asp-for="Service_Type_Name" class="form-label">Service Type Name </label>
+                    <select name="Service_Type_Name" class="form-select" asp-for="Service_Type_Name">
+                        @foreach (var Serv in ViewBag.ServiceTypes)
+                        {
+                            if(ViewBag.TypeDetails["Service_Type_Name"] == Serv["Service_Type_Name"])
+                            {
+                                <option selected="selected" value="@Serv["Service_Type_Name"]">@Serv["Service_Type_Name"]</option>
+                            }else{
+                                <option value="@Serv["Service_Type_Name"]">@Serv["Service_Type_Name"]</option>
+                            }
+                        }
+                    </select>
+                    <input type="hidden" value="@ViewBag.TypeDetails["Service_Type_Name"]" name="Old_Service_Type_Name" />
+                    <input type="hidden" value="@ViewBag.TypeDetails["Type_Name"]" name="Old_Type_Name" />
+                </div>
+                <div class="mb-3">
+                    <label asp-for="Type_Cost" class="form-label">Type Cost </label>
+                    <input type="text" name="Type_Cost" value="@ViewBag.TypeDetails["Type_Cost"]" class="form-control" asp-for="Type_Cost">
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="mb-3">
+                    <label asp-for="Type_Name" class="form-label">Type Name </label>
+                    <input type="text" name="Type_Name" value="@ViewBag.TypeDetails["Type_Name"]" class="form-control" asp-for="Type_Name">
+                </div>
+            </div>
+        </div>
+        <div class="col-12 text-center">
+            <button type="submit" class="btn btn-medi">Edit</button>
+        </div>
+    </form>
+</div>

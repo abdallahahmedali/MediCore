@@ -1,0 +1,171 @@
+@using System.Data
+
+@model HospitalAppl.Models.EmployeeVM
+@{
+    // Configurations
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+    ViewBag.Title = "Room Types";
+}
+
+<div class="container bg-white p-5">
+    <h2>Add Employee</h2>
+    
+    <form asp-action="CreateAdminUser" method="POST" enctype="multipart/form-data">
+        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+        <div class="row py-3">
+            <div class="col-md-6">
+                <div class="mb-3">
+                    <label asp-for="User.Username" class="form-label">Username </label>
+                    <input class="form-control" asp-for="User.Username" readonly>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="mb-3">
+                    <label asp-for="User.Password" class="form-label">Password </label>
+                    <input type="password" class="form-control" asp-for="User.Password" required>
+                </div>
+            </div>
+        </div>
+
+        <div class="row py-3">
+            <div class="col-md-6">
+                <div class="mb-3">
+                    <label asp-for="User.Email" class="form-label">Email </label>
+                    <input type="email" class="form-control" asp-for="User.Email" required>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="mb-3">
+                    <label asp-for="User.First_Name" class="form-label">First Name </label>
+                    <input type="text" class="form-control" asp-for="User.First_Name" required>
+                </div>
+            </div>
+        </div>
+
+        <div class="row py-3">
+            <div class="col-md-6">
+                <div class="mb-3">
+                    <label asp-for="User.Middle_Name" class="form-label">Middle Name </label>
+                    <input type="text" class="form-control" asp-for="User.Middle_Name" required>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="mb-3">
+                    <label asp-for="User.Last_Name" class="form-label">Last Name </label>
+                    <input type="text" class="form-control" asp-for="User.Last_Name" required>
+                </div>
+            </div>
+        </div>
+
+        <div class="row py-3">
+            <div class="col-md-6">
+                <div class="mb-3">
+                    <label asp-for="User.Street" class="form-label">Street </label>
+                    <input type="text" class="form-control" asp-for="User.Street" required>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="mb-3">
+                    <label asp-for="User.District" class="form-label">District </label>
+                    <input type="text" class="form-control" asp-for="User.District" required>
+                </div>
+            </div>
+        </div>
+
+        <div class="row py-3">
+            <div class="col-md-6">
+                <div class="mb-3">
+                    <label asp-for="User.City" class="form-label">City </label>
+                    <input type="text" class="form-control" asp-for="User.City" required>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="mb-3">
+                    <label asp-for="User.Nationality" class="form-label">Nationality </label>
+                    <input type="text" class="form-control" asp-for="User.Nationality" required>
+                </div>
+            </div>
+        </div>
+
+        <div class="row py-3">
+            <div class="col-md-6">
+                <div class="mb-3">
+                    <label asp-for="User.National_ID" class="form-label">National_ID </label>
+                    <input type="text" class="form-control" asp-for="User.National_ID" required>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="mb-3">
+                    <label asp-for="User.Phone" class="form-label">Phone </label>
+                    <input type="text" class="form-control" asp-for="User.Phone" required>
+                </div>
+            </div>
+        </div>
+
+        <div class="row py-3">
+            <div class="col-md-6">
+                <div class="mb-3">
+                    <label asp-for="Employee.Job_Name" class="form-label">Occupation </label>
+
+                    <select asp-for="Employee.Job_Name" id="inputState" class="form-control">
+                        @foreach (DataRow option in Model.Jobs.Rows)
+                        {
+                            <option value='@option["Job_Name"]'>@option["Job_Name"]</option>
+                        }
+                    </select>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="mb-3">
+                    <label asp-for="Employee.Department_Name" class="form-label">Department </label>
+
+                    <select asp-for="Employee.Department_Name" id="inputState" class="form-control">
+                        @foreach (DataRow option in Model.Departments.Rows)
+                        {
+                            <option value='@option["Department_Name"]'>@option["Department_Name"]</option>
+                        }
+                    </select>
+                </div>
+            </div>
+        </div>
+
+        <div class="row py-3">
+            <div class="col-md-6">
+                <div class="mb-3">
+                    <label asp-for="Employee.Employee_Salary" class="form-label">Salary </label>
+                    <input type="number" min="0" class="form-control" asp-for="Employee.Employee_Salary" required>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="mb-3">
+                    <label asp-for="User.ProfilePictureFile" class="form-label">Profile Picture</label>
+                    <input class="form-control" asp-for="User.ProfilePictureFile" asp-validation-for="User.ProfilePictureFile">
+                </div>
+            </div>
+        </div>
+
+        <div class="row py-3">
+            <div class="col-md-6">
+                <div class="mb-3">
+                     <div class="form-field col-md-6">
+                        <label class="form-label">Gender</label>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" asp-for="User.Sex" type="radio" name="Gender" id="Male" value="M" checked>
+                            <label class="form-check-label" asp-for="User.Sex" asp-validation-for="User.Sex">Male</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" asp-for="User.Sex" type="radio"  id="Female" value="F" name="Gender" id="Female">
+                            <label class="form-check-label" asp-for="User.Sex" asp-validation-for="User.Sex">Female</label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-12 text-center">
+            <button type="submit" class="btn btn-medi">Create</button>
+        </div>
+    </form>
+</div>

@@ -1,0 +1,312 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+    ViewBag.Title = "Patient";
+}
+
+<div class="container mb-3">
+    <div class="row">
+        <div class="col-md-12 bg-white">
+            <div class="p-4">
+                <div class="card-body">
+                      <div class="text-center d-inline-block mb-2" style="width:150px" >
+                        <img src="/images/@ViewBag.Visit["Profile_Pic"]" style="width:100%" />
+                      </div>
+                      <div class="float-end">
+                          <h2 class="btn bg-success text-white fw-bold">Total Cost: @ViewBag.Visit["Visit_Total_Cost"] EGP</h2>
+                      </div>
+                    <h4 class="card-title text-center d-inline-block">@ViewBag.Visit["First_Name"] @ViewBag.Visit["Middle_Name"] @ViewBag.Visit["Last_Name"] </h4>
+                    <p class="card-text py-2 border-bottom">Email: <span class="float-end">@ViewBag.Visit["Email"]</span></p>
+                    <p class="card-text py-2 border-bottom">Phone: <span class="float-end">@ViewBag.Visit["Phone"]</span></p>
+                    <p class="card-text py-2 border-bottom">Birthdate: <span class="float-end">@ViewBag.Visit["Patient_Birthdate"].ToString("dd/MM/yyyy")</span></p>
+                    <p class="card-text py-2 border-bottom">Address: <span class="float-end">@ViewBag.Visit["Street"], @ViewBag.Visit["District"], @ViewBag.Visit["City"]</span></p>
+                </div>
+                
+
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container bg-white p-5 mb-3">
+    <h3>Room Reservations</h3>
+    <div class="text-end">
+        @if (ViewBag.Visit["Visit_End_Date"] is System.DBNull)
+        {
+        <a href="/Admin/RoomReservation/Create/@ViewBag.Visit["Username"]?param2=@ViewBag.Visit["Visit_Start_Date"]" class="btn btn-medi"><i class="fa-solid fa-plus"></i> Room Reservation</a>
+        }
+    </div>
+        <table class="table table-hover">
+        <thead>
+            <tr>
+                <th>#</th>
+                <th>Room Reserved</th>
+                <th>Reservation Cost</th>
+                <th>Confirmation State</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @if(ViewBag.RoomRes != null)
+            {
+                int i = 1;
+                @foreach (var Res in ViewBag.RoomRes)
+                {
+                        <tr>
+                            <td>@i</td>
+                            @if(Res["Room_Number"] is System.DBNull){
+                            <td>
+                                <span class="badge bg-info text-white">Unspecified</span>
+                            </td>
+                            }else{
+                                <td>@Res["Room_Prefix"] @Res["Room_Number"]</td>
+                            }
+                            <td>@Res["Reservation_Cost"]</td>
+                            <td>  
+                            @if(Res["Reservation_Is_Confirmed"] is not System.DBNull)
+                            {
+                                @if(Res["Reservation_Is_Rejected"]){
+                                    <span class="badge bg-danger text-white">Rejected</span>
+                                }else if (!Res["Reservation_Is_Confirmed"])
+                                {
+                                    <a href="/Admin/RoomReservation/ApproveReservation/@Res["Reservation_ID"]" class="btn btn-success"><i class="fa-solid fa-check"></i></a>
+                                    <a href="/Admin/RoomReservation/DeleteReservation/@Res["Reservation_ID"]" class="btn btn-danger"><i class="fa-solid fa-xmark"></i></a>
+                                }
+                                else{
+                                    <span class="badge bg-info text-white">Confirmed</span>
+                                }
+                                
+                            }else
+                            {
+                                    <span class="badge bg-warning text-black">Not Specified</span>
+                            }
+                            </td>
+                            <td>
+                                <a href="/Admin/RoomReservation/Edit/@Res["Reservation_ID"]" class="btn btn-info"><i class="fa-solid fa-pen-to-square text-white"></i></a>
+
+
+                            </td>
+                        </tr>
+                    i++;
+                }
+            
+            }
+        </tbody>
+    </table>
+</div>
+
+<div class="container bg-white p-5 mb-3">
+    <h3>Surgeries</h3>
+    <div class="text-end">
+        @if (ViewBag.Visit["Visit_End_Date"] is System.DBNull)
+        {
+            <a href="/Admin/AdminSurgery/Create/@ViewBag.Visit["Username"]?param2=@ViewBag.Visit["Visit_Start_Date"]" class="btn btn-medi"><i class="fa-solid fa-plus"></i> Surgery</a>
+        }
+    </div>
+        <table class="table table-hover">
+        <thead>
+            <tr>
+                <th>#</th>
+                <th>Room Reserved</th>
+                <th>Surgery Cost</th>
+                <th>Confirmation State</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @if(ViewBag.Surgeries != null)
+            {
+                int i = 1;
+                @foreach (var Res in ViewBag.Surgeries)
+                {
+                        <tr>
+                            <td>@i</td>
+                        @if (Res["Room_Number"] is System.DBNull)
+                        {
+                            <td>
+                                <span class="badge bg-info text-white">Unspecified</span>
+                            </td>
+                        }
+                        else
+                        {
+                            <td>@Res["Room_Prefix"] @Res["Room_Number"]</td>
+                        }
+                            <td>@Res["Surgery_Cost"]</td>
+                            <td>
+                            @if(Res["Surgery_Is_Confirmed"] is not System.DBNull)
+                            {
+                                @if(Res["Surgery_Is_Rejected"]){
+                                    <span class="badge bg-danger text-white">Rejected</span>
+                                }else if(!Res["Surgery_Is_Confirmed"]){
+                                    <a href="/Admin/AdminSurgery/ApproveSurgery/@Res["Surgery_ID"]" class="btn btn-success"><i class="fa-solid fa-check"></i></a>
+                                    <a href="/Admin/AdminSurgery/DeleteSurgery/@Res["Surgery_ID"]" class="btn btn-danger"><i class="fa-solid fa-xmark"></i></a>
+                                }else{
+                                    <span class="badge bg-info text-white">Confirmed</span>
+                                }
+                                
+                            }else
+                            {
+                                    <span class="badge bg-warning text-black">Not Specified</span>
+                            }
+                            </td>
+                            <td>
+                                <a href="/Admin/AdminSurgery/Edit/@Res["Surgery_ID"]" class="btn btn-info"><i class="fa-solid fa-pen-to-square text-white"></i></a>
+
+
+                            </td>
+                        </tr>
+                    i++;
+                }
+            
+            }
+        </tbody>
+    </table>
+</div>
+
+<div class="container bg-white p-5 mb-3">
+    <h3>Tests</h3>
+    <div class="text-end">
+        @if (ViewBag.Visit["Visit_End_Date"] is System.DBNull)
+        {
+        <a href="/Admin/AdminTest/Create/@ViewBag.Visit["Username"]?param2=@ViewBag.Visit["Visit_Start_Date"]" class="btn btn-medi"><i class="fa-solid fa-plus"></i> Test</a>
+        }
+    </div>
+        <table class="table table-hover">
+        <thead>
+            <tr>
+                <th>#</th>
+                <th>Room Reserved</th>
+                <th>Test Cost</th>
+                <th>Confirmation State</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @if(ViewBag.Tests != null)
+            {
+                int i = 1;
+                @foreach (var Res in ViewBag.Tests)
+                {
+                        <tr>
+                            <td>@i</td>
+                            @if(Res["Room_Number"] is System.DBNull){
+                            <td>
+                                <span class="badge bg-info text-white">Unspecified</span>
+                            </td>
+                            }else{
+                                <td>@Res["Room_Prefix"] @Res["Room_Number"]</td>
+                            }
+                            <td>@Res["Test_Cost"]</td>
+                            <td>
+                                    
+                            @if(Res["Test_Is_Confirmed"] is not System.DBNull)
+                            {
+                                @if(Res["Test_Is_Rejected"]){
+                                    <span class="badge bg-danger text-white">Rejected</span>
+                                }else if(!Res["Test_Is_Confirmed"]){
+                                    <a href="/Admin/AdminTest/ApproveTest/@Res["Test_ID"]" class="btn btn-success"><i class="fa-solid fa-check"></i></a>
+                                    <a href="/Admin/AdminTest/DeleteTest/@Res["Test_ID"]" class="btn btn-danger"><i class="fa-solid fa-xmark"></i></a>
+                                }else{
+                                    <span class="badge bg-info text-white">Confirmed</span>
+                                }
+                                
+                            }else
+                            {
+                                    <span class="badge bg-warning text-black">Not Specified</span>
+                            }
+                            </td>
+                            <td>
+                                <a href="/Admin/AdminTest/Edit/@Res["Test_ID"]" class="btn btn-info"><i class="fa-solid fa-pen-to-square text-white"></i></a>
+                                @if(@Res["Test_Report_File"] is not System.DBNull)
+                                {
+                                <a href="/files/@Res["Test_Report_File"]" download class="btn btn-primary"><i class="fa-solid text-white fa-file-pdf"></i></a> 
+                                }
+
+                            </td>
+                        </tr>
+                    i++;
+                }
+            
+            }
+        </tbody>
+    </table>
+</div>
+
+
+<div class="container bg-white p-5 mb-3">
+    <h3>Checks</h3>
+    <div class="text-end">
+        @if (ViewBag.Visit["Visit_End_Date"] is System.DBNull)
+        {
+            <a href="/Admin/AdminCheck/Create/@ViewBag.Visit["Username"]?param2=@ViewBag.Visit["Visit_Start_Date"]" class="btn btn-medi"><i class="fa-solid fa-plus"></i> Check</a>
+        }
+    </div>
+        <table class="table table-hover">
+        <thead>
+            <tr>
+                <th>#</th>
+                <th>Room Reserved</th>
+                <th>Check Cost</th>
+                <th>Confirmation State</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @if(ViewBag.Checks != null)
+            {
+                int i = 1;
+                @foreach (var Res in ViewBag.Checks)
+                {
+                        <tr>
+                            <td>@i</td>
+                        @if (Res["Room_Number"] is System.DBNull)
+                        {
+                            <td>
+                                <span class="badge bg-info text-white">Unspecified</span>
+                            </td>
+                        }
+                        else
+                        {
+                            <td>@Res["Room_Prefix"] @Res["Room_Number"]</td>
+                        }
+                            <td>@Res["Check_Cost"]</td>
+                            <td>
+                            @if(Res["Check_Is_Confirmed"] is not System.DBNull)
+                            {
+                                @if(Res["Check_Is_Rejected"]){
+                                    <span class="badge bg-danger text-white">Rejected</span>
+                                }else if(!Res["Check_Is_Confirmed"]){
+                                    <a href="/Admin/AdminCheck/ApproveCheck/@Res["Check_ID"]" class="btn btn-success"><i class="fa-solid fa-check"></i></a>
+                                    <a href="/Admin/AdminCheck/DeleteCheck/@Res["Check_ID"]" class="btn btn-danger"><i class="fa-solid fa-xmark"></i></a>
+                                }else{
+                                    <span class="badge bg-info text-white">Confirmed</span>
+                                }
+                                
+                            }else
+                            {
+                                    <span class="badge bg-warning text-black">Not Specified</span>
+                            }
+                            
+                            
+                            </td>
+                            <td>
+                                <a href="/Admin/AdminCheck/Edit/@Res["Check_ID"]" class="btn btn-info"><i class="fa-solid fa-pen-to-square text-white"></i></a>
+                            @if(Res["Check_Is_Confirmed"] is not System.DBNull && Res["Check_Is_Confirmed"])
+                            {
+                                @if(Res["Check_Has_Medical_Consultation"]){
+                                    <a href="/Admin/AdminCheck/View/@Res["Check_ID"]" class="btn btn-info"><i class="fa-solid text-white fa-table-cells"></i></a>
+                                }else{
+                                    <a href="/Admin/AdminConsultation/Create/@Res["Check_ID"]" class="btn text-white btn-info"><i class="fa-solid fa-plus"></i> Consultation</a>
+                                }
+                            }
+                            
+                            </td>
+                        </tr>
+                    i++;
+                }
+            
+            }
+        </tbody>
+    </table>
+</div>

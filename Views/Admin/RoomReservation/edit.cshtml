@@ -1,0 +1,103 @@
+﻿@model HospitalAppl.Models.RoomReservation
+@{
+    // Configurations
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+    ViewBag.Title = "Room Types";
+
+}
+
+<div class="container bg-white p-5">
+    <h2>Edit Room Reservation</h2>
+    
+    <form asp-action="Update" method="POST">
+        <input type="hidden" name="Reservation_ID" asp-for="Reservation_ID" value="@ViewBag.RoomRes["Reservation_ID"]" />
+        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+        <div class="row pt-3">
+            <div class="col-md-6">
+                <div class="mb-3">
+                    <label asp-for="Visit_Start_Date" class="form-label fw-bold">Visit Start Date </label><br />
+                    @ViewBag.RoomRes["Visit_Start_Date"]
+                    <input type="hidden" asp-for="Visit_Start_Date" name="Visit_Start_Date" value="@ViewBag.RoomRes["Visit_Start_Date"]" />
+                </div>
+
+            </div>
+            <div class="col-md-6">
+                <div class="mb-3">
+                    <label asp-for="Patient_Username" class="form-label fw-bold">Patient </label><br />
+                    @ViewBag.RoomRes["Patient_Username"]
+                    <input type="hidden" asp-for="Patient_Username" name="Patient_Username" value="@ViewBag.RoomRes["Patient_Username"]" />
+                </div>
+            </div>
+        </div>
+        <hr />
+        <div class="row pt-3">
+            <div class="col-md-6">
+                <div class="mb-3">
+                    <label asp-for="Room_Type_Name" class="form-label fw-bold">Room Type</label><br />
+                    @ViewBag.RoomRes["Room_Type_Name"]
+                    <input type="hidden" asp-for="Room_Type_Name" name="Room_Type_Name" value="@ViewBag.RoomRes["Room_Type_Name"]" />
+                </div>
+                
+                <div class="mb-3">
+                    <label asp-for="Reservation_Start_Date" class="form-label">Reservation Start Date</label>
+                    <input type="date" onchange="CalcCost()" value="@String.Format("{0:yyyy-MM-dd}",ViewBag.RoomRes["Reservation_Start_Date"])" name="Reservation_Start_Date" class="form-control" asp-for="Reservation_Start_Date">
+                </div>
+                <div class="mb-3">
+                    <label asp-for="Reservation_Is_Confirmed" class="form-label">Approval Status </label>
+                    <div>
+                        @if(@ViewBag.RoomRes["Reservation_Is_Confirmed"]){
+                            <input checked="checked" type="checkbox" name="Reservation_Is_Confirmed" class="form-check-input" asp-for="Reservation_Is_Confirmed">
+                        }else{
+                            <input type="checkbox" name="Room_Companion" class="form-check-input" asp-for="Reservation_Is_Confirmed">
+                        }
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="mb-3">
+                    <label asp-for="Room_Number" class="form-label fw-bold">Room Number</label><br />
+                    @ViewBag.RoomRes["Room_Number"]
+                    <input type="hidden" asp-for="Room_Number" name="Room_Number" value="@ViewBag.RoomRes["Room_Number"]" />
+                </div>
+                <div class="mb-3">
+                    <label asp-for="Reservation_End_Date" class="form-label">Reservation End Date</label>
+                    <input type="date" onchange="CalcCost()" value="@String.Format("{0:yyyy-MM-dd}",ViewBag.RoomRes["Reservation_End_Date"])" name="Reservation_End_Date" class="form-control" asp-for="Reservation_End_Date">
+                </div>
+                <div class="mb-3">
+                    @{
+                        DateTime start = ViewBag.RoomRes["Reservation_start_Date"];
+                        DateTime end = ViewBag.RoomRes["Reservation_End_Date"];
+
+                        int Days = (int)(end - start).TotalDays;
+                        double Cost = Days * @ViewBag.RoomRes["Room_Cost"];
+
+                    }
+                    <label asp-for="Reservation_Cost" class="form-label">Reservation Cost</label>
+                    <input type="number" min="0" value="@Cost" class="form-control" name="cost" disabled="disabled">
+                    <input type="hidden" name="Reservation_Cost" value="@Cost" asp-for="Reservation_Cost" />
+                    <input type="hidden" name="Old_Reservation_Cost" value="@ViewBag.RoomRes["Reservation_Cost"]" asp-for="Reservation_Cost" />
+                </div>
+
+            </div>
+        </div>
+
+        <div class="col-12 text-center">
+            <button type="submit" class="btn btn-medi">Edit Reservation Data</button>
+        </div>
+    </form>
+</div>
+
+@section Scripts{
+    <script>
+        function CalcCost(){
+            var start = new Date($("input[name=Reservation_Start_Date]").val());
+            var end = new Date($("input[name=Reservation_End_Date]").val());
+            var diff = new Date(end - start);
+            var days = diff/1000/60/60/24;
+            var cpn = "@ViewBag.RoomRes["Room_Cost"]";
+            var cost = days * cpn;
+            $("input[name=Reservation_Cost]").val(cost);
+            $("input[name=cost]").val(cost);
+        }
+    </script>
+}

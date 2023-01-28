@@ -1,0 +1,64 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+    ViewBag.Title = "Rooms";
+}
+
+<div class="container bg-white p-5">
+    <h2 class="mb-5">
+        Rooms
+        <span class="float-end">
+            <a href="/Admin/Room/Create" class="btn btn-medi"><i class="fa-solid fa-plus"></i> Add Room</a>
+        </span>
+    </h2>
+    <div class="table-responsive">
+    <table class="table table-hover">
+        <thead>
+            <tr>
+                <th>#</th>
+                <th>Room Type Name</th>
+                <th>Room Number</th>
+                <th>Room Capacity</th>
+                <th>Room Ex. Capacity</th>
+                <th>Room Cost/Night</th>
+                <th>Room Companion</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @if(ViewBag.Rooms != null)
+            {
+                int i = 1;
+                @foreach (var RoomType in ViewBag.Rooms)
+                {
+                    <tr>
+                        <td>@i</td>
+                        <td>@RoomType["Room_Type_Name"]</td>
+                        <td>@RoomType["Room_Number"]</td>
+                        <td>@RoomType["Room_Capacity"]</td>
+                        <td>@RoomType["Room_Excess_Capacity"]</td>
+                        <td>@RoomType["Room_Cost"]</td>
+                        <td>
+                            @if(@RoomType["Room_Companion"])
+                            {
+                                <i class="fa-solid fa-user-plus text-success"></i>
+                            }
+                            else
+                            {
+                                <i class="fa-solid fa-user-xmark text-danger"></i>
+                            }
+                        </td>
+                        <td>
+                            <a href="/Admin/Room/Edit/@RoomType["Room_Type_Name"]/@RoomType["Room_Number"]" class="btn btn-info"><i class="fa-solid fa-pen-to-square text-white"></i></a>
+                        </td>
+                    </tr>
+                    i++;
+                }
+            
+            }
+        </tbody>
+    </table>
+    </div>
+</div>

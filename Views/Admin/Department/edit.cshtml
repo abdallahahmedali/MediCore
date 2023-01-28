@@ -1,0 +1,28 @@
+﻿@model HospitalAppl.Models.Department
+@{
+    // Configurations
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+    ViewBag.Title = "Room Types";
+
+}
+
+<div class="container bg-white p-5">
+    <h2>Edit Department</h2>
+    
+    <form asp-action="Edit" method="POST">
+        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+        <div class="row py-3">
+            <div class="col-md-12">
+                <div class="mb-3">
+                    <label asp-for="Department_Name" class="form-label">Department Name </label>
+                    <input type="text" name="Department_Name" value="@ViewBag.Departments["Department_Name"]" class="form-control" asp-for="Department_Name">
+                    <input type="hidden" value="@ViewBag.Departments["Department_Name"]" name="Old_Department_Name" />
+                </div>
+            </div>
+            
+        </div>
+        <div class="col-12 text-center">
+            <button type="submit" class="btn btn-medi">Edit</button>
+        </div>
+    </form>
+</div>

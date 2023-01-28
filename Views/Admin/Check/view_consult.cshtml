@@ -1,0 +1,66 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+    ViewBag.Title = "Check Medical Consultation";
+}
+
+<div class="container mb-3">
+    <div class="row">
+        <div class="col-md-12 bg-white">
+            <div class="p-4">
+                <div class="card-body">
+                      <div class="text-center d-inline-block mb-2" style="width:150px" >
+                        <img src="/images/@ViewBag.User["Profile_Pic"]" style="width:100%" />
+                      </div>
+                    <h4 class="card-title text-center d-inline-block">@ViewBag.User["First_Name"] @ViewBag.User["Middle_Name"] @ViewBag.User["Last_Name"] </h4>
+                    <p class="card-text py-2 border-bottom">Email: <span class="float-end">@ViewBag.User["Email"]</span></p>
+                    <p class="card-text py-2 border-bottom">Phone: <span class="float-end">@ViewBag.User["Phone"]</span></p>
+                    <p class="card-text py-2 border-bottom">Birthdate: <span class="float-end">@ViewBag.User["Patient_Birthdate"].ToString("dd/MM/yyyy")</span></p>
+                    <p class="card-text py-2 border-bottom">Address: <span class="float-end">@ViewBag.User["Street"], @ViewBag.User["District"], @ViewBag.User["City"]</span></p>
+                </div>
+                
+
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container bg-white p-5">
+    <h3>Medical Consultations</h3>
+
+        <table class="table table-hover">
+        <thead>
+            <tr>
+                <th>#</th>
+                <th>Consultation Date</th>
+                <th>Consultation Cost</th>
+                @*<th>Actions</th>*@
+            </tr>
+        </thead>
+        <tbody>
+            @if(ViewBag.Consultations != null)
+            {
+                int i = 1;
+                @foreach (var Res in ViewBag.Consultations)
+                {
+                        <tr>
+                            <td>@i</td>
+                            <td>@Res["Consultation_Date"]</td>
+                            <td>@Res["Consultation_Cost"]</td>
+@*                            <td>
+                                <a href="/Admin/AdminConsultation/Edit/@Res["Consultation_ID"]" class="btn btn-info"><i class="fa-solid fa-pen-to-square text-white"></i></a>
+
+
+                            </td>*@
+                        </tr>
+                    i++;
+                }
+            
+            }
+        </tbody>
+    </table>
+
+
+
+</div>

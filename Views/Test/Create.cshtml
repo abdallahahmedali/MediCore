@@ -1,0 +1,49 @@
+﻿@using System.Data
+@model HospitalAppl.Models.Test
+
+
+<div class="container bg-white p-5">
+    <h2>Test Request</h2>
+
+
+    <form asp-action="Create" method="POST">
+        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+        <div class="row py-3">
+            <div class="col-md-6">
+                <div class="mb-3">
+                    <label asp-for="Type_Name" class="form-label">Type Name </label>
+                    <select id="TestType" class="form-select" asp-for="Type_Name">
+                        @foreach (DataRow dr in @ViewBag.TypeNamesAndCost.Rows)
+                        {
+                            <option value='@dr["Type_Name"]'>@dr["Type_Name"]</option>
+                        }
+                    </select>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="mb-3">
+                    <label asp-for="Test_Cost" class="form-label">Test Cost </label>
+                    <input type="text" id="TestCost" class="form-control" asp-for="Test_Cost" readonly>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="mb-3">
+                    <label asp-for="Test_Date" class="form-label">Test Date </label>
+                    <input type="date" name="Test_Date" class="form-control" asp-for="Test_Date" required>
+                </div>
+            </div>
+          
+            <div class="col-md-6">
+                <div class="mb-3">
+                    <label asp-for="Test_Delivery_Date" class="form-label">Test Delivery Date </label>
+                    <input type="date" name="Test_Delivery_Date" class="form-control" asp-for="Test_Delivery_Date" required>
+                </div>
+            </div>
+            
+        </div>
+        <div class="col-12 text-center">
+            <button type="submit" class="btn btn-primary">Request</button>
+        </div>
+    </form>
+</div>
+

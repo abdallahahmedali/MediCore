@@ -1,0 +1,294 @@
+@using Microsoft.AspNetCore.Http
+@using System.Data
+@model HospitalAppl.Models.ProfileVM
+@{
+    ViewData["Title"] = "User Profile";
+}
+<section style="background-color: #eee;">
+  <div class="container py-5">
+    <div class="row">
+      <div class="col">
+        <nav aria-label="breadcrumb" class="bg-light rounded-3 p-3 mb-4">
+          <ol class="breadcrumb mb-0">
+            <li class="breadcrumb-item"><a href="#">Home</a></li>
+            <li class="breadcrumb-item"><a href="#">User</a></li>
+            <li class="breadcrumb-item active" aria-current="page">User Profile</li>
+          </ol>
+        </nav>
+      </div>
+    </div>
+
+      <div class="row">
+      <div class="col-md-1">
+        <div class="list-group text-center o-sidebar mb-5 d-none d-xl-block">
+          <a href="#" class="list-group-item list-group-item-action"><span class="material-symbols-outlined" style="font-size: 34px;">home</span></a>
+          <a href="#" class="list-group-item list-group-item-action"><span class="material-symbols-outlined" style="font-size: 34px;">Groups_2</span></a>
+          <a href="#" class="list-group-item list-group-item-action"><span class="material-symbols-outlined" style="font-size: 34px;">Calendar_Month</span></a>
+          <a asp-controller="Jobs" asp-action="Index" class="list-group-item list-group-item-action"><span class="material-symbols-outlined" style="font-size: 34px;">Work_History</span></a>
+          <a asp-controller="Jobs" asp-action="Create" class="list-group-item list-group-item-action"><span class="material-symbols-outlined" style="font-size: 34px;">Post_Add</span></a>
+          <a href="#" class="list-group-item list-group-item-action"><span class="material-symbols-outlined" style="font-size: 34px;">Logout</span></a>
+        </div>
+      </div>
+     <!-- Start Profile Box -->
+      <div class="col-lg-4">
+        <div class="card mb-4">
+          <div class="card-body text-center">
+            <img src='~/images/@Model.Patient["Profile_Pic"]' alt="avatar"
+              class="rounded-circle img-fluid" style="width: 150px;">
+            <h5 class="my-3">@Model.Patient["Username"]</h5>
+            <p class="text-muted mb-1">Patient</p>
+            <p class="text-muted mb-4">@Model.Patient["Street"] @Model.Patient["District"] @Model.Patient["City"] </p>
+            <div class="d-flex justify-content-center mb-2">
+              @if(Context.Session.GetString("UserType") == "Employee"){ 
+                <button type="button" class="btn btn-primary ms-1">Message</button>
+              }else{
+                <a type="button" asp-controller="User" asp-action="EditUser" class="btn btn-primary">Edit Profile</a>
+                <button type="button" class="btn btn-outline-primary ms-1">Message</button>
+              }
+            </div>
+          </div>
+        </div>
+        <!-- End Profile Box -->
+        <div class="card mb-4 mb-lg-0">
+          <div class="card-body p-0">
+            <ul class="list-group list-group-flush rounded-3">
+                @if(Context.Session.GetString("UserType") == "Patient"){
+                    @foreach(DataRow Visit in Model.TotalAmount.Rows){
+                        <li class="list-group-item d-flex justify-content-between align-items-center p-3">
+                            <span>@Visit["Visit_Start_Date"] : </span>
+                            <span>@Visit["Total_Paid"]/@Visit["Visit_Total_Cost"]EGP</span>
+                        </li>                       
+                    }
+                }
+            </ul>
+          </div>
+        </div>
+      </div>
+      <!-- Start Main-Info Box -->
+      <div class="col-lg-7">
+        <div class="card mb-4">
+          <div class="card-body">
+            <div class="row">
+              <div class="col-sm-3">
+                <p class="mb-0">Full Name</p>
+              </div>
+              <div class="col-sm-9">
+                <p class="text-muted mb-0">@Model.Patient["First_Name"] @Model.Patient["Middle_Name"] @Model.Patient["Last_Name"]</p>
+              </div>
+            </div>
+            <hr>
+            <div class="row">
+              <div class="col-sm-3">
+                <p class="mb-0">Email</p>
+              </div>
+              <div class="col-sm-9">
+                <p class="text-muted mb-0">@Model.Patient["Email"]</p>
+              </div>
+            </div>
+            <hr>
+            <div class="row">
+              <div class="col-sm-3">
+                <p class="mb-0">Mobile</p>
+              </div>
+              <div class="col-sm-9">
+                <p class="text-muted mb-0">(+02) @Model.Patient["Phone"]</p>
+              </div>
+            </div>
+            <hr>
+            <div class="row">
+              <div class="col-sm-3">
+                <p class="mb-0">Nationality</p>
+              </div>
+              <div class="col-sm-9">
+                <p class="text-muted mb-0">@Model.Patient["Nationality"]</p>
+              </div>
+            </div>
+            <hr>
+            <div class="row">
+              <div class="col-sm-3">
+                <p class="mb-0">National ID</p>
+              </div>
+              <div class="col-sm-9">
+                <p class="text-muted mb-0">@Model.Patient["National_Id"]</p>
+              </div>
+            </div>
+            <hr>
+            <div class="row">
+              <div class="col-sm-3">
+                <p class="mb-0">Address</p>
+              </div>
+              <div class="col-sm-9">
+                <p class="text-muted mb-0">@Model.Patient["Street"] @Model.Patient["District"] @Model.Patient["City"] </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- End Main-Info Box -->
+      <!-- Start Main-Info Box -->
+      <div class="col-lg-12">
+        <div class="card mb-4">
+          <div class="card-body">
+            <div class="row d-flex">
+              <div class="col">
+                <p class="mb-0 d-inline">Recent Checks :</p>
+              
+                <p class="text-muted mb-0 float-end">
+                    @if(Context.Request.Query["PatientUsername"].ToString() != null && Context.Request.Query["PatientUsername"] != "" && Context.Session.GetString("UserType") == "Employee"){
+                      <a class="btn btn-light btn-rounded" asp-controller="Check" asp-action="Index" asp-route-PatientUsername='@Context.Request.Query["PatientUsername"]'>View All <i class="bi bi-arrow-right-short"></i></a>
+                    }else{
+                      <a class="btn btn-outline-dark" asp-controller="Check" asp-action="CreateCheck" asp-route-PatientUsername='@Context.Request.Query["PatientUsername"]'>Request <i class="bi bi-plus-circle"></i></a>
+                      <a class="btn btn-light" asp-controller="Check" asp-action="Index" asp-route-PatientUsername='@Context.Request.Query["PatientUsername"]'>View All <i class="bi bi-arrow-right-short"></i></a>
+                    }
+                </p>
+              </div>
+            </div>
+            <hr>
+            <div class="row">
+              <div class="col-12 table-responsive">
+              <table class="table table-striped table-borderless table-responsive">
+                <thead>
+                  <tr>
+                    <th scope="col">ID</th>
+                    <th scope="col">Doctor</th>
+                    <th scope="col">Check Type</th>
+                    <th scope="col">Date</th>
+                    <th scope="col">Actions</th>
+                  </tr>
+                </thead>
+                @foreach (DataRow Check in Model.Checks.Rows)
+                {
+                    <tr>
+                    <th scope="row">@Check["Check_ID"]</th>
+                    <td>@Check["Doctor_Username"]</td>
+                    <td>@Check["Type_Name"]</td>
+                    <td>@Convert.ToDateTime(@Check["Check_Date"]).ToString("d-MM-yyyy")</td>
+                    <td>
+                      @if(string.IsNullOrWhiteSpace(@Check["Check_Details"].ToString())){
+                        <button class="btn btn-primary btn-sm disabled"><i class="bi bi-binoculars-fill"></i> &nbsp; View</button>
+                      }else{
+                        <button class="btn btn-primary btn-sm"  type="button" d ata-mdb-container="body" data-mdb-toggle="popover" data-mdb-placement="right" data-mdb-content='@Check["Check_Details"]'><i class="bi bi-binoculars-fill"></i> &nbsp; View</button>                       
+                      }
+                    </td>
+                  </tr>
+                }
+                </tbody>
+              </table>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- End Main-Info Box -->        
+      <!-- Start Main-Info Box -->
+      <div class="col-lg-12">
+        <div class="card mb-4">
+          <div class="card-body">
+            <div class="row d-flex">
+              <div class="col">
+                <p class="mb-0 d-inline">Recent Surgeries :</p>
+                
+                <p class="text-muted mb-0 float-end"> 
+                  @if(Context.Session.GetString("UserType") == "Employee") {
+                    <a class="btn btn-outline-dark" asp-controller="Surgery" asp-action="CreateRequest" asp-route-PatientUsername='@Context.Request.Query["PatientUsername"]'>Request <i class="bi bi-plus-circle"></i></a>
+                  } 
+                  <a class="btn btn-light" asp-controller="Surgery" asp-action="Index" asp-route-PatientUsername='@Context.Request.Query["PatientUsername"]'>View All <i class="bi bi-arrow-right-short"></i></a>
+                </p>
+              </div>
+            </div>
+            <hr>
+            <div class="row">
+              <div class="col-12 table-responsive">
+              <table class="table table-striped table-borderless table-responsive">
+                <thead>
+                  <tr>
+                    <th scope="col">ID</th>
+                    <th scope="col">Doctor</th>
+                    <th scope="col">Surgery Name</th>
+                    <th scope="col">Date</th>
+                    <th scope="col">Actions</th>
+                  </tr>
+                </thead>
+                <tbody>
+                @foreach (DataRow Surgery in Model.Surgeries.Rows)
+                {
+                    <tr>
+                    <th scope="row">@Surgery["Surgery_ID"]</th>
+                    <td>@Surgery["Doctor_Username"]</td>
+                    <td>@Surgery["Type_Name"]</td>
+                    <td>@Convert.ToDateTime(@Surgery["Surgery_Date"]).ToString("d-MM-yyyy")</td>
+                    <td>
+                        <a class="btn btn-primary btn-sm" href="../Surgery/Index#@Surgery["Surgery_ID"]"><i class="bi bi-binoculars-fill"></i> &nbsp; View</a>
+                    </td>
+                  </tr>
+                }
+                </tbody>
+              </table>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- End Main-Info Box -->
+
+      <!-- Start Main-Info Box -->
+      <div class="col-lg-12">
+        <div class="card mb-4">
+          <div class="card-body">
+            <div class="row d-flex">
+              <div class="col">
+                <p class="mb-0 d-inline">Recent Tests :</p>
+                <p class="text-muted mb-0 float-end">
+                  @if(Context.Session.GetString("UserType") == "Patient"){
+                    <a class="btn btn-outline-dark" asp-controller="Test" asp-action="Create" asp-route-PatientUsername='@Context.Request.Query["PatientUsername"]'>Request <i class="bi bi-plus-circle"></i></a>
+                  }else{
+                    <a class="btn btn-outline-dark" asp-controller="Test" asp-action="CreateRequest" asp-route-PatientUsername='@Context.Request.Query["PatientUsername"]'>Request <i class="bi bi-plus-circle"></i></a>
+                  }
+                  <a class="btn btn-light" asp-controller="Test" asp-action="Index" asp-route-PatientUsername='@Context.Request.Query["PatientUsername"]'>View All <i class="bi bi-arrow-right-short"></i></a>
+                </p>
+              </div>
+            </div>
+            <hr>
+            <div class="row">
+              <div class="col-12 table-responsive">
+              <table class="table table-striped table-borderless table-responsive">
+                <thead>
+                  <tr>
+                    <th scope="col">ID</th>
+                    <th scope="col">Doctor</th>
+                    <th scope="col">Test Name</th>
+                    <th scope="col">Date</th>
+                    <th scope="col">Actions</th>
+                  </tr>
+                </thead>
+                <tbody>
+                 @foreach (DataRow Test in Model.Tests.Rows)
+                {
+                    <tr>
+                    <th scope="row">@Test["Test_ID"]</th>
+                    @if(!string.IsNullOrEmpty(@Test["Doctor_Username"].ToString())){
+                      <td>@Test["Doctor_Username"]</td>
+                    }else{
+                      <td>Unassigned</td>
+                    }
+                    <td>@Test["Type_Name"]</td>
+                    <td>@Convert.ToDateTime(@Test["Test_Date"]).ToString("d-MM-yyyy")</td>
+                    <td>
+                        @if(string.IsNullOrWhiteSpace(@Test["Test_Report_File"].ToString())){
+                          <a class="btn btn-primary btn-sm disabled"><i class="bi bi-binoculars-fill"></i> &nbsp; View</a>
+                        }else{
+                          <a class="btn btn-primary btn-sm" href='~/files/@Test["Test_Report_File"]' target="_blank"><i class="bi bi-binoculars-fill"></i> &nbsp; View</a>                        
+                        }
+                    </td>
+                  </tr>
+                }
+                </tbody>
+              </table>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- End Main-Info Box -->
+        </div>
+      </div>
+    </div>
+      </div>
+  </div>
+</section>

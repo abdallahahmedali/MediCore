@@ -1,0 +1,156 @@
+﻿@model HospitalAppl.Models.Test
+@{
+    // Configurations
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+    ViewBag.Title = "Test";
+
+}
+@section Stylesheets{
+    <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
+}
+
+<div class="container bg-white p-5">
+    <h2>Create Tests</h2>
+    
+    <form asp-action="Create" method="POST" enctype="multipart/form-data">
+        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+        <div class="row pt-3">
+            <div class="col-md-6">
+                <div class="mb-3">
+                    <label asp-for="Visit_Start_Date" class="form-label fw-bold">Visit Start Date </label><br />
+                    @ViewBag.Visit["Visit_Start_Date"]
+                    <input type="hidden" asp-for="Visit_Start_Date" name="Visit_Start_Date" value="@ViewBag.Visit["Visit_Start_Date"]" />
+                </div>
+                <div class="mb-3">
+                    <label asp-for="Type_Name" class="form-label fw-bold">Service </label><br />
+                    <select class="select_search" style="width: 100%" asp-for="Type_Name" id="typename" name="Type_Name">
+                        <option disabled selected>Choose a Test Type</option>
+                        @foreach (var t in ViewBag.Types)
+                        {
+                            <option value="@t["Type_Name"]">@t["Type_Name"]</option>
+                        }
+                    </select>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="mb-3">
+                    <label asp-for="Patient_Username" class="form-label fw-bold">Patient </label><br />
+                    @ViewBag.Visit["Patient_Username"]
+                    <input type="hidden" asp-for="Patient_Username" name="Patient_Username" value="@ViewBag.Visit["Patient_Username"]" />
+                </div>
+                <div class="mb-3">
+                    <label asp-for="Patient_Username" class="form-label fw-bold">Doctor </label><br />
+                    <select class="select_search" style="width: 100%" asp-for="Doctor_Username" id="roomNumber" name="Doctor_Username">
+                    @foreach (var d in ViewBag.Doctors)
+                    {
+                        <option value="@d["Username"]">@d["Username"]</option>
+                    }
+                    </select>
+                </div>
+                <div class="mb-3">
+                    <div class="mb-3">
+                      <label for="formFile" class="form-label">Test Report</label>
+                      <input class="form-control" type="file" Name="TestReport" id="formFile">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr />
+        <div class="row pt-3">
+            <div class="col-md-6">
+                <div class="mb-3">
+                    <label asp-for="Room_Type_Name" class="form-label fw-bold">Room Type</label><br />
+                    Test
+                    @*<select class="form-select" id="typeName" asp-for="Room_Type_Name" name="Room_Type_Name">
+                        @foreach (var type in ViewBag.roomTypes)
+                        {
+                            <option value="@type["Room_Type_Name"]">@type["Room_Type_Name"]</option>
+                        }
+                    </select>*@
+                    <input type="hidden" asp-for="Room_Type_Name" name="Room_Type_Name" value="Test" />
+
+                </div>
+                
+                <div class="mb-3">
+                    <label asp-for="Test_Date" class="form-label">Test Start Date</label>
+                    <input type="date" onchange="CalcCost()" name="Test_Date" class="form-control" asp-for="Test_Date">
+                </div>
+                <div class="mb-3">
+                    <label asp-for="Test_Is_Confirmed" class="form-label">Approval Status </label>
+                    <div>
+                        <input type="checkbox" name="Test_Is_Confirmed" class="form-checkbox-input" asp-for="Test_Is_Confirmed">
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="mb-3">
+                    <label asp-for="Room_Number" class="form-label fw-bold">Room Number</label><br />
+                    <select class="form-select" asp-for="Room_Number" id="roomNumber" name="Room_Number">
+                        @foreach (var r in ViewBag.rooms)
+                        {
+                            <option value="@r["Room_Number"]">@r["Room_Number"]</option>
+                        }
+                    </select>
+                    
+                </div>
+@*                <div class="mb-3">
+                    <label asp-for="Reservation_End_Date" class="form-label">Reservation End Date</label>
+                    <input type="date" onchange="CalcCost()" value="@String.Format("{0:yyyy-MM-dd}",ViewBag.RoomRes["Reservation_End_Date"])" name="Reservation_End_Date" class="form-control" asp-for="Reservation_End_Date">
+                </div>*@
+                <div class="mb-3">
+                    <label asp-for="Test_Cost" class="form-label">Test Cost</label>
+                    <input type="number" min="0" disabled id="Test_Cost" class="form-control" name="cost" disabled="disabled">
+                    <input type="hidden" name="Test_Cost" value="@ViewBag.Types[0]["Type_Cost"]" asp-for="Test_Cost" />
+                </div>
+
+            </div>
+        </div>
+
+        <div class="col-12 text-center">
+            <button type="submit" class="btn btn-medi">Create Test</button>
+        </div>
+    </form>
+</div>
+
+@section Scripts{
+    <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $('.select_search').select2();
+        });
+    </script>
+    <script>
+        $("#Test_Cost").val($("input[name=Test_Cost]").val()); 
+        $("#room_num").change(function(){
+            $.ajax({
+                type: "GET",
+                url: "/Admin/Test/FetchCost",
+                data:{
+                    "Type_Name":$("#typename").val(),
+                },
+                success: function (data) { 
+                    $("#Test_Cost").val(data); 
+                    $("input[name=Test_Cost]").val(data); 
+                    //CalcCost();
+                },
+                error: function (errorData) {
+                    console.log(errorData.responseText) 
+                }
+            });
+        });
+
+        //function CalcCost(){
+        //    var start = new Date($("input[name=Reservation_Start_Date]").val());
+        //    var end = new Date($("input[name=Reservation_End_Date]").val());
+        //    var diff = new Date(end - start);
+        //    var days = diff/1000/60/60/24;
+        //    var cpn = $("#Room_Cost").val();
+        //    var cost = days * cpn;
+        //    $("input[name=Reservation_Cost]").val(cost);
+        //    $("input[name=cost]").val(cost);
+        //}
+
+            
+        
+    </script>
+}

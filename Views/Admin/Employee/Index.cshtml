@@ -1,0 +1,78 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+    ViewBag.Title = "Departments";
+}
+
+
+<div class="container bg-white p-5">
+    <h2 class="mb-5">
+        Employees
+@*        <span class="float-end">
+            <a href="/Admin/Department/Create" class="btn btn-medi"><i class="fa-solid fa-plus"></i> Add Department</a>
+        </span>*@
+    </h2>
+
+
+    <div style="overflow-x:auto" class="table-responsive">
+        <table class="table table-hover">
+        <thead>
+            <tr>
+                <th>#</th>
+                <th><i class="fa-solid fa-image"></i></th>
+                <th>Username</th>
+                <th>Full Name</th>
+                <th>Email</th>
+                <th>Phone</th>
+                <th>Salary</th>
+                <th>Address</th>
+                <th>Gender</th>
+                <th>Nationality</th>
+                <th>Role</th>
+            </tr>
+        </thead>
+        <tbody>
+            @if(ViewBag.Employees != null)
+            {
+                int i = 1;
+                
+                @foreach (var Employee in ViewBag.Employees)
+                {
+                    <tr>
+                        <td>@i</td>
+                        <td><img src="/images/@Employee["Profile_Pic"]" style="width:80px" /></td>
+                        <td>@Employee["Username"]</td>
+                        <td>@Employee["First_Name"] @Employee["Middle_Name"] @Employee["Last_Name"]</td>
+                        <td>@Employee["Email"]</td>
+                        <td>@Employee["Phone"]</td>
+                        <td>@Employee["Employee_Salary"]</td>
+                        <td>@Employee["Street"],@Employee["District"],@Employee["City"]</td>
+                            <td>@if(Employee["Sex"])
+                                {
+                                    <span class="badge bg-primary text-white">Female</span>
+                                }
+                                else
+                                {
+                                    <span class="badge bg-primary text-white">Male</span>
+                                }
+                        </td>
+                        <td>@Employee["Nationality"]</td>
+                        <td>
+                            @if (Employee["Is_Admin"])
+                            {
+                                <span class="badge bg-primary text-white">Admin Authority</span>
+                            }else{
+                                <a href="/Admin/AdminEmployee/Promote/@Employee["Username"]" class="btn btn-primary">Promote</a>
+                            }
+                        </td>
+                    </tr>
+                    i++;
+                }
+            }
+            
+        </tbody>
+    </table>
+    </div>
+</div>

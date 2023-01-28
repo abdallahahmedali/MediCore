@@ -1,0 +1,49 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+    ViewBag.Title = "Departments";
+}
+
+
+<div class="container bg-white p-5">
+    <h2 class="mb-5">
+        Departments
+        <span class="float-end">
+            <a href="/Admin/Department/Create" class="btn btn-medi"><i class="fa-solid fa-plus"></i> Add Department</a>
+        </span>
+    </h2>
+
+    <div class="table-responsive">
+    <table class="table table-hover">
+        <thead>
+            <tr>
+                <th>#</th>
+                <th>Department Name</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @if(ViewBag.Departments != null)
+            {
+                int i = 1;
+                
+                @foreach (var Department in ViewBag.Departments)
+                {
+                    <tr>
+                        <td>@i</td>
+                        <td>@Department["Department_Name"]</td>
+                        <td>
+                            <a href="/Admin/Department/Edit/@Department["Department_Name"]" class="btn btn-info"><i class="fa-solid fa-pen-to-square text-white"></i></a>
+                        </td>
+                    </tr>
+                    i++;
+                }
+            }
+            
+        </tbody>
+    </table>        
+    </div>
+
+</div>

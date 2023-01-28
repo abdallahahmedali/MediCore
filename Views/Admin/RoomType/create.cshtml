@@ -1,0 +1,33 @@
+﻿@model HospitalAppl.Models.RoomType
+@{
+    // Configurations
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+    ViewBag.Title = "Room Types";
+}
+
+<div class="container bg-white p-5">
+    <h2>Create Room Type</h2>
+    
+    <form asp-action="Create" method="POST">
+        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+        <div class="row py-3">
+            <div class="col-md-6">
+                <div class="mb-3">
+                    <label asp-for="Room_Type_Name" class="form-label">Room Type Name </label>
+                    <input type="text" name="Room_Type_Name" class="form-control" asp-for="Room_Type_Name">
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="mb-3">
+                    <label asp-for="Room_Prefix" class="form-label">Room Prefix </label>
+                    <input type="text" class="form-control" asp-for="Room_Prefix" name="Room_Prefix">
+                </div>
+
+
+            </div>
+        </div>
+        <div class="col-12 text-center">
+            <button type="submit" class="btn btn-medi">Create</button>
+        </div>
+    </form>
+</div>

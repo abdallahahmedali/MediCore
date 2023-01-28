@@ -1,0 +1,99 @@
+@using System.Data
+@model System.Data.DataTable
+@{
+    ViewData["Title"] = "Medical Consultation Details";
+}
+<section style="background-color: #f9f9f8;">
+    <div class="container py-4">
+        <div class="row">
+            <div class="col">
+                <div class="card my-4">
+                    <div class="card-body">
+                        <div class="card-title d-flex">
+                            <h3>MedicalConsultations</h3>
+                            <div class="control-group ms-auto  d-none d-sm-block">
+                                @if(@Context.Request.Query["select"] == "Upcoming"){
+                                    <a type="button" class="btn btn-outline-primary m-1" data-mdb-ripple-color="dark" asp-action="Index" asp-route-select="All">All</a>
+                                    <a type="button" class="btn btn-primary m-1" data-mdb-ripple-color="dark" asp-action="Index" asp-route-select="Upcoming">Upcoming</a>
+                                    <a type="button" class="btn btn-outline-primary m-1" data-mdb-ripple-color="dark" asp-action="Index" asp-route-select="Completed">Completed</a>
+                                    <a type="button" class="btn btn-outline-primary m-1" data-mdb-ripple-color="dark" asp-action="Index" asp-route-select="Selected">Cancelled</a>
+                                }else if(@Context.Request.Query["select"] == "Completed"){
+                                    <a type="button" class="btn btn-outline-primary m-1" data-mdb-ripple-color="dark" asp-action="Index" asp-route-select="All">All</a>
+                                    <a type="button" class="btn btn-outline-primary m-1" data-mdb-ripple-color="dark" asp-action="Index" asp-route-select="Upcoming">Upcoming</a>
+                                    <a type="button" class="btn btn-primary m-1" data-mdb-ripple-color="dark" asp-action="Index" asp-route-select="Completed">Completed</a>
+                                    <a type="button" class="btn btn-outline-primary m-1" data-mdb-ripple-color="dark" asp-action="Index" asp-route-select="Selected">Cancelled</a>
+                                }
+                                else if (@Context.Request.Query["select"] == "Selected")
+                                {
+                                    <a type="button" class="btn btn-outline-primary m-1" data-mdb-ripple-color="dark" asp-action="Index" asp-route-select="All">All</a>
+                                    <a type="button" class="btn btn-outline-primary m-1" data-mdb-ripple-color="dark" asp-action="Index" asp-route-select="Upcoming">Upcoming</a>
+                                    <a type="button" class="btn btn-outline-primary m-1" data-mdb-ripple-color="dark" asp-action="Index" asp-route-select="Completed">Completed</a>
+                                    <a type="button" class="btn btn-primary m-1" data-mdb-ripple-color="dark" asp-action="Index" asp-route-select="Selected">Cancelled</a>
+                                }
+                                else
+                                {
+                                    <a type="button" class="btn btn-primary m-1" data-mdb-ripple-color="dark" asp-action="Index" asp-route-select="All">All</a>
+                                    <a type="button" class="btn btn-outline-primary m-1" data-mdb-ripple-color="dark" asp-action="Index" asp-route-select="Upcoming">Upcoming</a>
+                                    <a type="button" class="btn btn-outline-primary m-1" data-mdb-ripple-color="dark" asp-action="Index" asp-route-select="Completed">Completed</a>
+                                    <a type="button" class="btn btn-outline-primary m-1" data-mdb-ripple-color="dark" asp-action="Index" asp-route-select="Selected">Cancelled</a>
+                                }
+
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="row">
+
+                            @foreach (DataRow MedicalConsaltations in Model.Rows){
+                                <div class="col-lg-6 mt-2 mb-4">
+                                    <div class="card">
+                                        <div class="card-body">
+                                            <div class="d-flex justify-content-between align-items-center">
+                                            <div class="d-flex align-items-center">
+                                                    <img src='~/images/@MedicalConsaltations["Profile_Pic"]' alt="" style="width: 45px; height: 45px" class="rounded-circle" />
+                                                <div class="ms-3">
+                                                        <p class="fw-bold mb-1">@MedicalConsaltations["Type_Name"]</p>
+                                                <p class="mb-0">
+                                                            <span>Doctor : </span> <span class="text-muted ">@MedicalConsaltations["Doctor_Username"]</span>
+                                                </p>
+                                                <p class="mb-0">
+                                                            <span>Room : </span> <span class="text-muted ">@MedicalConsaltations["Room_Prefix"] @MedicalConsaltations["Room_Number"]</span>
+                                                            <span class="ms-3">Check Time : </span> <span class="text-muted ">@MedicalConsaltations["Check_Date"]</span>
+                                                </p>
+                                              
+                                                <p class="mb-0">
+                                                            <span>Consultation Time : </span> <span class="text-muted ">@MedicalConsaltations["Consultation_Date"]</span>
+                                                </p>                 
+                                                    <div>
+                                                        @if (Convert.ToBoolean(@MedicalConsaltations["Consultation_Is_rejected"]) == false && Convert.ToBoolean(@MedicalConsaltations["Consultation_Is_Confirmed"]) == false)
+                                                        {
+                                                            <span class="badge badge-warning">Awaiting Confirmation</span>
+                                                        }
+                                                        else if (Convert.ToBoolean(@MedicalConsaltations["Consultation_Is_rejected"]) == true)
+                                                        {
+                                                            <span class="badge badge-danger">Cancelled</span>
+                                                        }
+                                                        else if (Convert.ToDateTime(@MedicalConsaltations["Consultation_Date"]) > DateTime.Now)
+                                                        {
+                                                            <span class="badge badge-success">Upcoming</span>
+                                                        }
+                                                        else if (Convert.ToDateTime(@MedicalConsaltations["Consultation_Date"]) < DateTime.Now)
+                                                        {
+                                                            <span class="badge badge-primary">Completed</span>
+                                                        }
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            }                            
+                                                                         
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

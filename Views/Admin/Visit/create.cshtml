@@ -1,0 +1,41 @@
+﻿@model HospitalAppl.Models.Visit
+@{
+    // Configurations
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+    ViewBag.Title = "Create Visit";
+}
+@section Stylesheets{
+    <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
+}
+<div class="container bg-white p-5">
+    <h2>Create Visit</h2>
+    
+    
+    <form asp-action="Create" method="POST">
+        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+        <div class="row py-3">
+            <div class="col-md-12">
+                <div class="mb-3">
+                    <label asp-for="Patient_Username" style="width: 100%" class="form-label">Patient Username</label>
+                    <select class="select_search" name="Patient_Username" style="width: 100%" asp-for="Patient_Username">
+                        @foreach (var patient in ViewBag.Patients)
+                        {
+                            <option value="@patient["Username"]">@patient["First_Name"] @patient["Middle_Name"] @patient["Last_Name"]</option>
+                        }
+                    </select>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 text-center">
+            <button type="submit" class="btn btn-medi">Create</button>
+        </div>
+    </form>
+</div>
+@section Scripts{
+    <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $('.select_search').select2();
+        });
+    </script>
+}

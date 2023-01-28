@@ -1,0 +1,26 @@
+﻿@model HospitalAppl.Models.ServiceType
+@{
+    // Configurations
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+    ViewBag.Title = "Room Types";
+}
+
+<div class="container bg-white p-5">
+    <h2>Create Service Type</h2>
+    
+    
+    <form asp-action="Create" method="POST">
+        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+        <div class="row py-3">
+            <div class="col-md-12">
+                <div class="mb-3">
+                    <label asp-for="Service_Type_Name" class="form-label">Service Type Name </label>
+                    <input type="text" name="Service_Type_Name" class="form-control" asp-for="Service_Type_Name">
+                </div>
+            </div>
+        </div>
+        <div class="col-12 text-center">
+            <button type="submit" class="btn btn-medi">Create</button>
+        </div>
+    </form>
+</div>

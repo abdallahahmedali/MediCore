@@ -1,0 +1,118 @@
+@using System.Data
+@model HospitalAppl.Models.Check
+@{
+    ViewData["Title"] = "User Profile";
+}
+<section style="background-color: #f9f9f8;">
+    <div class="container py-4">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="card my-4">
+                    <div class="card-body">
+                        <div class="card-title d-flex">
+                            <h3>@Model.Checks.Rows[0]["Type_Name"]</h3>
+                        </div>
+                        <hr>
+                        <div class="row">
+                        
+                            <div class="col-md-6">
+                                <div class="card-body">
+                                    <div class="row">
+                                    <div class="col-sm-6">
+                                        <p class="mb-0">Patient Username</p>
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <p class="text-muted mb-0 float-end">@Model.Checks.Rows[0]["Patient_Username"]</p>
+                                    </div>
+                                    </div>
+                                    <hr>
+                                    <div class="row">
+                                    <div class="col-sm-6">
+                                        <p class="mb-0">Doctor Username</p>
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <p class="text-muted mb-0 float-end">@Model.Checks.Rows[0]["Doctor_Username"]</p>
+                                    </div>
+                                    </div>
+                                    <hr>
+                                    <div class="row">
+                                    <div class="col-sm-6">
+                                        <p class="mb-0">Check Room</p>
+                                    </div>
+                                    <div class="col-sm-6">
+                                        @if(string.IsNullOrWhiteSpace(@Model.Checks.Rows[0]["Room_Number"].ToString())){
+                                            <p class="text-muted mb-0 float-end">Unspecified</p>
+                                        }else{
+                                            <p class="text-muted mb-0 float-end">@Model.Checks.Rows[0]["Room_Prefix"] @Model.Checks.Rows[0]["Room_Number"]</p>
+                                        }
+                                    </div>
+                                    </div>
+                                    <hr>
+                                    <div class="row">
+                                    <div class="col-sm-6">
+                                        <p class="mb-0">Check Cost</p>
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <p class="text-muted mb-0 float-end">@Model.Checks.Rows[0]["Check_Cost"] $</p>
+                                    </div>
+                                    </div>
+                                </div>
+                            </div>
+                        
+                            <div class="col-md-6">
+                                <h3 class="my-3">Check Details</h3>
+                                <p>@Model.Checks.Rows[0]["Check_Details"]</p>
+                            </div>
+                        
+                            </div>
+
+                            <div class="row">
+                                <div class="col-6">
+                                    <h3 class="my-4">Medical Consultations</h3>
+                                </div>
+                                <div class="col-6">
+                                    @if(Context.Session.GetString("UserType") == "Employee"){
+                                        <a class="my-4 btn btn-light float-end" asp-controller="Consult" asp-action="Create" asp-route-CID='@Context.Request.Query["CID"]'>Add Consultation <i class="bi bi-arrow-right-short"></i></a>
+                                    }
+                                </div> 
+                            </div>
+
+                        
+                            <div class="row">
+                                @foreach (DataRow Consultation in Model.Consultations.Rows)
+                                {
+                                    <div class="col-lg-6 mt-2 mb-4">
+                                        <div class="card">
+                                            <div class="card-body">
+                                                <div class="d-flex justify-content-between align-items-center">
+                                                <div class="d-flex align-items-center">
+                                                        <img src='~/images/pfp.jpg' alt="" style="width: 45px; height: 45px" class="rounded-circle"/>
+                                                    <div class="ms-3">
+                                                    <p class="fw-bold mb-1">@Consultation["Type_Name"]</p>
+                                                    <p class="mb-0">
+                                                        <span>Doctor : </span> <span class="text-muted ">@Consultation["Doctor_Username"] </span>
+                                                        <span>Patient : </span> <span class="text-muted ">@Consultation["Patient_Username"]</span>
+                                                    </p>
+                                                    <p class="mb-0">
+                                                        <span class="ms-3">Time : </span> <span class="text-muted ">@Consultation["Consultation_Date"]</span>
+                                                    </p>
+                                                    </div>
+                                                </div>
+                                                    <span class="badge badge-primary">Consultation</span>
+                                                </div>
+                                            </div>
+                                            <div class="card-footer border-0 bg-light p-2 d-flex justify-content-around id-data">
+                                                <a  class="btn btn-link m-0 text-reset" role="button" data-ripple-color="dark"><i class="bi bi-clipboard2"></i> &nbsp; View Consultation Details</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                }
+                            </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+

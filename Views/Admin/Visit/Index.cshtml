@@ -1,0 +1,253 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+    ViewBag.Title = "Departments";
+}
+
+<div class="container mb-3">
+    <div class="row">
+        <div class="col-md-4">
+            <div class="mdc-layout-grid__cell stretch-card mdc-layout-grid__cell--span-3-desktop mdc-layout-grid__cell--span-4-tablet">
+                <div class="mdc-card info-card info-card--info">
+                    <div class="card-inner">
+                    <h5 class="card-title">Visits</h5>
+                    <h5 class="font-weight-light pb-2 mb-1 border-bottom fs-2">
+                        @if(ViewBag.Visits != null){
+                            <span> @ViewBag.Visits.Count </span>
+                        } else{ 
+                           <span> 0 </span> 
+                        }
+                    </h5>
+                    <p class="tx-12 text-muted">Total Number of Visits Done by our Customers</p>
+                    <div class="card-icon-wrapper">
+                        <i class="fa-regular fa-folder-open"></i>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="mdc-layout-grid__cell stretch-card mdc-layout-grid__cell--span-3-desktop mdc-layout-grid__cell--span-4-tablet">
+                <div class="mdc-card info-card info-card--success">
+                    <div class="card-inner">
+                    <h5 class="card-title">Completed Visits</h5>
+                    <h5 class="font-weight-light pb-2 mb-1 border-bottom fs-2">
+                    @if(ViewBag.ApprovedVisits != null){
+                        <span> @ViewBag.ApprovedVisits.Count </span>
+                    } else{ 
+                       <span> 0 </span> 
+                    }
+                    </h5>
+                    <p class="tx-12 text-muted">Total Number of Visits Done by our Customers and Completed</p>
+                    <div class="card-icon-wrapper">
+                        <i class="fa-regular fa-thumbs-up"></i>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="mdc-layout-grid__cell stretch-card mdc-layout-grid__cell--span-3-desktop mdc-layout-grid__cell--span-4-tablet">
+                <div class="mdc-card info-card info-card--danger">
+                    <div class="card-inner">
+                    <h5 class="card-title">System Patients</h5>
+                    <h5 class="font-weight-light pb-2 mb-1 border-bottom fs-2">
+                    @if(ViewBag.PatientsCount != null){
+                        <span> @ViewBag.PatientsCount </span>
+                    } else{ 
+                       <span> 0 </span> 
+                    }
+                    </h5>
+                    <p class="tx-12 text-muted">Total Number of Patients Registered in our System</p>
+                    <div class="card-icon-wrapper">
+                        <i class="fa-regular fa-user"></i>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container bg-white p-5">
+    <h2 class="mb-5">
+        User Visit
+        <span class="float-end">
+            <a href="/Admin/Visit/Create" class="btn btn-medi"><i class="fa-solid fa-plus"></i> Add Visit</a>
+        </span>
+    </h2>
+    <div class="d-flex align-items-start table-responsive">
+      <div class="nav flex-column nav-pills me-3" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+        <button class="nav-link active w-100" id="v-pills-home-tab" data-bs-toggle="pill" data-bs-target="#v-pills-home" type="button" role="tab" aria-controls="v-pills-home" aria-selected="true">All Visits</button>
+        <button class="nav-link" id="v-pills-profile-tab" data-bs-toggle="pill" data-bs-target="#v-pills-profile" type="button" role="tab" aria-controls="v-pills-profile" aria-selected="false">Active</button>
+        <button class="nav-link" id="v-pills-messages-tab" data-bs-toggle="pill" data-bs-target="#v-pills-messages" type="button" role="tab" aria-controls="v-pills-messages" aria-selected="false">Completed</button>
+      </div>
+      <div class="tab-content flex-fill" id="v-pills-tabContent">
+        <div class="tab-pane flex-fill fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
+            <div class="table-responsive">
+            <table class="table table-hover">
+                <thead>
+                    <tr>
+                        <th>#</th>
+                        <th class="text-center"><i class="fa-regular fa-image"></i></th>
+                        <th>Patient Name</th>
+                        <th>Patient Email</th>
+                        <th>Patient Phone</th>
+                        <th>Visit Start Date</th>
+                        <th>Visit End Date</th>
+                        <th>Current Cost</th>
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @if(ViewBag.Visits != null)
+                    {
+                        int i = 1;
+                
+                        @foreach (var V in ViewBag.Visits)
+                        {
+                            <tr>
+                                <td>@i</td>
+                                <td><img src="/images/@V["Profile_Pic"]" style="width:80px" /></td>
+                                <td><a href="/Admin/Visit/ViewVisitPatient/@V["Patient_Username"]">@V["First_Name"] @V["Last_Name"]</a></td>
+                                <td>@V["Email"]</td>
+                                <td>@V["Phone"]</td>
+                                <td>@V["Visit_Start_Date"]</td>
+                                <td>
+                                @if (V["Visit_End_Date"] is System.DBNull) 
+                                {
+                                    <span class="badge bg-info text-dark">Still Opened</span>
+                                } else{
+                                    <span>@V["Visit_End_Date"]</span>
+                                }  
+                                </td>
+                                <td>@V["Visit_Total_Cost"]</td>
+                                <td>
+                                    @if (@V["Visit_End_Date"] is System.DBNull)
+                                    {
+                                        <a href="/Admin/Visit/Close/@V["Patient_Username"]?param2=@V["Visit_Start_Date"]" class="btn btn-danger"><i class="fa-solid fa-lock"></i></a>
+                                    }
+                                    <a href="/Admin/Visit/ViewVisit/@V["Patient_Username"]?param2=@V["Visit_Start_Date"]" class="btn btn-warning"><i class="fa-solid fa-circle-info text-white"></i></a>
+                                </td>
+                            </tr>
+                            i++;
+                        }
+                    }
+            
+                </tbody>
+            </table>
+            </div>
+        </div>
+        <div class="tab-pane fade table-responsive" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">
+            <table class="table table-hover">
+                <thead>
+                    <tr>
+                        <th>#</th>
+                        <th class="text-center"><i class="fa-regular fa-image"></i></th>
+                        <th>Patient Name</th>
+                        <th>Patient Email</th>
+                        <th>Patient Phone</th>
+                        <th>Visit Start Date</th>
+                        <th>Visit End Date</th>
+                        <th>Current Cost</th>
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @if(ViewBag.ActiveVisits != null)
+                    {
+                        int i = 1;
+                
+                        @foreach (var V in ViewBag.ActiveVisits)
+                        {
+                            <tr>
+                                <td>@i</td>
+                                <td><img src="/images/@V["Profile_Pic"]" style="width:80px" /></td>
+                                <td><a href="/Admin/Visit/ViewVisitPatient/@V["Patient_Username"]">@V["First_Name"] @V["Last_Name"]</a></td>
+                                <td>@V["Email"]</td>
+                                <td>@V["Phone"]</td>
+                                <td>@V["Visit_Start_Date"]</td>
+                                <td>
+                                @if (V["Visit_End_Date"] is System.DBNull) 
+                                {
+                                    <span class="badge bg-info text-dark">Still Opened</span>
+                                } else{
+                                    <span>@V["Visit_End_Date"]</span>
+                                }  
+                                </td>
+                                <td>@V["Visit_Total_Cost"]</td>
+                                <td>
+                                    @*<a href="/Admin/Visit/Edit/@V["Patient_Username"]?param2=@V["Visit_Start_Date"]" class="btn btn-info"><i class="fa-regular fa-pen-to-square text-white"></i></a>*@
+                                    @if (@V["Visit_End_Date"] is System.DBNull)
+                                    {
+                                        <a href="/Admin/Visit/Close/@V["Patient_Username"]?param2=@V["Visit_Start_Date"]" class="btn btn-danger"><i class="fa-solid fa-lock"></i></a>
+                                    }
+                                    <a href="/Admin/Visit/ViewVisit/@V["Patient_Username"]?param2=@V["Visit_Start_Date"]" class="btn btn-warning"><i class="fa-solid fa-circle-info text-white"></i></a>
+                                </td>
+                            </tr>
+                            i++;
+                        }
+                    }
+            
+                </tbody>
+            </table>
+        </div>
+        <div class="tab-pane fade table-responsive" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">
+            <table class="table table-hover">
+                <thead>
+                    <tr>
+                        <th>#</th>
+                        <th class="text-center"><i class="fa-regular fa-image"></i></th>
+                        <th>Patient Name</th>
+                        <th>Patient Email</th>
+                        <th>Patient Phone</th>
+                        <th>Visit Start Date</th>
+                        <th>Visit End Date</th>
+                        <th>Current Cost</th>
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @if(ViewBag.ApprovedVisits != null)
+                    {
+                        int i = 1;
+                
+                        @foreach (var V in ViewBag.ApprovedVisits)
+                        {
+                            <tr>
+                                <td>@i</td>
+                                <td><img src="/images/@V["Profile_Pic"]" style="width:80px" /></td>    
+                                <td>
+                                    <a href="/Admin/Visit/ViewVisitPatient/@V["Patient_Username"]">
+                                    @V["First_Name"] @V["Last_Name"]
+                                    </a>
+                                </td>
+                                <td>@V["Email"]</td>
+                                <td>@V["Phone"]</td>
+                                <td>@V["Visit_Start_Date"]</td>
+                                <td>
+                                @if (V["Visit_End_Date"] is System.DBNull) 
+                                {
+                                    <span class="badge bg-info text-dark">Still Opened</span>
+                                } else{
+                                    <span>@V["Visit_End_Date"]</span>
+                                }  
+                                </td>
+                                <td>@V["Visit_Total_Cost"]</td>
+                                <td>
+                                    @*<a href="/Admin/Visit/Edit/@V["Patient_Username"]?param2=@V["Visit_Start_Date"]" class="btn btn-info"><i class="fa-regular fa-pen-to-square text-white"></i></a>*@
+                                    @*<a href="/Admin/Visit/Close/@V["Patient_Username"]?param2=@V["Visit_Start_Date"]" class="btn btn-danger"><i class="fa-solid fa-lock"></i></a>*@
+                                    <a href="/Admin/Visit/ViewVisit/@V["Patient_Username"]?param2=@V["Visit_Start_Date"]" class="btn btn-warning"><i class="fa-solid fa-circle-info text-white"></i></a>
+                                </td>
+                            </tr>
+                            i++;
+                        }
+                    }
+            
+                </tbody>
+            </table>
+        </div>
+      </div>
+    </div>
+</div>

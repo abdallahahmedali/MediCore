@@ -1,0 +1,139 @@
+﻿@model HospitalAppl.Models.Check
+@{
+    // Configurations
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+    ViewBag.Title = "Check";
+
+}
+
+<div class="container bg-white p-5">
+    <h2>Edit Checks</h2>
+    
+    <form asp-action="Update" method="POST">
+        <input type="hidden" name="Check_ID" asp-for="Check_ID" value="@ViewBag.CheckObj["Check_ID"]" />
+        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+        <div class="row pt-3">
+            <div class="col-md-6">
+                <div class="mb-3">
+                    <label asp-for="Visit_Start_Date" class="form-label fw-bold">Visit Start Date </label><br />
+                    @ViewBag.CheckObj["Visit_Start_Date"]
+                    <input type="hidden" asp-for="Visit_Start_Date" name="Visit_Start_Date" value="@ViewBag.CheckObj["Visit_Start_Date"]" />
+                </div>
+                <div class="mb-3">
+                    <label asp-for="Type_Name" class="form-label fw-bold">Service </label><br />
+                    @ViewBag.CheckObj["Type_Name"]
+                    <input type="hidden" asp-for="Type_Name" name="Type_Name" value="@ViewBag.CheckObj["Type_Name"]" />
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="mb-3">
+                    <label asp-for="Patient_Username" class="form-label fw-bold">Patient </label><br />
+                    @ViewBag.CheckObj["Patient_Username"]
+                    <input type="hidden" asp-for="Patient_Username" name="Patient_Username" value="@ViewBag.CheckObj["Patient_Username"]" />
+                </div>
+                <select class="form-select" asp-for="Doctor_Username" id="roomNumber" name="Doctor_Username">
+                    @foreach (var d in ViewBag.Doctors)
+                    {
+                        int num = 0;
+                        @if(ViewBag.CheckObj["Doctor_Username"] is not System.DBNull){
+                            @if(d["Username"] == ViewBag.CheckObj["Doctor_Username"]){
+                                <option selected="selected" value="@d["Username"]">@d["Username"]</option>
+                            }
+                        }else{
+                            <option value="@d["Username"]">@d["Username"]</option>
+                        }
+                    }
+                </select>
+            </div>
+        </div>
+        <hr />
+        <div class="row pt-3">
+            <div class="col-md-6">
+                <div class="mb-3">
+                    <label asp-for="Room_Type_Name" class="form-label fw-bold">Room Type</label><br />
+                    @ViewBag.CheckObj["Room_Type_Name"]
+                    @*<select class="form-select" id="typeName" asp-for="Room_Type_Name" name="Room_Type_Name">
+                        @foreach (var type in ViewBag.roomTypes)
+                        {
+                            <option value="@type["Room_Type_Name"]">@type["Room_Type_Name"]</option>
+                        }
+                    </select>*@
+                    <input type="hidden" asp-for="Room_Type_Name" name="Room_Type_Name" value="@ViewBag.CheckObj["Room_Type_Name"]" />
+
+                </div>
+                
+                <div class="mb-3">
+                    <label asp-for="Check_Date" class="form-label">Check Start Date</label>
+                    <input type="date" onchange="CalcCost()" value="@String.Format("{0:yyyy-MM-dd}",ViewBag.CheckObj["Check_Date"])" name="Check_Date" class="form-control" asp-for="Check_Date">
+                </div>
+                <div class="mb-3">
+                    <label asp-for="Check_Is_Confirmed" class="form-label">Approval Status </label>
+                    <div>
+                        @if(ViewBag.CheckObj["Check_Is_Confirmed"]){
+                            <input checked="checked" type="checkbox" name="Check_Is_Confirmed" class="form-check-input" asp-for="Check_Is_Confirmed">
+                        }else{
+                            <input type="checkbox" name="Check_Is_Confirmed" class="form-check-input" asp-for="Check_Is_Confirmed">
+                        }
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="mb-3">
+                    <label asp-for="Room_Number" class="form-label fw-bold">Room Number</label><br />
+                    <select class="form-select" asp-for="Room_Number" id="roomNumber" name="Room_Number">
+                        @foreach (var r in ViewBag.rooms)
+                        {
+                            int num = 0;
+                            
+                            @if(Int32.TryParse(ViewBag.CheckObj["Room_Number"].ToString(), out num) != false 
+                            && ViewBag.CheckObj["Room_Number"] != null 
+                            && r["Room_Number"] == ViewBag.CheckObj["Room_Number"]){
+                            <option selected="selected" value="@r["Room_Number"]">@r["Room_Number"]</option>
+                            }
+                            
+                            else
+                            {
+                             <option value="@r["Room_Number"]">@r["Room_Number"]</option>
+                            }
+                            
+                        }
+                    </select>
+                    
+                </div>
+@*                <div class="mb-3">
+                    <label asp-for="Reservation_End_Date" class="form-label">Reservation End Date</label>
+                    <input type="date" onchange="CalcCost()" value="@String.Format("{0:yyyy-MM-dd}",ViewBag.RoomRes["Reservation_End_Date"])" name="Reservation_End_Date" class="form-control" asp-for="Reservation_End_Date">
+                </div>*@
+                <div class="mb-3">
+                    <label asp-for="Check_Cost" class="form-label">Check Cost</label>
+                    <input type="number" min="0" value="@ViewBag.CheckObj["Check_Cost"]" class="form-control" name="cost" disabled="disabled">
+                    <input type="hidden" name="Check_Cost" disabled value="@ViewBag.CheckObj["Check_Cost"]" asp-for="Check_Cost" />
+                </div>
+
+            </div>
+        </div>
+
+        <div class="col-12 text-center">
+            <button type="submit" class="btn btn-medi">Edit Check Data</button>
+        </div>
+    </form>
+</div>
+
+@section Scripts{
+    <script>
+        //$("#typeName").change(function(){
+        //    $.ajax({
+        //        type: "GET",
+        //        url: "/Admin/AdminCheck/FetchRoomNumbers/" + $("#typeName").val(),
+        //        success: function (viewHTML) { 
+        //            $("#roomNumber").html(viewHTML); 
+        //        },
+        //        error: function (errorData) {
+        //            console.log(errorData.responseText) 
+        //        }
+        //    });
+        //})
+            
+        
+    </script>
+}

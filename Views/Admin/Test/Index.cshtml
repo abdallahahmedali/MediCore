@@ -1,0 +1,127 @@
+﻿@model HospitalAppl.Models.Test
+@{
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+    ViewBag.Title = "Tests";
+}
+
+<div class="container bg-white p-5">
+    <h2 class="mb-5">
+        <i class="bi bi-bookmark-Test-fill"></i> Tests
+    </h2>
+    <ul class="nav nav-tabs" id="myTab" role="tablist">
+      <li class="nav-item" role="presentation">
+        <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button" role="tab" aria-controls="home" aria-selected="true">Active Tests</button>
+      </li>
+      <li class="nav-item" role="presentation">
+        <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile" type="button" role="tab" aria-controls="profile" aria-selected="false">Approved Tests</button>
+      </li>
+    </ul>
+    <div class="tab-content table-responsive" id="myTabContent">
+      <div class="tab-pane fade show active mb-2" id="home" role="tabpanel" aria-labelledby="home-tab">
+          
+    <table class="table table-hover">
+        <thead>
+            <tr>
+                <th>#</th>
+                <th>Patient</th>
+                <th>Main Service</th>
+                <th>Visit Start Date</th>
+                <th>Room Reserved</th>
+                <th>Reservation Cost</th>
+                <th>Confirmation State</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @if(ViewBag.ActiveTests != null)
+            {
+                int i = 1;
+                @foreach (var Res in ViewBag.ActiveTests)
+                {
+                        <tr>
+                            <td>@i</td>
+                            <td>@Res["Patient_Username"]</td>
+                            <td>@Res["Type_Name"]</td>
+                            <td>@Res["Visit_Start_Date"]</td>
+                            <td>
+                                @if (Res["Room_Prefix"] != null)
+                                {
+                                    <span>@Res["Room_Prefix"] @Res["Room_Number"]</span>
+                                }else{
+                                    <span>Not Assigned</span>
+                                }
+                            </td>
+                            <td>@Res["Test_Cost"]</td>
+                            <td>
+                                    <a href="/Admin/AdminTest/ApproveTest/@Res["Test_ID"]" class="btn btn-success"><i class="fa-solid fa-check"></i></a>
+                                    <a href="/Admin/AdminTest/DeleteTest/@Res["Test_ID"]" class="btn btn-danger"><i class="fa-solid fa-xmark"></i></a>
+                            </td>
+                            <td>
+                                <a href="/Admin/AdminTest/Edit/@Res["Test_ID"]" class="btn btn-info"><i class="fa-solid fa-pen-to-square text-white"></i></a>
+                                    @if(@Res["Test_Report_File"] is not System.DBNull)
+                                    {
+                                    <a href="/files/@Res["Test_Report_File"]" download class="btn btn-primary"><i class="fa-solid text-white fa-file-pdf"></i></a> 
+                                    }
+                            </td>
+                        </tr>
+                    i++;
+                }
+            
+            }
+        </tbody>
+    </table>
+      </div>
+      <div class="tab-pane fade mb-2" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+          
+    <table class="table table-hover">
+        <thead>
+            <tr>
+                <th>#</th>
+                <th>Patient</th>
+                <th>Main Service</th>
+                <th>Visit Start Date</th>
+                <th>Room Reserved</th>
+                <th>Confirmation State</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @if(ViewBag.ApprovedTests != null)
+            {
+                int i = 1;
+                @foreach (var Res in ViewBag.ApprovedTests)
+                {
+                    <tr>
+                        <td>@i</td>
+                        <td>@Res["Patient_Username"]</td>
+                        <td>@Res["Type_Name"]</td>
+                        <td>@Res["Visit_Start_Date"]</td>
+                        <td>
+                            @if (Res["Room_Prefix"] != null)
+                            {
+                                <span>@Res["Room_Prefix"] @Res["Room_Number"]</span>
+                            }else{
+                                <span>Not Assigned</span>
+                            }
+                        </td>
+                        <td>@Res["Test_Is_Confirmed"]</td>
+                        <td>
+                                <a href="/Admin/AdminTest/Edit/@Res["Test_ID"]" class="btn btn-info"><i class="fa-solid fa-pen-to-square text-white"></i></a>
+                                @if(@Res["Test_Report_File"] is not System.DBNull)
+                                {
+                                <a href="/files/@Res["Test_Report_File"]" download class="btn btn-primary"><i class="fa-solid text-white fa-file-pdf"></i></a> 
+                                }
+                            </td>
+                    </tr>
+                    i++;
+                }
+            
+            }
+        </tbody>
+    </table>
+      </div>
+    </div>
+
+
+
+</div>

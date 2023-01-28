@@ -1,0 +1,48 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+    ViewBag.Title = "Rooms";
+}
+
+<div class="container bg-white p-5">
+    <h2 class="mb-5">
+        Room Types
+        <span class="float-end">
+            <a href="/Admin/RoomType/Create" class="btn btn-medi"><i class="fa-solid fa-plus"></i> Add Room Type</a>
+        </span>
+    </h2>
+    <div class="table-responsive">
+
+    <table class="table table-hover">
+        <thead>
+            <tr>
+                <th>#</th>
+                <th>Room Type Name</th>
+                <th>Room Prefix</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @if (ViewBag.Roomtypes != null)
+            {
+                int i = 1;
+                @foreach (var RoomType in ViewBag.Roomtypes)
+                {
+                    <tr>
+                        <td>@i</td>
+                        <td>@RoomType["Room_Type_Name"]</td>
+                        <td>@RoomType["Room_Prefix"]</td>
+                        <td>
+                            <a href="/Admin/RoomType/Edit/@RoomType["Room_Type_Name"]" class="btn btn-info"><i class="fa-solid fa-pen-to-square text-white"></i></a>
+                        </td>
+                    </tr>
+                    i++;
+                }
+            }
+            
+        </tbody>
+    </table>
+    </div>
+</div>

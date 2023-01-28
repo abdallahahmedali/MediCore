@@ -1,0 +1,79 @@
+﻿@using Microsoft.AspNetCore.Http
+@model HospitalAppl.Models.User
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+    <section id="hero" class="d-flex align-items-center">
+
+    <div class="container-fluid">
+        <div class="row justify-content-center">
+        <div class="col-xl-5 col-lg-6 pt-3 pt-lg-0 order-2 order-lg-1 d-flex flex-column justify-content-center">
+            <h1>Whenever Somebody Needs Help We Show Up</h1>
+            <h2 class="mt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus inventore unde consectetur !</h2>
+            <!--<h1 id="app"></h1>-->
+        </div>
+        <div class="col-xl-4 col-lg-6 order-1 order-lg-2 hero-img">
+            <img src="~/images/HeaderImgFinal1.png" class="img-fluid animated" alt="">
+        </div>  
+        </div>
+        </div>
+    </div>
+
+    <!-- Modal -->
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <div class="modal fade" style="margin-top:20vh;" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h2 class="modal-title" id="exampleModalLabel" style="width:100%;text-align:center;color: #0d6efd;font-family: 'Poppins', sans-serif;"><i class="bi bi-door-open"></i> LOGIN</h2>
+                                    </div>
+
+                                    <div class="modal-body">
+                                        <form method="post" asp-action="Login">
+                                            <label for="exampleInputEmail1" class="form-label"> Username</label>
+
+                                            <div class="input-group mb-3">
+                                                <span class="input-group-text" style="color:#0d6efd;" id="basic-addon1"><i class="bi bi-people"></i></span>
+                                                <input type="text" class="form-control" id="exampleInputEmail1"
+                                                    aria-describedby="emailHelp" asp-for="Username" asp-validation-for="Username" name="username" placeholder="Enter your username" required>
+                                            </div>
+
+                                            <label for="exampleInputPassword1" class="form-label">Password</label>
+
+                                            <div class="input-group mb-3">
+                                                <span class="input-group-text" style="color:#0d6efd;" id="basic-addon1"><i class="bi bi-key"></i></span>
+                                                <input type="password" asp-for="Password" asp-validation-for="Password" class="form-control" id="exampleInputPassword1" name="password"
+                                                    placeholder="Enter your password" required>
+                                            </div>
+                                            <div>
+                                                <input type="checkbox" id="save_password" name="save_password">
+                                                <label For="save_password">Save Your Password</label>
+                                            </div>
+                                            <div class="divider d-flex align-items-center my-2">
+                                                <p class="text-center fw-bold mx-3 mb-0 text-muted">Don't have an
+                                                account?
+                                                <a asp-area="UserArea" asp-controller="User" asp-action="CreateUser" class="text-decoration-none">Sign Up</a></p>
+                                            </div>
+
+                                            <div class="modal-footer login-footer">
+                                                <button type="submit" class="btn btn-primary">Login &nbsp;<i class="bi bi-caret-right-fill"></i> </button>
+                                            </div>
+                                        </form>
+                                    </div>
+
+
+ 
+                                </div>
+                            </div>
+                        </div>
+                        </div>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+

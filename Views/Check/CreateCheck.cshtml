@@ -1,0 +1,69 @@
+﻿@using System.Data
+@model HospitalAppl.Models.Check
+
+@{
+    ViewData["Title"] = "Create Check";
+}
+
+<div class="container bg-white p-5">
+    
+    <form asp-action="CreateCheck" class="mx-auto" style="width: 1000px;" method="POST">
+        <h2>Book Check</h2>
+        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+        <div class="row py-3">
+            <div class="col-md-6">
+                <div class="mb-3" >
+                    <label asp-for="Type_Name" class="form-label"> Speciality </label>
+                     <select class="form-control" id = "Department" asp-for="SelectedDepartmentName">
+                        <option disabled selected>Select Doctor Department</option>
+                        @foreach (var row in Model.Departments){
+                            <option value="@row.Value">@row.Text</option>
+                        }
+                     </select>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="mb-3" >
+                    <label asp-for="Doctor_Username" class="form-label"> Doctor </label>
+                    <select class="form-control" id = "Employee" asp-for="EmployeeUsername">
+                        <option disabled selected>Select Your Doctor</option>
+                        @foreach (var row in Model.Doctors){
+                            <option value="@row.Value">@row.Text</option>
+                        }
+                    </select>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="row py-3">
+            <div class="col-md-4">
+                <div class="mb-3 ">
+                    <label asp-for="Check_Date" class="form-label" class="mb-2" for="formGroupExampleInput">Date of Check</label>
+                    <input class="form-control mb-3" asp-for="Check_Date" type="datetime-local">
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="mb-3 ">
+                    <label class="form-label" class="mb-2">Check Type</label>
+                    <select id="CheckType" class="form-select" asp-for="Type_Name">
+                        @foreach (DataRow Check in @ViewBag.CheckTypes.Rows)
+                        {
+                            <option asp-for="Type_Name" value='@Check["Type_Name"]'>@Check["Type_Name"]</option>
+                        }
+                    </select>                
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="mb-3" >
+                    <label asp-for="Check_Cost" class="form-label" class="mb-2" >Cost of Check</label>
+                    <input class="form-control mb-3" type="text" value="0" id="CheckCost" readonly>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 text-center">
+                <button type="submit" class="btn btn-primary" class="btn btn-medi">Create</button>
+         </div>
+    </form>
+</div>

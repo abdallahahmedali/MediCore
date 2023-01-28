@@ -1,0 +1,53 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+    ViewBag.Title = "Type Details";
+}
+
+
+<div class="container bg-white p-5">
+    <h2 class="mb-5">
+         Type Details
+        <span class="float-end">
+            <a href="/Admin/TypeDetail/Create" class="btn btn-medi"><i class="fa-solid fa-plus"></i> Add Type Detail</a>
+        </span>
+    </h2>
+
+    <div class="table-responsive">
+    <table class="table table-hover">
+        <thead>
+            <tr>
+                <th>#</th>
+                <th>Type Name</th>
+                <th>Service Type</th>
+                <th>Type Cost</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @if(ViewBag.TypeDetails != null)
+            {
+                int i = 1;
+                
+                @foreach (var Service in ViewBag.TypeDetails)
+                {
+                    <tr>
+                        <td>@i</td>
+                        <td>@Service["Type_Name"]</td>
+                        <td>@Service["Service_Type_Name"]</td>
+                        <td>@Service["Type_Cost"] EGP</td>
+                        <td>
+                            <a href="/Admin/TypeDetail/Edit/@Service["Service_Type_Name"]/@Service["Type_Name"]" class="btn btn-info"><i class="fa-solid fa-pen-to-square text-white"></i></a>
+                        </td>
+                    </tr>
+                    i++;
+                }
+            }
+            
+        </tbody>
+    </table>
+    </div>
+    
+</div>

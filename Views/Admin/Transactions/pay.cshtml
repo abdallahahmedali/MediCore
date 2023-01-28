@@ -1,0 +1,51 @@
+﻿@model HospitalAppl.Models.FinancialTransaction
+@{
+    // Configurations
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+    ViewBag.Title = "Room Types";
+}
+<div class="container mb-3">
+    <div class="row">
+        <div class="col-md-12 bg-white">
+            <div class="p-4">
+                <div class="card-body">
+                      <div class="text-center d-inline-block mb-2" style="width:150px" >
+                        <img src="/images/@ViewBag.TUser["Profile_Pic"]" style="width:100%" />
+                      </div>
+                      <div class="float-end">
+                          <h2 class="btn bg-info text-white fw-bold">Total Cost: @ViewBag.Visit["Visit_Total_Cost"] EGP</h2>
+                          <h2 class="btn bg-success text-white fw-bold">Paid Amount: @ViewBag.TransRec["Total_Paid"] EGP</h2>
+                      </div>
+                    <h4 class="card-title text-center d-inline-block">@ViewBag.TUser["First_Name"] @ViewBag.TUser["Middle_Name"] @ViewBag.TUser["Last_Name"] </h4>
+                    <p class="card-text py-2 border-bottom">Email: <span class="float-end">@ViewBag.TUser["Email"]</span></p>
+                    <p class="card-text py-2 border-bottom">Phone: <span class="float-end">@ViewBag.TUser["Phone"]</span></p>
+                    <p class="card-text py-2 border-bottom">Birthdate: <span class="float-end">@ViewBag.TUser["Patient_Birthdate"].ToString("dd/MM/yyyy")</span></p>
+                    <p class="card-text py-2 border-bottom">Address: <span class="float-end">@ViewBag.TUser["Street"], @ViewBag.TUser["District"], @ViewBag.TUser["City"]</span></p>
+                </div>
+                
+
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container bg-white p-5">
+    <h2>Create Transaction</h2>
+    
+    
+    <form asp-action="Pay" method="POST">
+        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+        <div class="row py-3">
+            <div class="col-md-12">
+                <div class="mb-3">
+                    <label asp-for="Transaction_Paid_Amount" class="form-label">Amount to Pay </label>
+                    <input type="number" min="1" max="@(float.Parse(ViewBag.Visit["Visit_Total_Cost"].ToString())- float.Parse(ViewBag.TransRec["Total_Paid"].ToString()))" name="Transaction_Paid_Amount" class="form-control" asp-for="Transaction_Paid_Amount">
+                    <input type="hidden" asp-for="Visit_Start_Date" name="Visit_Start_Date" value="@ViewBag.Visit["Visit_Start_Date"]" />
+                    <input type="hidden" asp-for="Patient_Username" name="Patient_Username" value="@ViewBag.Visit["Patient_Username"]" />
+                </div>
+            </div>
+        </div>
+        <div class="col-12 text-center">
+            <button type="submit" class="btn btn-medi">Pay</button>
+        </div>
+    </form>
+</div>

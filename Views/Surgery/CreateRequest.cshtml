@@ -1,0 +1,44 @@
+@using System.Data
+@model HospitalAppl.Models.SurgeryVM
+<section style="background-color: #f9f9f8;min-height:55vh">
+    <div class="container py-4">
+        <div class="row">
+            <div class="col">
+                <div class="card my-4">
+                    <div class="card-body">
+                        <div class="card-title d-flex">
+                            <h3>Request Surgery</h3>
+                        </div>
+                        <hr>
+                        <form class="row g-3 o-sign-up" method="POST" asp-action="CreateRequest">
+                            <input type="hidden" class="form-control" id="inlineFormInputGroupUsername" value='@Context.Request.Query["PatientUsername"]' asp-for="Surgery.Patient_Username" required/>
+
+                            <div class="col-md-6">
+                                <div class="mb-3">
+                                    <label asp-for="Surgery.Type_Name" class="form-label">Surgery Type</label>
+
+                                    <select asp-for="Surgery.Type_Name" id="inputState" class="form-control">
+                                        @foreach (DataRow option in Model.TypeNames.Rows)
+                                        {
+                                            <option value='@option["Type_Name"]'>@option["Type_Name"]</option>
+                                        }
+                                    </select>
+                                </div>
+                            </div>
+
+                            <div class="col-md-6">
+                                <div class="mb-3">
+                                    <label asp-for="Surgery.Surgery_Date" class="form-label">Surgery Date </label>
+                                    <input type="datetime-local" class="form-control" asp-for="Surgery.Surgery_Date" required>
+                                </div>
+                            </div>
+                            <div class="col-12 d-flex justify-content-end">
+                                <button type="submit" class="btn btn-primary">Confirm &nbsp; <i class="bi bi-caret-right-fill"></i></button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

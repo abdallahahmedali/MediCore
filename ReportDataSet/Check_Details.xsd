@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="Check_Details" targetNamespace="http://tempuri.org/Check_Details.xsd" xmlns:mstns="http://tempuri.org/Check_Details.xsd" xmlns="http://tempuri.org/Check_Details.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="Check_Details" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="Check_Details" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="Check_Details">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Check_Details" msprop:Generator_RowClassName="Check_DetailsRow" msprop:Generator_RowEvHandlerName="Check_DetailsRowChangeEventHandler" msprop:Generator_RowDeletedName="Check_DetailsRowDeleted" msprop:Generator_RowDeletingName="Check_DetailsRowDeleting" msprop:Generator_RowEvArgName="Check_DetailsRowChangeEvent" msprop:Generator_TablePropName="_Check_Details" msprop:Generator_RowChangedName="Check_DetailsRowChanged" msprop:Generator_UserTableName="Check_Details" msprop:Generator_RowChangingName="Check_DetailsRowChanging" msprop:Generator_TableClassName="Check_DetailsDataTable" msprop:Generator_TableVarName="tableCheck_Details">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="First_Name" msprop:Generator_UserColumnName="First_Name" msprop:Generator_ColumnPropNameInTable="First_NameColumn" msprop:Generator_ColumnPropNameInRow="First_Name" msprop:Generator_ColumnVarNameInTable="columnFirst_Name" type="xs:string" minOccurs="0" />
+              <xs:element name="Last_Name" msprop:Generator_UserColumnName="Last_Name" msprop:Generator_ColumnPropNameInTable="Last_NameColumn" msprop:Generator_ColumnPropNameInRow="Last_Name" msprop:Generator_ColumnVarNameInTable="columnLast_Name" type="xs:string" minOccurs="0" />
+              <xs:element name="Check_Date" msprop:Generator_UserColumnName="Check_Date" msprop:Generator_ColumnPropNameInTable="Check_DateColumn" msprop:Generator_ColumnPropNameInRow="Check_Date" msprop:Generator_ColumnVarNameInTable="columnCheck_Date" type="xs:string" minOccurs="0" />
+              <xs:element name="Check_Cost" msprop:Generator_ColumnPropNameInRow="Check_Cost" msprop:Generator_ColumnPropNameInTable="Check_CostColumn" msprop:Generator_ColumnVarNameInTable="columnCheck_Cost" msprop:Generator_UserColumnName="Check_Cost" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Consult_Details" msprop:Generator_RowEvHandlerName="Consult_DetailsRowChangeEventHandler" msprop:Generator_RowDeletedName="Consult_DetailsRowDeleted" msprop:Generator_RowDeletingName="Consult_DetailsRowDeleting" msprop:Generator_RowEvArgName="Consult_DetailsRowChangeEvent" msprop:Generator_TablePropName="Consult_Details" msprop:Generator_RowChangedName="Consult_DetailsRowChanged" msprop:Generator_RowChangingName="Consult_DetailsRowChanging" msprop:Generator_TableClassName="Consult_DetailsDataTable" msprop:Generator_RowClassName="Consult_DetailsRow" msprop:Generator_TableVarName="tableConsult_Details" msprop:Generator_UserTableName="Consult_Details">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="First_Name" msprop:Generator_ColumnPropNameInRow="First_Name" msprop:Generator_ColumnPropNameInTable="First_NameColumn" msprop:Generator_ColumnVarNameInTable="columnFirst_Name" msprop:Generator_UserColumnName="First_Name" type="xs:string" minOccurs="0" />
+              <xs:element name="Last_Name" msprop:Generator_ColumnPropNameInRow="Last_Name" msprop:Generator_ColumnPropNameInTable="Last_NameColumn" msprop:Generator_ColumnVarNameInTable="columnLast_Name" msprop:Generator_UserColumnName="Last_Name" type="xs:string" minOccurs="0" />
+              <xs:element name="Consultation_Date" msprop:Generator_ColumnPropNameInRow="Consultation_Date" msprop:Generator_ColumnPropNameInTable="Consultation_DateColumn" msprop:Generator_ColumnVarNameInTable="columnConsultation_Date" msprop:Generator_UserColumnName="Consultation_Date" type="xs:string" minOccurs="0" />
+              <xs:element name="Consultation_Cost" msprop:Generator_ColumnPropNameInRow="Consultation_Cost" msprop:Generator_ColumnPropNameInTable="Consultation_CostColumn" msprop:Generator_ColumnVarNameInTable="columnConsultation_Cost" msprop:Generator_UserColumnName="Consultation_Cost" type="xs:string" minOccurs="0" />
+              <xs:element name="Check_Date" msprop:Generator_ColumnPropNameInRow="Check_Date" msprop:Generator_ColumnPropNameInTable="Check_DateColumn" msprop:Generator_ColumnVarNameInTable="columnCheck_Date" msprop:Generator_UserColumnName="Check_Date" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Surgery_Details" msprop:Generator_RowEvHandlerName="Surgery_DetailsRowChangeEventHandler" msprop:Generator_RowDeletedName="Surgery_DetailsRowDeleted" msprop:Generator_RowDeletingName="Surgery_DetailsRowDeleting" msprop:Generator_RowEvArgName="Surgery_DetailsRowChangeEvent" msprop:Generator_TablePropName="Surgery_Details" msprop:Generator_RowChangedName="Surgery_DetailsRowChanged" msprop:Generator_RowChangingName="Surgery_DetailsRowChanging" msprop:Generator_TableClassName="Surgery_DetailsDataTable" msprop:Generator_RowClassName="Surgery_DetailsRow" msprop:Generator_TableVarName="tableSurgery_Details" msprop:Generator_UserTableName="Surgery_Details">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="First_Name" msprop:Generator_ColumnPropNameInRow="First_Name" msprop:Generator_ColumnPropNameInTable="First_NameColumn" msprop:Generator_ColumnVarNameInTable="columnFirst_Name" msprop:Generator_UserColumnName="First_Name" type="xs:string" minOccurs="0" />
+              <xs:element name="Last_Name" msprop:Generator_ColumnPropNameInRow="Last_Name" msprop:Generator_ColumnPropNameInTable="Last_NameColumn" msprop:Generator_ColumnVarNameInTable="columnLast_Name" msprop:Generator_UserColumnName="Last_Name" type="xs:string" minOccurs="0" />
+              <xs:element name="Surgery_Date" msprop:Generator_ColumnPropNameInRow="Surgery_Date" msprop:Generator_ColumnPropNameInTable="Surgery_DateColumn" msprop:Generator_ColumnVarNameInTable="columnSurgery_Date" msprop:Generator_UserColumnName="Surgery_Date" type="xs:string" minOccurs="0" />
+              <xs:element name="Surgery_Cost" msprop:Generator_ColumnPropNameInRow="Surgery_Cost" msprop:Generator_ColumnPropNameInTable="Surgery_CostColumn" msprop:Generator_ColumnVarNameInTable="columnSurgery_Cost" msprop:Generator_UserColumnName="Surgery_Cost" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Test_Details" msprop:Generator_RowEvHandlerName="Test_DetailsRowChangeEventHandler" msprop:Generator_RowDeletedName="Test_DetailsRowDeleted" msprop:Generator_RowDeletingName="Test_DetailsRowDeleting" msprop:Generator_RowEvArgName="Test_DetailsRowChangeEvent" msprop:Generator_TablePropName="Test_Details" msprop:Generator_RowChangedName="Test_DetailsRowChanged" msprop:Generator_RowChangingName="Test_DetailsRowChanging" msprop:Generator_TableClassName="Test_DetailsDataTable" msprop:Generator_RowClassName="Test_DetailsRow" msprop:Generator_TableVarName="tableTest_Details" msprop:Generator_UserTableName="Test_Details">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="First_Name" msprop:Generator_ColumnPropNameInRow="First_Name" msprop:Generator_ColumnPropNameInTable="First_NameColumn" msprop:Generator_ColumnVarNameInTable="columnFirst_Name" msprop:Generator_UserColumnName="First_Name" type="xs:string" minOccurs="0" />
+              <xs:element name="Last_Name" msprop:Generator_ColumnPropNameInRow="Last_Name" msprop:Generator_ColumnPropNameInTable="Last_NameColumn" msprop:Generator_ColumnVarNameInTable="columnLast_Name" msprop:Generator_UserColumnName="Last_Name" type="xs:string" minOccurs="0" />
+              <xs:element name="Test_Date" msprop:Generator_ColumnPropNameInRow="Test_Date" msprop:Generator_ColumnPropNameInTable="Test_DateColumn" msprop:Generator_ColumnVarNameInTable="columnTest_Date" msprop:Generator_UserColumnName="Test_Date" type="xs:string" minOccurs="0" />
+              <xs:element name="Test_Cost" msprop:Generator_ColumnPropNameInRow="Test_Cost" msprop:Generator_ColumnPropNameInTable="Test_CostColumn" msprop:Generator_ColumnVarNameInTable="columnTest_Cost" msprop:Generator_UserColumnName="Test_Cost" type="xs:string" minOccurs="0" />
+              <xs:element name="Test_Delivery_Date" msprop:Generator_ColumnPropNameInRow="Test_Delivery_Date" msprop:Generator_ColumnPropNameInTable="Test_Delivery_DateColumn" msprop:Generator_ColumnVarNameInTable="columnTest_Delivery_Date" msprop:Generator_UserColumnName="Test_Delivery_Date" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

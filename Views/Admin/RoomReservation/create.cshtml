@@ -1,0 +1,105 @@
+﻿@model HospitalAppl.Models.RoomReservation
+@{
+    // Configurations
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+    ViewBag.Title = "Room Reservations";
+}
+
+<div class="container bg-white p-5">
+    <h2>Create Room Reservation</h2>
+    
+    <form asp-action="Create" method="POST">
+        
+        <input type="hidden" name="Patient_Username" asp-for="Patient_Username" value="@ViewBag.Visit["Patient_Username"]"/>
+        <input type="hidden" name="Visit_Start_Date" asp-for="Visit_Start_Date" value="@ViewBag.Visit["Visit_Start_Date"]" />
+        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+        <div class="row py-3">
+            <div class="col-md-6">
+                <div class="mb-3">
+                    <label asp-for="Room_Type_Name" class="form-label">Room Type Name </label>
+                    <p class="my-3">General</p>
+                    <input type="hidden" name="Room_Type_Name" value="General" class="form-control" asp-for="Room_Type_Name">
+                    @*<select name="Room_Type_Name" class="form-select" asp-for="Room_Type_Name">
+                        @foreach (var RoomType in ViewBag.RoomTypes)
+                        {
+                            <option value="@RoomType["Room_Type_Name"]">@RoomType["Room_Type_Name"]</option>
+                        }
+                    </select>*@
+                </div>
+                <div class="mb-3">
+                    <label asp-for="Reservation_Start_Date" class="form-label">Reservation Start Date </label>
+                    <input type="date" value="@String.Format("{0:yyyy-MM-dd}",DateTime.Now)" onchange="CalcCost()" name="Reservation_Start_Date" class="form-control" asp-for="Reservation_Start_Date">
+                </div>
+                <div class="mb-3">
+                    <label asp-for="Reservation_Cost" class="form-label">Reservation Cost</label>
+                    <input type="number" disabled value="0" id="res_cost" class="form-control">
+                    <input type="hidden" value="0" name="Reservation_Cost" class="form-control" asp-for="Reservation_Cost">
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="mb-3">
+                    <label asp-for="Room_Number" class="form-label">Room Number </label>
+                    @*<input type="number" min="1" class="form-control" asp-for="Room_Number" name="Room_Number">*@
+                    <select name="Room_Number" id="room_num" class="form-select" asp-for="Room_Number">
+                        <option disabled selected>Select Room Number</option>
+                        @foreach (var r in ViewBag.Rooms)
+                        {
+                            <option value="@r["Room_Number"]">@r["Room_Number"]</option>
+                        }
+                    </select>
+                    <input type="hidden" value="0" id="Room_Cost"/>
+                </div>
+                <div class="mb-3">
+                    <label asp-for="Reservation_End_Date" class="form-label">Reservation End Date </label>
+                    <input type="date" value="@String.Format("{0:yyyy-MM-dd}",DateTime.Now)" onchange="CalcCost()" name="Reservation_End_Date" class="form-control" asp-for="Reservation_End_Date">
+                </div>
+                <div class="mb-3">
+                    <label asp-for="Reservation_Is_Confirmed" class="form-label">Is Confirmed? </label>
+                    <div>
+                        <input type="checkbox" selected="selected" name="Reservation_Is_Confirmed" class="form-check-input" asp-for="Reservation_Is_Confirmed">
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="col-12 text-center">
+            <button type="submit" class="btn btn-medi">Create</button>
+        </div>
+    </form>
+</div>
+
+@section Scripts{
+    <script>
+        $("#room_num").change(function(){
+            $.ajax({
+                type: "GET",
+                url: "/Admin/RoomReservation/FetchCost",
+                data:{
+                    "Room_Type_Name":"General",
+                    "Room_Number":$("#room_num").val(),
+                },
+                success: function (data) { 
+                    //$("#res_cost").val(data); 
+                    $("#Room_Cost").val(data); 
+                    //$("input[name=Reservation_Cost]").val(data); 
+                    CalcCost();
+                },
+                error: function (errorData) {
+                    console.log(errorData.responseText) 
+                }
+            });
+        });
+
+        function CalcCost(){
+            var start = new Date($("input[name=Reservation_Start_Date]").val());
+            var end = new Date($("input[name=Reservation_End_Date]").val());
+            var diff = new Date(end - start);
+            var days = diff/1000/60/60/24;
+            var cpn = $("#Room_Cost").val();
+            var cost = days * cpn;
+            $("input[name=Reservation_Cost]").val(cost);
+            $("#res_cost").val(cost);
+        }
+
+    </script>
+}

@@ -1,0 +1,1516 @@
+D:\Programming\CodeBase\WebDev\HospitalAppl\bin\Debug\net6.0\appsettings.Development.json
+D:\Programming\CodeBase\WebDev\HospitalAppl\bin\Debug\net6.0\appsettings.json
+D:\Programming\CodeBase\WebDev\HospitalAppl\bin\Debug\net6.0\HospitalAppl.staticwebassets.runtime.json
+D:\Programming\CodeBase\WebDev\HospitalAppl\bin\Debug\net6.0\HospitalAppl.exe
+D:\Programming\CodeBase\WebDev\HospitalAppl\bin\Debug\net6.0\HospitalAppl.deps.json
+D:\Programming\CodeBase\WebDev\HospitalAppl\bin\Debug\net6.0\HospitalAppl.runtimeconfig.json
+D:\Programming\CodeBase\WebDev\HospitalAppl\bin\Debug\net6.0\HospitalAppl.dll
+D:\Programming\CodeBase\WebDev\HospitalAppl\bin\Debug\net6.0\HospitalAppl.pdb
+D:\Programming\CodeBase\WebDev\HospitalAppl\obj\Debug\net6.0\HospitalAppl.csproj.AssemblyReference.cache
+D:\Programming\CodeBase\WebDev\HospitalAppl\obj\Debug\net6.0\HospitalAppl.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programming\CodeBase\WebDev\HospitalAppl\obj\Debug\net6.0\HospitalAppl.AssemblyInfoInputs.cache
+D:\Programming\CodeBase\WebDev\HospitalAppl\obj\Debug\net6.0\HospitalAppl.AssemblyInfo.cs
+D:\Programming\CodeBase\WebDev\HospitalAppl\obj\Debug\net6.0\HospitalAppl.csproj.CoreCompileInputs.cache
+D:\Programming\CodeBase\WebDev\HospitalAppl\obj\Debug\net6.0\HospitalAppl.MvcApplicationPartsAssemblyInfo.cache
+D:\Programming\CodeBase\WebDev\HospitalAppl\obj\Debug\net6.0\HospitalAppl.RazorAssemblyInfo.cache
+D:\Programming\CodeBase\WebDev\HospitalAppl\obj\Debug\net6.0\HospitalAppl.RazorAssemblyInfo.cs
+D:\Programming\CodeBase\WebDev\HospitalAppl\obj\Debug\net6.0\staticwebassets.build.json
+D:\Programming\CodeBase\WebDev\HospitalAppl\obj\Debug\net6.0\staticwebassets.development.json
+D:\Programming\CodeBase\WebDev\HospitalAppl\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+D:\Programming\CodeBase\WebDev\HospitalAppl\obj\Debug\net6.0\scopedcss\bundle\HospitalAppl.styles.css
+D:\Programming\CodeBase\WebDev\HospitalAppl\obj\Debug\net6.0\scopedcss\projectbundle\HospitalAppl.bundle.scp.css
+D:\Programming\CodeBase\WebDev\HospitalAppl\obj\Debug\net6.0\HospitalAppl.dll
+D:\Programming\CodeBase\WebDev\HospitalAppl\obj\Debug\net6.0\refint\HospitalAppl.dll
+D:\Programming\CodeBase\WebDev\HospitalAppl\obj\Debug\net6.0\HospitalAppl.pdb
+D:\Programming\CodeBase\WebDev\HospitalAppl\obj\Debug\net6.0\HospitalAppl.genruntimeconfig.cache
+D:\Programming\CodeBase\WebDev\HospitalAppl\obj\Debug\net6.0\ref\HospitalAppl.dll
+D:\Programming\CodeBase\WebDev\HospitalAppl\bin\Debug\net6.0\Humanizer.dll
+D:\Programming\CodeBase\WebDev\HospitalAppl\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Programming\CodeBase\WebDev\HospitalAppl\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+D:\Programming\CodeBase\WebDev\HospitalAppl\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+D:\Programming\CodeBase\WebDev\HospitalAppl\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Programming\CodeBase\WebDev\HospitalAppl\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\Programming\CodeBase\WebDev\HospitalAppl\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Programming\CodeBase\WebDev\HospitalAppl\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\Programming\CodeBase\WebDev\HospitalAppl\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+D:\Programming\CodeBase\WebDev\HospitalAppl\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+D:\Programming\CodeBase\WebDev\HospitalAppl\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+D:\Programming\CodeBase\WebDev\HospitalAppl\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Programming\CodeBase\WebDev\HospitalAppl\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+D:\Programming\CodeBase\WebDev\HospitalAppl\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+D:\Programming\CodeBase\WebDev\HospitalAppl\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Programming\CodeBase\WebDev\HospitalAppl\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+D:\Programming\CodeBase\WebDev\HospitalAppl\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\Programming\CodeBase\WebDev\HospitalAppl\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+D:\Programming\CodeBase\WebDev\HospitalAppl\bin\Debug\net6.0\System.Drawing.Common.dll
+D:\Programming\CodeBase\WebDev\HospitalAppl\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+D:\Programming\CodeBase\WebDev\HospitalAppl\bin\Debug\net6.0\System.Runtime.Caching.dll
+D:\Programming\CodeBase\WebDev\HospitalAppl\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\Programming\CodeBase\WebDev\HospitalAppl\bin\Debug\net6.0\System.Security.Permissions.dll
+D:\Programming\CodeBase\WebDev\HospitalAppl\bin\Debug\net6.0\System.Windows.Extensions.dll
+D:\Programming\CodeBase\WebDev\HospitalAppl\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\Programming\CodeBase\WebDev\HospitalAppl\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\Programming\CodeBase\WebDev\HospitalAppl\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Programming\CodeBase\WebDev\HospitalAppl\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Programming\CodeBase\WebDev\HospitalAppl\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Programming\CodeBase\WebDev\HospitalAppl\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Programming\CodeBase\WebDev\HospitalAppl\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+D:\Programming\CodeBase\WebDev\HospitalAppl\obj\Debug\net6.0\HospitalAppl.csproj.CopyComplete
+D:\Programming\CodeBase\WebDev\HospitalAppl\bin\Debug\net6.0\MessagePack.dll
+D:\Programming\CodeBase\WebDev\HospitalAppl\bin\Debug\net6.0\MessagePack.Annotations.dll
+D:\Programming\CodeBase\WebDev\HospitalAppl\bin\Debug\net6.0\Microsoft.AspNetCore.Razor.Language.dll
+D:\Programming\CodeBase\WebDev\HospitalAppl\bin\Debug\net6.0\Microsoft.Build.dll
+D:\Programming\CodeBase\WebDev\HospitalAppl\bin\Debug\net6.0\Microsoft.Build.Framework.dll
+D:\Programming\CodeBase\WebDev\HospitalAppl\bin\Debug\net6.0\Microsoft.CodeAnalysis.AnalyzerUtilities.dll
+D:\Programming\CodeBase\WebDev\HospitalAppl\bin\Debug\net6.0\Microsoft.CodeAnalysis.dll
+D:\Programming\CodeBase\WebDev\HospitalAppl\bin\Debug\net6.0\Microsoft.CodeAnalysis.CSharp.dll
+D:\Programming\CodeBase\WebDev\HospitalAppl\bin\Debug\net6.0\Microsoft.CodeAnalysis.CSharp.Features.dll
+D:\Programming\CodeBase\WebDev\HospitalAppl\bin\Debug\net6.0\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Programming\CodeBase\WebDev\HospitalAppl\bin\Debug\net6.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+D:\Programming\CodeBase\WebDev\HospitalAppl\bin\Debug\net6.0\Microsoft.CodeAnalysis.Features.dll
+D:\Programming\CodeBase\WebDev\HospitalAppl\bin\Debug\net6.0\Microsoft.CodeAnalysis.Razor.dll
+D:\Programming\CodeBase\WebDev\HospitalAppl\bin\Debug\net6.0\Microsoft.CodeAnalysis.Scripting.dll
+D:\Programming\CodeBase\WebDev\HospitalAppl\bin\Debug\net6.0\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Programming\CodeBase\WebDev\HospitalAppl\bin\Debug\net6.0\Microsoft.CodeAnalysis.VisualBasic.Features.dll
+D:\Programming\CodeBase\WebDev\HospitalAppl\bin\Debug\net6.0\Microsoft.CodeAnalysis.VisualBasic.Workspaces.dll
+D:\Programming\CodeBase\WebDev\HospitalAppl\bin\Debug\net6.0\Microsoft.CodeAnalysis.Workspaces.dll
+D:\Programming\CodeBase\WebDev\HospitalAppl\bin\Debug\net6.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
+D:\Programming\CodeBase\WebDev\HospitalAppl\bin\Debug\net6.0\Microsoft.DiaSymReader.dll
+D:\Programming\CodeBase\WebDev\HospitalAppl\bin\Debug\net6.0\Microsoft.DotNet.Scaffolding.Shared.dll
+D:\Programming\CodeBase\WebDev\HospitalAppl\bin\Debug\net6.0\Microsoft.NET.StringTools.dll
+D:\Programming\CodeBase\WebDev\HospitalAppl\bin\Debug\net6.0\Microsoft.VisualStudio.Debugger.Contracts.dll
+D:\Programming\CodeBase\WebDev\HospitalAppl\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.dll
+D:\Programming\CodeBase\WebDev\HospitalAppl\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+D:\Programming\CodeBase\WebDev\HospitalAppl\bin\Debug\net6.0\dotnet-aspnet-codegenerator-design.dll
+D:\Programming\CodeBase\WebDev\HospitalAppl\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+D:\Programming\CodeBase\WebDev\HospitalAppl\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+D:\Programming\CodeBase\WebDev\HospitalAppl\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+D:\Programming\CodeBase\WebDev\HospitalAppl\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+D:\Programming\CodeBase\WebDev\HospitalAppl\bin\Debug\net6.0\Newtonsoft.Json.dll
+D:\Programming\CodeBase\WebDev\HospitalAppl\bin\Debug\net6.0\NuGet.Common.dll
+D:\Programming\CodeBase\WebDev\HospitalAppl\bin\Debug\net6.0\NuGet.Configuration.dll
+D:\Programming\CodeBase\WebDev\HospitalAppl\bin\Debug\net6.0\NuGet.DependencyResolver.Core.dll
+D:\Programming\CodeBase\WebDev\HospitalAppl\bin\Debug\net6.0\NuGet.Frameworks.dll
+D:\Programming\CodeBase\WebDev\HospitalAppl\bin\Debug\net6.0\NuGet.LibraryModel.dll
+D:\Programming\CodeBase\WebDev\HospitalAppl\bin\Debug\net6.0\NuGet.Packaging.dll
+D:\Programming\CodeBase\WebDev\HospitalAppl\bin\Debug\net6.0\NuGet.ProjectModel.dll
+D:\Programming\CodeBase\WebDev\HospitalAppl\bin\Debug\net6.0\NuGet.Protocol.dll
+D:\Programming\CodeBase\WebDev\HospitalAppl\bin\Debug\net6.0\NuGet.Versioning.dll
+D:\Programming\CodeBase\WebDev\HospitalAppl\bin\Debug\net6.0\System.Composition.AttributedModel.dll
+D:\Programming\CodeBase\WebDev\HospitalAppl\bin\Debug\net6.0\System.Composition.Convention.dll
+D:\Programming\CodeBase\WebDev\HospitalAppl\bin\Debug\net6.0\System.Composition.Hosting.dll
+D:\Programming\CodeBase\WebDev\HospitalAppl\bin\Debug\net6.0\System.Composition.Runtime.dll
+D:\Programming\CodeBase\WebDev\HospitalAppl\bin\Debug\net6.0\System.Composition.TypedParts.dll
+D:\Programming\CodeBase\WebDev\HospitalAppl\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.resources.dll
+D:\Programming\CodeBase\WebDev\HospitalAppl\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.resources.dll
+D:\Programming\CodeBase\WebDev\HospitalAppl\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.resources.dll
+D:\Programming\CodeBase\WebDev\HospitalAppl\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.resources.dll
+D:\Programming\CodeBase\WebDev\HospitalAppl\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.resources.dll
+D:\Programming\CodeBase\WebDev\HospitalAppl\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.resources.dll
+D:\Programming\CodeBase\WebDev\HospitalAppl\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.resources.dll
+D:\Programming\CodeBase\WebDev\HospitalAppl\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.resources.dll
+D:\Programming\CodeBase\WebDev\HospitalAppl\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+D:\Programming\CodeBase\WebDev\HospitalAppl\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.resources.dll
+D:\Programming\CodeBase\WebDev\HospitalAppl\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.resources.dll
+D:\Programming\CodeBase\WebDev\HospitalAppl\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+D:\Programming\CodeBase\WebDev\HospitalAppl\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+D:\Programming\CodeBase\WebDev\HospitalAppl\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Programming\CodeBase\WebDev\HospitalAppl\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Programming\CodeBase\WebDev\HospitalAppl\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Programming\CodeBase\WebDev\HospitalAppl\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Programming\CodeBase\WebDev\HospitalAppl\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Programming\CodeBase\WebDev\HospitalAppl\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Programming\CodeBase\WebDev\HospitalAppl\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Programming\CodeBase\WebDev\HospitalAppl\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Programming\CodeBase\WebDev\HospitalAppl\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Programming\CodeBase\WebDev\HospitalAppl\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Programming\CodeBase\WebDev\HospitalAppl\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Programming\CodeBase\WebDev\HospitalAppl\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Programming\CodeBase\WebDev\HospitalAppl\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Programming\CodeBase\WebDev\HospitalAppl\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\Programming\CodeBase\WebDev\HospitalAppl\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\Programming\CodeBase\WebDev\HospitalAppl\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\Programming\CodeBase\WebDev\HospitalAppl\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\Programming\CodeBase\WebDev\HospitalAppl\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\Programming\CodeBase\WebDev\HospitalAppl\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\Programming\CodeBase\WebDev\HospitalAppl\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\Programming\CodeBase\WebDev\HospitalAppl\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\Programming\CodeBase\WebDev\HospitalAppl\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\Programming\CodeBase\WebDev\HospitalAppl\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\Programming\CodeBase\WebDev\HospitalAppl\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\Programming\CodeBase\WebDev\HospitalAppl\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\Programming\CodeBase\WebDev\HospitalAppl\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\Programming\CodeBase\WebDev\HospitalAppl\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+D:\Programming\CodeBase\WebDev\HospitalAppl\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+D:\Programming\CodeBase\WebDev\HospitalAppl\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+D:\Programming\CodeBase\WebDev\HospitalAppl\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+D:\Programming\CodeBase\WebDev\HospitalAppl\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+D:\Programming\CodeBase\WebDev\HospitalAppl\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+D:\Programming\CodeBase\WebDev\HospitalAppl\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+D:\Programming\CodeBase\WebDev\HospitalAppl\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+D:\Programming\CodeBase\WebDev\HospitalAppl\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+D:\Programming\CodeBase\WebDev\HospitalAppl\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+D:\Programming\CodeBase\WebDev\HospitalAppl\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+D:\Programming\CodeBase\WebDev\HospitalAppl\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+D:\Programming\CodeBase\WebDev\HospitalAppl\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+D:\Programming\CodeBase\WebDev\HospitalAppl\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Programming\CodeBase\WebDev\HospitalAppl\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Programming\CodeBase\WebDev\HospitalAppl\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Programming\CodeBase\WebDev\HospitalAppl\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Programming\CodeBase\WebDev\HospitalAppl\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Programming\CodeBase\WebDev\HospitalAppl\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Programming\CodeBase\WebDev\HospitalAppl\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Programming\CodeBase\WebDev\HospitalAppl\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Programming\CodeBase\WebDev\HospitalAppl\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Programming\CodeBase\WebDev\HospitalAppl\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Programming\CodeBase\WebDev\HospitalAppl\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Programming\CodeBase\WebDev\HospitalAppl\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Programming\CodeBase\WebDev\HospitalAppl\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Programming\CodeBase\WebDev\HospitalAppl\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.Features.resources.dll
+D:\Programming\CodeBase\WebDev\HospitalAppl\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.Features.resources.dll
+D:\Programming\CodeBase\WebDev\HospitalAppl\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.Features.resources.dll
+D:\Programming\CodeBase\WebDev\HospitalAppl\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.Features.resources.dll
+D:\Programming\CodeBase\WebDev\HospitalAppl\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.Features.resources.dll
+D:\Programming\CodeBase\WebDev\HospitalAppl\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.Features.resources.dll
+D:\Programming\CodeBase\WebDev\HospitalAppl\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.Features.resources.dll
+D:\Programming\CodeBase\WebDev\HospitalAppl\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.Features.resources.dll
+D:\Programming\CodeBase\WebDev\HospitalAppl\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.Features.resources.dll
+D:\Programming\CodeBase\WebDev\HospitalAppl\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.Features.resources.dll
+D:\Programming\CodeBase\WebDev\HospitalAppl\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.Features.resources.dll
+D:\Programming\CodeBase\WebDev\HospitalAppl\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.Features.resources.dll
+D:\Programming\CodeBase\WebDev\HospitalAppl\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.Features.resources.dll
+D:\Programming\CodeBase\WebDev\HospitalAppl\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\Programming\CodeBase\WebDev\HospitalAppl\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\Programming\CodeBase\WebDev\HospitalAppl\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\Programming\CodeBase\WebDev\HospitalAppl\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\Programming\CodeBase\WebDev\HospitalAppl\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\Programming\CodeBase\WebDev\HospitalAppl\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\Programming\CodeBase\WebDev\HospitalAppl\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\Programming\CodeBase\WebDev\HospitalAppl\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\Programming\CodeBase\WebDev\HospitalAppl\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\Programming\CodeBase\WebDev\HospitalAppl\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\Programming\CodeBase\WebDev\HospitalAppl\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\Programming\CodeBase\WebDev\HospitalAppl\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\Programming\CodeBase\WebDev\HospitalAppl\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\Programming\CodeBase\WebDev\HospitalAppl\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+D:\Programming\CodeBase\WebDev\HospitalAppl\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+D:\Programming\CodeBase\WebDev\HospitalAppl\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+D:\Programming\CodeBase\WebDev\HospitalAppl\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+D:\Programming\CodeBase\WebDev\HospitalAppl\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+D:\Programming\CodeBase\WebDev\HospitalAppl\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+D:\Programming\CodeBase\WebDev\HospitalAppl\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+D:\Programming\CodeBase\WebDev\HospitalAppl\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+D:\Programming\CodeBase\WebDev\HospitalAppl\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+D:\Programming\CodeBase\WebDev\HospitalAppl\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+D:\Programming\CodeBase\WebDev\HospitalAppl\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+D:\Programming\CodeBase\WebDev\HospitalAppl\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+D:\Programming\CodeBase\WebDev\HospitalAppl\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+D:\Programming\CodeBase\WebDev\HospitalAppl\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+D:\Programming\CodeBase\WebDev\HospitalAppl\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+D:\Programming\CodeBase\WebDev\HospitalAppl\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+D:\Programming\CodeBase\WebDev\HospitalAppl\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+D:\Programming\CodeBase\WebDev\HospitalAppl\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+D:\Programming\CodeBase\WebDev\HospitalAppl\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+D:\Programming\CodeBase\WebDev\HospitalAppl\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+D:\Programming\CodeBase\WebDev\HospitalAppl\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+D:\Programming\CodeBase\WebDev\HospitalAppl\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+D:\Programming\CodeBase\WebDev\HospitalAppl\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+D:\Programming\CodeBase\WebDev\HospitalAppl\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+D:\Programming\CodeBase\WebDev\HospitalAppl\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+D:\Programming\CodeBase\WebDev\HospitalAppl\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+D:\Programming\CodeBase\WebDev\HospitalAppl\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+D:\Programming\CodeBase\WebDev\HospitalAppl\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+D:\Programming\CodeBase\WebDev\HospitalAppl\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+D:\Programming\CodeBase\WebDev\HospitalAppl\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+D:\Programming\CodeBase\WebDev\HospitalAppl\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+D:\Programming\CodeBase\WebDev\HospitalAppl\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+D:\Programming\CodeBase\WebDev\HospitalAppl\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+D:\Programming\CodeBase\WebDev\HospitalAppl\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+D:\Programming\CodeBase\WebDev\HospitalAppl\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+D:\Programming\CodeBase\WebDev\HospitalAppl\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+D:\Programming\CodeBase\WebDev\HospitalAppl\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+D:\Programming\CodeBase\WebDev\HospitalAppl\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+D:\Programming\CodeBase\WebDev\HospitalAppl\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+D:\Programming\CodeBase\WebDev\HospitalAppl\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Programming\CodeBase\WebDev\HospitalAppl\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Programming\CodeBase\WebDev\HospitalAppl\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Programming\CodeBase\WebDev\HospitalAppl\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Programming\CodeBase\WebDev\HospitalAppl\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Programming\CodeBase\WebDev\HospitalAppl\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Programming\CodeBase\WebDev\HospitalAppl\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Programming\CodeBase\WebDev\HospitalAppl\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Programming\CodeBase\WebDev\HospitalAppl\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Programming\CodeBase\WebDev\HospitalAppl\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Programming\CodeBase\WebDev\HospitalAppl\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Programming\CodeBase\WebDev\HospitalAppl\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Programming\CodeBase\WebDev\HospitalAppl\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Programming\CodeBase\WebDev\HospitalAppl\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\Programming\CodeBase\WebDev\HospitalAppl\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\Programming\CodeBase\WebDev\HospitalAppl\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\Programming\CodeBase\WebDev\HospitalAppl\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\Programming\CodeBase\WebDev\HospitalAppl\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\Programming\CodeBase\WebDev\HospitalAppl\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\Programming\CodeBase\WebDev\HospitalAppl\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\Programming\CodeBase\WebDev\HospitalAppl\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\Programming\CodeBase\WebDev\HospitalAppl\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\Programming\CodeBase\WebDev\HospitalAppl\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\Programming\CodeBase\WebDev\HospitalAppl\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\Programming\CodeBase\WebDev\HospitalAppl\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\Programming\CodeBase\WebDev\HospitalAppl\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\Programming\CodeBase\WebDev\HospitalAppl\bin\Debug\net6.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\Programming\CodeBase\WebDev\HospitalAppl\bin\Debug\net6.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+D:\Programming\CodeBase\WebDev\HospitalAppl\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+D:\Programming\CodeBase\WebDev\HospitalAppl\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\Programming\CodeBase\WebDev\HospitalAppl\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+D:\Programming\CodeBase\WebDev\HospitalAppl\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\Programming\CodeBase\WebDev\HospitalAppl\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\Programming\CodeBase\WebDev\HospitalAppl\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+D:\Programming\CodeBase\WebDev\HospitalAppl\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.UI.dll
+D:\Programming\CodeBase\WebDev\HospitalAppl\bin\Debug\net6.0\Microsoft.Extensions.FileProviders.Embedded.dll
+D:\Programming\CodeBase\WebDev\HospitalAppl\bin\Debug\net6.0\Microsoft.Extensions.Identity.Core.dll
+D:\Programming\CodeBase\WebDev\HospitalAppl\bin\Debug\net6.0\Microsoft.Extensions.Identity.Stores.dll
+D:\Programming\CodeBase\WebDev\HospitalAppl\obj\Debug\net6.0\HospitalAppl.MvcApplicationPartsAssemblyInfo.cs
+D:\CUFE\CMP-02\Database Management Systems\Project\HospitalApplV2\HospitalAppl\bin\Debug\net6.0\appsettings.Development.json
+D:\CUFE\CMP-02\Database Management Systems\Project\HospitalApplV2\HospitalAppl\bin\Debug\net6.0\appsettings.json
+D:\CUFE\CMP-02\Database Management Systems\Project\HospitalApplV2\HospitalAppl\bin\Debug\net6.0\HospitalAppl.staticwebassets.runtime.json
+D:\CUFE\CMP-02\Database Management Systems\Project\HospitalApplV2\HospitalAppl\bin\Debug\net6.0\HospitalAppl.exe
+D:\CUFE\CMP-02\Database Management Systems\Project\HospitalApplV2\HospitalAppl\bin\Debug\net6.0\HospitalAppl.deps.json
+D:\CUFE\CMP-02\Database Management Systems\Project\HospitalApplV2\HospitalAppl\bin\Debug\net6.0\HospitalAppl.runtimeconfig.json
+D:\CUFE\CMP-02\Database Management Systems\Project\HospitalApplV2\HospitalAppl\bin\Debug\net6.0\HospitalAppl.dll
+D:\CUFE\CMP-02\Database Management Systems\Project\HospitalApplV2\HospitalAppl\bin\Debug\net6.0\HospitalAppl.pdb
+D:\CUFE\CMP-02\Database Management Systems\Project\HospitalApplV2\HospitalAppl\bin\Debug\net6.0\Humanizer.dll
+D:\CUFE\CMP-02\Database Management Systems\Project\HospitalApplV2\HospitalAppl\bin\Debug\net6.0\MessagePack.dll
+D:\CUFE\CMP-02\Database Management Systems\Project\HospitalApplV2\HospitalAppl\bin\Debug\net6.0\MessagePack.Annotations.dll
+D:\CUFE\CMP-02\Database Management Systems\Project\HospitalApplV2\HospitalAppl\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\CUFE\CMP-02\Database Management Systems\Project\HospitalApplV2\HospitalAppl\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\CUFE\CMP-02\Database Management Systems\Project\HospitalApplV2\HospitalAppl\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+D:\CUFE\CMP-02\Database Management Systems\Project\HospitalApplV2\HospitalAppl\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.UI.dll
+D:\CUFE\CMP-02\Database Management Systems\Project\HospitalApplV2\HospitalAppl\bin\Debug\net6.0\Microsoft.AspNetCore.Razor.Language.dll
+D:\CUFE\CMP-02\Database Management Systems\Project\HospitalApplV2\HospitalAppl\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\CUFE\CMP-02\Database Management Systems\Project\HospitalApplV2\HospitalAppl\bin\Debug\net6.0\Microsoft.Build.dll
+D:\CUFE\CMP-02\Database Management Systems\Project\HospitalApplV2\HospitalAppl\bin\Debug\net6.0\Microsoft.Build.Framework.dll
+D:\CUFE\CMP-02\Database Management Systems\Project\HospitalApplV2\HospitalAppl\bin\Debug\net6.0\Microsoft.CodeAnalysis.AnalyzerUtilities.dll
+D:\CUFE\CMP-02\Database Management Systems\Project\HospitalApplV2\HospitalAppl\bin\Debug\net6.0\Microsoft.CodeAnalysis.dll
+D:\CUFE\CMP-02\Database Management Systems\Project\HospitalApplV2\HospitalAppl\bin\Debug\net6.0\Microsoft.CodeAnalysis.CSharp.dll
+D:\CUFE\CMP-02\Database Management Systems\Project\HospitalApplV2\HospitalAppl\bin\Debug\net6.0\Microsoft.CodeAnalysis.CSharp.Features.dll
+D:\CUFE\CMP-02\Database Management Systems\Project\HospitalApplV2\HospitalAppl\bin\Debug\net6.0\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\CUFE\CMP-02\Database Management Systems\Project\HospitalApplV2\HospitalAppl\bin\Debug\net6.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+D:\CUFE\CMP-02\Database Management Systems\Project\HospitalApplV2\HospitalAppl\bin\Debug\net6.0\Microsoft.CodeAnalysis.Features.dll
+D:\CUFE\CMP-02\Database Management Systems\Project\HospitalApplV2\HospitalAppl\bin\Debug\net6.0\Microsoft.CodeAnalysis.Razor.dll
+D:\CUFE\CMP-02\Database Management Systems\Project\HospitalApplV2\HospitalAppl\bin\Debug\net6.0\Microsoft.CodeAnalysis.Scripting.dll
+D:\CUFE\CMP-02\Database Management Systems\Project\HospitalApplV2\HospitalAppl\bin\Debug\net6.0\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\CUFE\CMP-02\Database Management Systems\Project\HospitalApplV2\HospitalAppl\bin\Debug\net6.0\Microsoft.CodeAnalysis.VisualBasic.Features.dll
+D:\CUFE\CMP-02\Database Management Systems\Project\HospitalApplV2\HospitalAppl\bin\Debug\net6.0\Microsoft.CodeAnalysis.VisualBasic.Workspaces.dll
+D:\CUFE\CMP-02\Database Management Systems\Project\HospitalApplV2\HospitalAppl\bin\Debug\net6.0\Microsoft.CodeAnalysis.Workspaces.dll
+D:\CUFE\CMP-02\Database Management Systems\Project\HospitalApplV2\HospitalAppl\bin\Debug\net6.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
+D:\CUFE\CMP-02\Database Management Systems\Project\HospitalApplV2\HospitalAppl\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+D:\CUFE\CMP-02\Database Management Systems\Project\HospitalApplV2\HospitalAppl\bin\Debug\net6.0\Microsoft.DiaSymReader.dll
+D:\CUFE\CMP-02\Database Management Systems\Project\HospitalApplV2\HospitalAppl\bin\Debug\net6.0\Microsoft.DotNet.Scaffolding.Shared.dll
+D:\CUFE\CMP-02\Database Management Systems\Project\HospitalApplV2\HospitalAppl\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+D:\CUFE\CMP-02\Database Management Systems\Project\HospitalApplV2\HospitalAppl\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\CUFE\CMP-02\Database Management Systems\Project\HospitalApplV2\HospitalAppl\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\CUFE\CMP-02\Database Management Systems\Project\HospitalApplV2\HospitalAppl\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\CUFE\CMP-02\Database Management Systems\Project\HospitalApplV2\HospitalAppl\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\CUFE\CMP-02\Database Management Systems\Project\HospitalApplV2\HospitalAppl\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+D:\CUFE\CMP-02\Database Management Systems\Project\HospitalApplV2\HospitalAppl\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+D:\CUFE\CMP-02\Database Management Systems\Project\HospitalApplV2\HospitalAppl\bin\Debug\net6.0\Microsoft.Extensions.FileProviders.Embedded.dll
+D:\CUFE\CMP-02\Database Management Systems\Project\HospitalApplV2\HospitalAppl\bin\Debug\net6.0\Microsoft.Extensions.Identity.Core.dll
+D:\CUFE\CMP-02\Database Management Systems\Project\HospitalApplV2\HospitalAppl\bin\Debug\net6.0\Microsoft.Extensions.Identity.Stores.dll
+D:\CUFE\CMP-02\Database Management Systems\Project\HospitalApplV2\HospitalAppl\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+D:\CUFE\CMP-02\Database Management Systems\Project\HospitalApplV2\HospitalAppl\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\CUFE\CMP-02\Database Management Systems\Project\HospitalApplV2\HospitalAppl\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+D:\CUFE\CMP-02\Database Management Systems\Project\HospitalApplV2\HospitalAppl\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+D:\CUFE\CMP-02\Database Management Systems\Project\HospitalApplV2\HospitalAppl\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\CUFE\CMP-02\Database Management Systems\Project\HospitalApplV2\HospitalAppl\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+D:\CUFE\CMP-02\Database Management Systems\Project\HospitalApplV2\HospitalAppl\bin\Debug\net6.0\Microsoft.NET.StringTools.dll
+D:\CUFE\CMP-02\Database Management Systems\Project\HospitalApplV2\HospitalAppl\bin\Debug\net6.0\Microsoft.VisualStudio.Debugger.Contracts.dll
+D:\CUFE\CMP-02\Database Management Systems\Project\HospitalApplV2\HospitalAppl\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.dll
+D:\CUFE\CMP-02\Database Management Systems\Project\HospitalApplV2\HospitalAppl\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+D:\CUFE\CMP-02\Database Management Systems\Project\HospitalApplV2\HospitalAppl\bin\Debug\net6.0\dotnet-aspnet-codegenerator-design.dll
+D:\CUFE\CMP-02\Database Management Systems\Project\HospitalApplV2\HospitalAppl\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+D:\CUFE\CMP-02\Database Management Systems\Project\HospitalApplV2\HospitalAppl\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+D:\CUFE\CMP-02\Database Management Systems\Project\HospitalApplV2\HospitalAppl\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+D:\CUFE\CMP-02\Database Management Systems\Project\HospitalApplV2\HospitalAppl\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+D:\CUFE\CMP-02\Database Management Systems\Project\HospitalApplV2\HospitalAppl\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\CUFE\CMP-02\Database Management Systems\Project\HospitalApplV2\HospitalAppl\bin\Debug\net6.0\Newtonsoft.Json.dll
+D:\CUFE\CMP-02\Database Management Systems\Project\HospitalApplV2\HospitalAppl\bin\Debug\net6.0\NuGet.Common.dll
+D:\CUFE\CMP-02\Database Management Systems\Project\HospitalApplV2\HospitalAppl\bin\Debug\net6.0\NuGet.Configuration.dll
+D:\CUFE\CMP-02\Database Management Systems\Project\HospitalApplV2\HospitalAppl\bin\Debug\net6.0\NuGet.DependencyResolver.Core.dll
+D:\CUFE\CMP-02\Database Management Systems\Project\HospitalApplV2\HospitalAppl\bin\Debug\net6.0\NuGet.Frameworks.dll
+D:\CUFE\CMP-02\Database Management Systems\Project\HospitalApplV2\HospitalAppl\bin\Debug\net6.0\NuGet.LibraryModel.dll
+D:\CUFE\CMP-02\Database Management Systems\Project\HospitalApplV2\HospitalAppl\bin\Debug\net6.0\NuGet.Packaging.dll
+D:\CUFE\CMP-02\Database Management Systems\Project\HospitalApplV2\HospitalAppl\bin\Debug\net6.0\NuGet.ProjectModel.dll
+D:\CUFE\CMP-02\Database Management Systems\Project\HospitalApplV2\HospitalAppl\bin\Debug\net6.0\NuGet.Protocol.dll
+D:\CUFE\CMP-02\Database Management Systems\Project\HospitalApplV2\HospitalAppl\bin\Debug\net6.0\NuGet.Versioning.dll
+D:\CUFE\CMP-02\Database Management Systems\Project\HospitalApplV2\HospitalAppl\bin\Debug\net6.0\System.Composition.AttributedModel.dll
+D:\CUFE\CMP-02\Database Management Systems\Project\HospitalApplV2\HospitalAppl\bin\Debug\net6.0\System.Composition.Convention.dll
+D:\CUFE\CMP-02\Database Management Systems\Project\HospitalApplV2\HospitalAppl\bin\Debug\net6.0\System.Composition.Hosting.dll
+D:\CUFE\CMP-02\Database Management Systems\Project\HospitalApplV2\HospitalAppl\bin\Debug\net6.0\System.Composition.Runtime.dll
+D:\CUFE\CMP-02\Database Management Systems\Project\HospitalApplV2\HospitalAppl\bin\Debug\net6.0\System.Composition.TypedParts.dll
+D:\CUFE\CMP-02\Database Management Systems\Project\HospitalApplV2\HospitalAppl\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+D:\CUFE\CMP-02\Database Management Systems\Project\HospitalApplV2\HospitalAppl\bin\Debug\net6.0\System.Drawing.Common.dll
+D:\CUFE\CMP-02\Database Management Systems\Project\HospitalApplV2\HospitalAppl\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+D:\CUFE\CMP-02\Database Management Systems\Project\HospitalApplV2\HospitalAppl\bin\Debug\net6.0\System.Runtime.Caching.dll
+D:\CUFE\CMP-02\Database Management Systems\Project\HospitalApplV2\HospitalAppl\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\CUFE\CMP-02\Database Management Systems\Project\HospitalApplV2\HospitalAppl\bin\Debug\net6.0\System.Security.Permissions.dll
+D:\CUFE\CMP-02\Database Management Systems\Project\HospitalApplV2\HospitalAppl\bin\Debug\net6.0\System.Windows.Extensions.dll
+D:\CUFE\CMP-02\Database Management Systems\Project\HospitalApplV2\HospitalAppl\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\Project\HospitalApplV2\HospitalAppl\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\Project\HospitalApplV2\HospitalAppl\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\Project\HospitalApplV2\HospitalAppl\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\Project\HospitalApplV2\HospitalAppl\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\Project\HospitalApplV2\HospitalAppl\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\Project\HospitalApplV2\HospitalAppl\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\Project\HospitalApplV2\HospitalAppl\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\Project\HospitalApplV2\HospitalAppl\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\Project\HospitalApplV2\HospitalAppl\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\Project\HospitalApplV2\HospitalAppl\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\Project\HospitalApplV2\HospitalAppl\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\Project\HospitalApplV2\HospitalAppl\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\Project\HospitalApplV2\HospitalAppl\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\Project\HospitalApplV2\HospitalAppl\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\Project\HospitalApplV2\HospitalAppl\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\Project\HospitalApplV2\HospitalAppl\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\Project\HospitalApplV2\HospitalAppl\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\Project\HospitalApplV2\HospitalAppl\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\Project\HospitalApplV2\HospitalAppl\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\Project\HospitalApplV2\HospitalAppl\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\Project\HospitalApplV2\HospitalAppl\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\Project\HospitalApplV2\HospitalAppl\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\Project\HospitalApplV2\HospitalAppl\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\Project\HospitalApplV2\HospitalAppl\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\Project\HospitalApplV2\HospitalAppl\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\Project\HospitalApplV2\HospitalAppl\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\Project\HospitalApplV2\HospitalAppl\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\Project\HospitalApplV2\HospitalAppl\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\Project\HospitalApplV2\HospitalAppl\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\Project\HospitalApplV2\HospitalAppl\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\Project\HospitalApplV2\HospitalAppl\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\Project\HospitalApplV2\HospitalAppl\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\Project\HospitalApplV2\HospitalAppl\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\Project\HospitalApplV2\HospitalAppl\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\Project\HospitalApplV2\HospitalAppl\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\Project\HospitalApplV2\HospitalAppl\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\Project\HospitalApplV2\HospitalAppl\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\Project\HospitalApplV2\HospitalAppl\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\Project\HospitalApplV2\HospitalAppl\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\Project\HospitalApplV2\HospitalAppl\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\Project\HospitalApplV2\HospitalAppl\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\Project\HospitalApplV2\HospitalAppl\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\Project\HospitalApplV2\HospitalAppl\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\Project\HospitalApplV2\HospitalAppl\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\Project\HospitalApplV2\HospitalAppl\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\Project\HospitalApplV2\HospitalAppl\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\Project\HospitalApplV2\HospitalAppl\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\Project\HospitalApplV2\HospitalAppl\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\Project\HospitalApplV2\HospitalAppl\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\Project\HospitalApplV2\HospitalAppl\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\Project\HospitalApplV2\HospitalAppl\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\Project\HospitalApplV2\HospitalAppl\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\Project\HospitalApplV2\HospitalAppl\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\Project\HospitalApplV2\HospitalAppl\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\Project\HospitalApplV2\HospitalAppl\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\Project\HospitalApplV2\HospitalAppl\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\Project\HospitalApplV2\HospitalAppl\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\Project\HospitalApplV2\HospitalAppl\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\Project\HospitalApplV2\HospitalAppl\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\Project\HospitalApplV2\HospitalAppl\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\Project\HospitalApplV2\HospitalAppl\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\Project\HospitalApplV2\HospitalAppl\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\Project\HospitalApplV2\HospitalAppl\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\Project\HospitalApplV2\HospitalAppl\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\Project\HospitalApplV2\HospitalAppl\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.Features.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\Project\HospitalApplV2\HospitalAppl\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.Features.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\Project\HospitalApplV2\HospitalAppl\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.Features.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\Project\HospitalApplV2\HospitalAppl\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.Features.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\Project\HospitalApplV2\HospitalAppl\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.Features.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\Project\HospitalApplV2\HospitalAppl\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.Features.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\Project\HospitalApplV2\HospitalAppl\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.Features.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\Project\HospitalApplV2\HospitalAppl\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.Features.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\Project\HospitalApplV2\HospitalAppl\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.Features.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\Project\HospitalApplV2\HospitalAppl\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.Features.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\Project\HospitalApplV2\HospitalAppl\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.Features.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\Project\HospitalApplV2\HospitalAppl\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.Features.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\Project\HospitalApplV2\HospitalAppl\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.Features.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\Project\HospitalApplV2\HospitalAppl\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\Project\HospitalApplV2\HospitalAppl\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\Project\HospitalApplV2\HospitalAppl\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\Project\HospitalApplV2\HospitalAppl\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\Project\HospitalApplV2\HospitalAppl\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\Project\HospitalApplV2\HospitalAppl\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\Project\HospitalApplV2\HospitalAppl\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\Project\HospitalApplV2\HospitalAppl\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\Project\HospitalApplV2\HospitalAppl\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\Project\HospitalApplV2\HospitalAppl\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\Project\HospitalApplV2\HospitalAppl\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\Project\HospitalApplV2\HospitalAppl\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\Project\HospitalApplV2\HospitalAppl\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\Project\HospitalApplV2\HospitalAppl\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\Project\HospitalApplV2\HospitalAppl\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\Project\HospitalApplV2\HospitalAppl\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\Project\HospitalApplV2\HospitalAppl\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\Project\HospitalApplV2\HospitalAppl\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\Project\HospitalApplV2\HospitalAppl\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\Project\HospitalApplV2\HospitalAppl\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\Project\HospitalApplV2\HospitalAppl\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\Project\HospitalApplV2\HospitalAppl\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\Project\HospitalApplV2\HospitalAppl\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\Project\HospitalApplV2\HospitalAppl\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\Project\HospitalApplV2\HospitalAppl\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\Project\HospitalApplV2\HospitalAppl\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\Project\HospitalApplV2\HospitalAppl\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\Project\HospitalApplV2\HospitalAppl\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\Project\HospitalApplV2\HospitalAppl\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\Project\HospitalApplV2\HospitalAppl\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\Project\HospitalApplV2\HospitalAppl\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\Project\HospitalApplV2\HospitalAppl\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\Project\HospitalApplV2\HospitalAppl\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\Project\HospitalApplV2\HospitalAppl\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\Project\HospitalApplV2\HospitalAppl\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\Project\HospitalApplV2\HospitalAppl\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\Project\HospitalApplV2\HospitalAppl\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\Project\HospitalApplV2\HospitalAppl\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\Project\HospitalApplV2\HospitalAppl\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\Project\HospitalApplV2\HospitalAppl\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\Project\HospitalApplV2\HospitalAppl\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\Project\HospitalApplV2\HospitalAppl\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\Project\HospitalApplV2\HospitalAppl\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\Project\HospitalApplV2\HospitalAppl\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\Project\HospitalApplV2\HospitalAppl\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\Project\HospitalApplV2\HospitalAppl\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\Project\HospitalApplV2\HospitalAppl\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\Project\HospitalApplV2\HospitalAppl\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\Project\HospitalApplV2\HospitalAppl\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\Project\HospitalApplV2\HospitalAppl\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\Project\HospitalApplV2\HospitalAppl\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\Project\HospitalApplV2\HospitalAppl\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\Project\HospitalApplV2\HospitalAppl\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\Project\HospitalApplV2\HospitalAppl\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\Project\HospitalApplV2\HospitalAppl\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\Project\HospitalApplV2\HospitalAppl\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\Project\HospitalApplV2\HospitalAppl\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\Project\HospitalApplV2\HospitalAppl\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\Project\HospitalApplV2\HospitalAppl\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\Project\HospitalApplV2\HospitalAppl\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\Project\HospitalApplV2\HospitalAppl\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\Project\HospitalApplV2\HospitalAppl\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\Project\HospitalApplV2\HospitalAppl\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\Project\HospitalApplV2\HospitalAppl\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\Project\HospitalApplV2\HospitalAppl\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\Project\HospitalApplV2\HospitalAppl\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\Project\HospitalApplV2\HospitalAppl\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\Project\HospitalApplV2\HospitalAppl\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\Project\HospitalApplV2\HospitalAppl\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\Project\HospitalApplV2\HospitalAppl\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\Project\HospitalApplV2\HospitalAppl\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\Project\HospitalApplV2\HospitalAppl\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\Project\HospitalApplV2\HospitalAppl\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\Project\HospitalApplV2\HospitalAppl\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\Project\HospitalApplV2\HospitalAppl\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\Project\HospitalApplV2\HospitalAppl\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\Project\HospitalApplV2\HospitalAppl\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\Project\HospitalApplV2\HospitalAppl\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\Project\HospitalApplV2\HospitalAppl\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\CUFE\CMP-02\Database Management Systems\Project\HospitalApplV2\HospitalAppl\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\CUFE\CMP-02\Database Management Systems\Project\HospitalApplV2\HospitalAppl\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\CUFE\CMP-02\Database Management Systems\Project\HospitalApplV2\HospitalAppl\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\CUFE\CMP-02\Database Management Systems\Project\HospitalApplV2\HospitalAppl\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\CUFE\CMP-02\Database Management Systems\Project\HospitalApplV2\HospitalAppl\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\CUFE\CMP-02\Database Management Systems\Project\HospitalApplV2\HospitalAppl\bin\Debug\net6.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\CUFE\CMP-02\Database Management Systems\Project\HospitalApplV2\HospitalAppl\bin\Debug\net6.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+D:\CUFE\CMP-02\Database Management Systems\Project\HospitalApplV2\HospitalAppl\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+D:\CUFE\CMP-02\Database Management Systems\Project\HospitalApplV2\HospitalAppl\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+D:\CUFE\CMP-02\Database Management Systems\Project\HospitalApplV2\HospitalAppl\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\CUFE\CMP-02\Database Management Systems\Project\HospitalApplV2\HospitalAppl\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+D:\CUFE\CMP-02\Database Management Systems\Project\HospitalApplV2\HospitalAppl\obj\Debug\net6.0\HospitalAppl.csproj.AssemblyReference.cache
+D:\CUFE\CMP-02\Database Management Systems\Project\HospitalApplV2\HospitalAppl\obj\Debug\net6.0\HospitalAppl.GeneratedMSBuildEditorConfig.editorconfig
+D:\CUFE\CMP-02\Database Management Systems\Project\HospitalApplV2\HospitalAppl\obj\Debug\net6.0\HospitalAppl.AssemblyInfoInputs.cache
+D:\CUFE\CMP-02\Database Management Systems\Project\HospitalApplV2\HospitalAppl\obj\Debug\net6.0\HospitalAppl.AssemblyInfo.cs
+D:\CUFE\CMP-02\Database Management Systems\Project\HospitalApplV2\HospitalAppl\obj\Debug\net6.0\HospitalAppl.csproj.CoreCompileInputs.cache
+D:\CUFE\CMP-02\Database Management Systems\Project\HospitalApplV2\HospitalAppl\obj\Debug\net6.0\HospitalAppl.MvcApplicationPartsAssemblyInfo.cs
+D:\CUFE\CMP-02\Database Management Systems\Project\HospitalApplV2\HospitalAppl\obj\Debug\net6.0\HospitalAppl.MvcApplicationPartsAssemblyInfo.cache
+D:\CUFE\CMP-02\Database Management Systems\Project\HospitalApplV2\HospitalAppl\obj\Debug\net6.0\HospitalAppl.RazorAssemblyInfo.cache
+D:\CUFE\CMP-02\Database Management Systems\Project\HospitalApplV2\HospitalAppl\obj\Debug\net6.0\HospitalAppl.RazorAssemblyInfo.cs
+D:\CUFE\CMP-02\Database Management Systems\Project\HospitalApplV2\HospitalAppl\obj\Debug\net6.0\staticwebassets.build.json
+D:\CUFE\CMP-02\Database Management Systems\Project\HospitalApplV2\HospitalAppl\obj\Debug\net6.0\staticwebassets.development.json
+D:\CUFE\CMP-02\Database Management Systems\Project\HospitalApplV2\HospitalAppl\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+D:\CUFE\CMP-02\Database Management Systems\Project\HospitalApplV2\HospitalAppl\obj\Debug\net6.0\scopedcss\bundle\HospitalAppl.styles.css
+D:\CUFE\CMP-02\Database Management Systems\Project\HospitalApplV2\HospitalAppl\obj\Debug\net6.0\scopedcss\projectbundle\HospitalAppl.bundle.scp.css
+D:\CUFE\CMP-02\Database Management Systems\Project\HospitalApplV2\HospitalAppl\obj\Debug\net6.0\HospitalAppl.csproj.CopyComplete
+D:\CUFE\CMP-02\Database Management Systems\Project\HospitalApplV2\HospitalAppl\obj\Debug\net6.0\HospitalAppl.dll
+D:\CUFE\CMP-02\Database Management Systems\Project\HospitalApplV2\HospitalAppl\obj\Debug\net6.0\refint\HospitalAppl.dll
+D:\CUFE\CMP-02\Database Management Systems\Project\HospitalApplV2\HospitalAppl\obj\Debug\net6.0\HospitalAppl.pdb
+D:\CUFE\CMP-02\Database Management Systems\Project\HospitalApplV2\HospitalAppl\obj\Debug\net6.0\HospitalAppl.genruntimeconfig.cache
+D:\CUFE\CMP-02\Database Management Systems\Project\HospitalApplV2\HospitalAppl\obj\Debug\net6.0\ref\HospitalAppl.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\appsettings.Development.json
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\appsettings.json
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\HospitalAppl.staticwebassets.runtime.json
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\HospitalAppl.exe
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\HospitalAppl.deps.json
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\HospitalAppl.runtimeconfig.json
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\HospitalAppl.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\HospitalAppl.pdb
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\Humanizer.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\MessagePack.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\MessagePack.Annotations.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.UI.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\Microsoft.AspNetCore.Razor.Language.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\Microsoft.Build.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\Microsoft.Build.Framework.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\Microsoft.CodeAnalysis.AnalyzerUtilities.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\Microsoft.CodeAnalysis.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\Microsoft.CodeAnalysis.CSharp.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\Microsoft.CodeAnalysis.CSharp.Features.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\Microsoft.CodeAnalysis.Features.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\Microsoft.CodeAnalysis.Razor.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\Microsoft.CodeAnalysis.Scripting.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\Microsoft.CodeAnalysis.VisualBasic.Features.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\Microsoft.CodeAnalysis.VisualBasic.Workspaces.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\Microsoft.CodeAnalysis.Workspaces.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\Microsoft.DiaSymReader.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\Microsoft.DotNet.Scaffolding.Shared.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\Microsoft.Extensions.FileProviders.Embedded.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\Microsoft.Extensions.Identity.Core.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\Microsoft.Extensions.Identity.Stores.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\Microsoft.NET.StringTools.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\Microsoft.VisualStudio.Debugger.Contracts.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\dotnet-aspnet-codegenerator-design.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\Newtonsoft.Json.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\NuGet.Common.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\NuGet.Configuration.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\NuGet.DependencyResolver.Core.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\NuGet.Frameworks.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\NuGet.LibraryModel.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\NuGet.Packaging.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\NuGet.ProjectModel.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\NuGet.Protocol.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\NuGet.Versioning.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\System.Composition.AttributedModel.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\System.Composition.Convention.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\System.Composition.Hosting.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\System.Composition.Runtime.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\System.Composition.TypedParts.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\System.Drawing.Common.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\System.Runtime.Caching.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\System.Security.Permissions.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\System.Windows.Extensions.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.resources.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.resources.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.resources.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.resources.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.resources.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.resources.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.resources.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.resources.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.resources.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.resources.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.Features.resources.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.Features.resources.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.Features.resources.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.Features.resources.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.Features.resources.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.Features.resources.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.Features.resources.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.Features.resources.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.Features.resources.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.Features.resources.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.Features.resources.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.Features.resources.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.Features.resources.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\obj\Debug\net6.0\HospitalAppl.csproj.AssemblyReference.cache
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\obj\Debug\net6.0\HospitalAppl.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\obj\Debug\net6.0\HospitalAppl.AssemblyInfoInputs.cache
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\obj\Debug\net6.0\HospitalAppl.AssemblyInfo.cs
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\obj\Debug\net6.0\HospitalAppl.csproj.CoreCompileInputs.cache
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\obj\Debug\net6.0\HospitalAppl.MvcApplicationPartsAssemblyInfo.cs
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\obj\Debug\net6.0\HospitalAppl.MvcApplicationPartsAssemblyInfo.cache
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\obj\Debug\net6.0\HospitalAppl.RazorAssemblyInfo.cache
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\obj\Debug\net6.0\HospitalAppl.RazorAssemblyInfo.cs
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\obj\Debug\net6.0\staticwebassets.build.json
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\obj\Debug\net6.0\staticwebassets.development.json
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\obj\Debug\net6.0\scopedcss\bundle\HospitalAppl.styles.css
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\obj\Debug\net6.0\scopedcss\projectbundle\HospitalAppl.bundle.scp.css
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\obj\Debug\net6.0\HospitalAppl.csproj.CopyComplete
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\obj\Debug\net6.0\HospitalAppl.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\obj\Debug\net6.0\refint\HospitalAppl.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\obj\Debug\net6.0\HospitalAppl.pdb
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\obj\Debug\net6.0\HospitalAppl.genruntimeconfig.cache
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\obj\Debug\net6.0\ref\HospitalAppl.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\Microsoft.ReportViewer.Common.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\Microsoft.ReportViewer.DataVisualization.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\Microsoft.ReportViewer.NETCore.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\Microsoft.ReportViewer.ProcessingObjectModel.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\System.CodeDom.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\System.IO.Packaging.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\System.Resources.Extensions.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\Microsoft.ReportViewer.Design.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\Microsoft.ReportViewer.WebDesign.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\Microsoft.ReportViewer.WebForms.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\Microsoft.ReportViewer.WinForms.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\Microsoft.SqlServer.Types.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\de\Microsoft.ReportViewer.Common.resources.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\de\Microsoft.ReportViewer.Design.resources.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\de\Microsoft.ReportViewer.WebDesign.resources.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\de\Microsoft.ReportViewer.WebForms.resources.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\de\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\es\Microsoft.ReportViewer.Common.resources.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\es\Microsoft.ReportViewer.Design.resources.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\es\Microsoft.ReportViewer.WebDesign.resources.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\es\Microsoft.ReportViewer.WebForms.resources.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\es\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\fr\Microsoft.ReportViewer.Common.resources.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\fr\Microsoft.ReportViewer.Design.resources.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\fr\Microsoft.ReportViewer.WebDesign.resources.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\fr\Microsoft.ReportViewer.WebForms.resources.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\fr\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\it\Microsoft.ReportViewer.Common.resources.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\it\Microsoft.ReportViewer.Design.resources.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\it\Microsoft.ReportViewer.WebDesign.resources.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\it\Microsoft.ReportViewer.WebForms.resources.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\it\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\ja\Microsoft.ReportViewer.Common.resources.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\ja\Microsoft.ReportViewer.Design.resources.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\ja\Microsoft.ReportViewer.WebDesign.resources.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\ja\Microsoft.ReportViewer.WebForms.resources.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\ja\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\ko\Microsoft.ReportViewer.Common.resources.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\ko\Microsoft.ReportViewer.Design.resources.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\ko\Microsoft.ReportViewer.WebDesign.resources.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\ko\Microsoft.ReportViewer.WebForms.resources.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\ko\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\pt\Microsoft.ReportViewer.Common.resources.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\pt\Microsoft.ReportViewer.Design.resources.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\pt\Microsoft.ReportViewer.WebDesign.resources.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\pt\Microsoft.ReportViewer.WebForms.resources.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\pt\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\ru\Microsoft.ReportViewer.Common.resources.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\ru\Microsoft.ReportViewer.Design.resources.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\ru\Microsoft.ReportViewer.WebDesign.resources.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\ru\Microsoft.ReportViewer.WebForms.resources.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\ru\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\zh-CHS\Microsoft.ReportViewer.WebDesign.resources.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\zh-CHS\Microsoft.ReportViewer.WebForms.resources.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\zh-CHT\Microsoft.ReportViewer.WebDesign.resources.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\zh-CHT\Microsoft.ReportViewer.WebForms.resources.dll
+D:\Programming\CodeBase\WebDev\Medicore\HospitalAppl\bin\Debug\net6.0\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\appsettings.Development.json
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\appsettings.json
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\HospitalAppl.staticwebassets.runtime.json
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\HospitalAppl.exe
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\HospitalAppl.deps.json
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\HospitalAppl.runtimeconfig.json
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\HospitalAppl.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\HospitalAppl.pdb
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\Humanizer.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\MessagePack.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\MessagePack.Annotations.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.UI.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\Microsoft.AspNetCore.Razor.Language.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\Microsoft.Build.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\Microsoft.Build.Framework.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\Microsoft.CodeAnalysis.AnalyzerUtilities.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\Microsoft.CodeAnalysis.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\Microsoft.CodeAnalysis.CSharp.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\Microsoft.CodeAnalysis.CSharp.Features.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\Microsoft.CodeAnalysis.Features.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\Microsoft.CodeAnalysis.Razor.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\Microsoft.CodeAnalysis.Scripting.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\Microsoft.CodeAnalysis.VisualBasic.Features.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\Microsoft.CodeAnalysis.VisualBasic.Workspaces.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\Microsoft.CodeAnalysis.Workspaces.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\Microsoft.DiaSymReader.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\Microsoft.DotNet.Scaffolding.Shared.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\Microsoft.Extensions.FileProviders.Embedded.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\Microsoft.Extensions.Identity.Core.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\Microsoft.Extensions.Identity.Stores.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\Microsoft.NET.StringTools.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\Microsoft.ReportViewer.Common.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\Microsoft.ReportViewer.DataVisualization.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\Microsoft.ReportViewer.Design.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\Microsoft.ReportViewer.ProcessingObjectModel.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\Microsoft.ReportViewer.WebDesign.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\Microsoft.ReportViewer.WebForms.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\Microsoft.ReportViewer.WinForms.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\Microsoft.SqlServer.Types.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\Microsoft.VisualStudio.Debugger.Contracts.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\dotnet-aspnet-codegenerator-design.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\Newtonsoft.Json.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\NuGet.Common.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\NuGet.Configuration.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\NuGet.DependencyResolver.Core.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\NuGet.Frameworks.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\NuGet.LibraryModel.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\NuGet.Packaging.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\NuGet.ProjectModel.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\NuGet.Protocol.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\NuGet.Versioning.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\Microsoft.ReportViewer.NETCore.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\System.CodeDom.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\System.Composition.AttributedModel.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\System.Composition.Convention.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\System.Composition.Hosting.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\System.Composition.Runtime.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\System.Composition.TypedParts.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\System.Drawing.Common.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\System.IO.Packaging.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\System.Resources.Extensions.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\System.Runtime.Caching.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\System.Security.Permissions.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\System.Windows.Extensions.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.Features.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.Features.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.Features.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.Features.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.Features.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.Features.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.Features.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.Features.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.Features.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.Features.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.Features.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.Features.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.Features.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\de\Microsoft.ReportViewer.Common.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\de\Microsoft.ReportViewer.Design.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\de\Microsoft.ReportViewer.WebDesign.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\de\Microsoft.ReportViewer.WebForms.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\de\Microsoft.ReportViewer.WinForms.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\es\Microsoft.ReportViewer.Common.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\es\Microsoft.ReportViewer.Design.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\es\Microsoft.ReportViewer.WebDesign.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\es\Microsoft.ReportViewer.WebForms.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\es\Microsoft.ReportViewer.WinForms.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\fr\Microsoft.ReportViewer.Common.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\fr\Microsoft.ReportViewer.Design.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\fr\Microsoft.ReportViewer.WebDesign.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\fr\Microsoft.ReportViewer.WebForms.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\fr\Microsoft.ReportViewer.WinForms.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\it\Microsoft.ReportViewer.Common.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\it\Microsoft.ReportViewer.Design.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\it\Microsoft.ReportViewer.WebDesign.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\it\Microsoft.ReportViewer.WebForms.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\it\Microsoft.ReportViewer.WinForms.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\ja\Microsoft.ReportViewer.Common.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\ja\Microsoft.ReportViewer.Design.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\ja\Microsoft.ReportViewer.WebDesign.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\ja\Microsoft.ReportViewer.WebForms.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\ja\Microsoft.ReportViewer.WinForms.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\ko\Microsoft.ReportViewer.Common.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\ko\Microsoft.ReportViewer.Design.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\ko\Microsoft.ReportViewer.WebDesign.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\ko\Microsoft.ReportViewer.WebForms.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\ko\Microsoft.ReportViewer.WinForms.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\pt\Microsoft.ReportViewer.Common.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\pt\Microsoft.ReportViewer.Design.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\pt\Microsoft.ReportViewer.WebDesign.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\pt\Microsoft.ReportViewer.WebForms.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\pt\Microsoft.ReportViewer.WinForms.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\ru\Microsoft.ReportViewer.Common.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\ru\Microsoft.ReportViewer.Design.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\ru\Microsoft.ReportViewer.WebDesign.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\ru\Microsoft.ReportViewer.WebForms.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\ru\Microsoft.ReportViewer.WinForms.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\zh-CHS\Microsoft.ReportViewer.WebDesign.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\zh-CHS\Microsoft.ReportViewer.WebForms.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\zh-CHT\Microsoft.ReportViewer.WebDesign.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\zh-CHT\Microsoft.ReportViewer.WebForms.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\obj\Debug\net6.0\HospitalAppl.csproj.AssemblyReference.cache
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\obj\Debug\net6.0\HospitalAppl.GeneratedMSBuildEditorConfig.editorconfig
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\obj\Debug\net6.0\HospitalAppl.AssemblyInfoInputs.cache
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\obj\Debug\net6.0\HospitalAppl.AssemblyInfo.cs
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\obj\Debug\net6.0\HospitalAppl.csproj.CoreCompileInputs.cache
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\obj\Debug\net6.0\HospitalAppl.MvcApplicationPartsAssemblyInfo.cs
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\obj\Debug\net6.0\HospitalAppl.MvcApplicationPartsAssemblyInfo.cache
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\obj\Debug\net6.0\HospitalAppl.RazorAssemblyInfo.cache
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\obj\Debug\net6.0\HospitalAppl.RazorAssemblyInfo.cs
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\obj\Debug\net6.0\staticwebassets.build.json
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\obj\Debug\net6.0\staticwebassets.development.json
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\obj\Debug\net6.0\scopedcss\bundle\HospitalAppl.styles.css
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\obj\Debug\net6.0\scopedcss\projectbundle\HospitalAppl.bundle.scp.css
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\obj\Debug\net6.0\HospitalAppl.csproj.CopyComplete
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\obj\Debug\net6.0\HospitalAppl.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\obj\Debug\net6.0\refint\HospitalAppl.dll
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\obj\Debug\net6.0\HospitalAppl.pdb
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\obj\Debug\net6.0\HospitalAppl.genruntimeconfig.cache
+D:\CUFE\CMP-02\Database Management Systems\FinalProject\FinalDbMedicore\HospitalAppl\obj\Debug\net6.0\ref\HospitalAppl.dll
+C:\Maestro\CMP\CMP-2\CMP-2020\Medicore\Medicore\HospitalAppl\bin\Debug\net6.0\appsettings.Development.json
+C:\Maestro\CMP\CMP-2\CMP-2020\Medicore\Medicore\HospitalAppl\bin\Debug\net6.0\appsettings.json
+C:\Maestro\CMP\CMP-2\CMP-2020\Medicore\Medicore\HospitalAppl\bin\Debug\net6.0\HospitalAppl.staticwebassets.runtime.json
+C:\Maestro\CMP\CMP-2\CMP-2020\Medicore\Medicore\HospitalAppl\bin\Debug\net6.0\HospitalAppl.exe
+C:\Maestro\CMP\CMP-2\CMP-2020\Medicore\Medicore\HospitalAppl\bin\Debug\net6.0\HospitalAppl.deps.json
+C:\Maestro\CMP\CMP-2\CMP-2020\Medicore\Medicore\HospitalAppl\bin\Debug\net6.0\HospitalAppl.runtimeconfig.json
+C:\Maestro\CMP\CMP-2\CMP-2020\Medicore\Medicore\HospitalAppl\bin\Debug\net6.0\HospitalAppl.dll
+C:\Maestro\CMP\CMP-2\CMP-2020\Medicore\Medicore\HospitalAppl\bin\Debug\net6.0\HospitalAppl.pdb
+C:\Maestro\CMP\CMP-2\CMP-2020\Medicore\Medicore\HospitalAppl\bin\Debug\net6.0\Humanizer.dll
+C:\Maestro\CMP\CMP-2\CMP-2020\Medicore\Medicore\HospitalAppl\bin\Debug\net6.0\MessagePack.dll
+C:\Maestro\CMP\CMP-2\CMP-2020\Medicore\Medicore\HospitalAppl\bin\Debug\net6.0\MessagePack.Annotations.dll
+C:\Maestro\CMP\CMP-2\CMP-2020\Medicore\Medicore\HospitalAppl\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Maestro\CMP\CMP-2\CMP-2020\Medicore\Medicore\HospitalAppl\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Maestro\CMP\CMP-2\CMP-2020\Medicore\Medicore\HospitalAppl\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Maestro\CMP\CMP-2\CMP-2020\Medicore\Medicore\HospitalAppl\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.UI.dll
+C:\Maestro\CMP\CMP-2\CMP-2020\Medicore\Medicore\HospitalAppl\bin\Debug\net6.0\Microsoft.AspNetCore.Razor.Language.dll
+C:\Maestro\CMP\CMP-2\CMP-2020\Medicore\Medicore\HospitalAppl\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Maestro\CMP\CMP-2\CMP-2020\Medicore\Medicore\HospitalAppl\bin\Debug\net6.0\Microsoft.Build.dll
+C:\Maestro\CMP\CMP-2\CMP-2020\Medicore\Medicore\HospitalAppl\bin\Debug\net6.0\Microsoft.Build.Framework.dll
+C:\Maestro\CMP\CMP-2\CMP-2020\Medicore\Medicore\HospitalAppl\bin\Debug\net6.0\Microsoft.CodeAnalysis.AnalyzerUtilities.dll
+C:\Maestro\CMP\CMP-2\CMP-2020\Medicore\Medicore\HospitalAppl\bin\Debug\net6.0\Microsoft.CodeAnalysis.dll
+C:\Maestro\CMP\CMP-2\CMP-2020\Medicore\Medicore\HospitalAppl\bin\Debug\net6.0\Microsoft.CodeAnalysis.CSharp.dll
+C:\Maestro\CMP\CMP-2\CMP-2020\Medicore\Medicore\HospitalAppl\bin\Debug\net6.0\Microsoft.CodeAnalysis.CSharp.Features.dll
+C:\Maestro\CMP\CMP-2\CMP-2020\Medicore\Medicore\HospitalAppl\bin\Debug\net6.0\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Maestro\CMP\CMP-2\CMP-2020\Medicore\Medicore\HospitalAppl\bin\Debug\net6.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\Maestro\CMP\CMP-2\CMP-2020\Medicore\Medicore\HospitalAppl\bin\Debug\net6.0\Microsoft.CodeAnalysis.Features.dll
+C:\Maestro\CMP\CMP-2\CMP-2020\Medicore\Medicore\HospitalAppl\bin\Debug\net6.0\Microsoft.CodeAnalysis.Razor.dll
+C:\Maestro\CMP\CMP-2\CMP-2020\Medicore\Medicore\HospitalAppl\bin\Debug\net6.0\Microsoft.CodeAnalysis.Scripting.dll
+C:\Maestro\CMP\CMP-2\CMP-2020\Medicore\Medicore\HospitalAppl\bin\Debug\net6.0\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Maestro\CMP\CMP-2\CMP-2020\Medicore\Medicore\HospitalAppl\bin\Debug\net6.0\Microsoft.CodeAnalysis.VisualBasic.Features.dll
+C:\Maestro\CMP\CMP-2\CMP-2020\Medicore\Medicore\HospitalAppl\bin\Debug\net6.0\Microsoft.CodeAnalysis.VisualBasic.Workspaces.dll
+C:\Maestro\CMP\CMP-2\CMP-2020\Medicore\Medicore\HospitalAppl\bin\Debug\net6.0\Microsoft.CodeAnalysis.Workspaces.dll
+C:\Maestro\CMP\CMP-2\CMP-2020\Medicore\Medicore\HospitalAppl\bin\Debug\net6.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
+C:\Maestro\CMP\CMP-2\CMP-2020\Medicore\Medicore\HospitalAppl\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+C:\Maestro\CMP\CMP-2\CMP-2020\Medicore\Medicore\HospitalAppl\bin\Debug\net6.0\Microsoft.DiaSymReader.dll
+C:\Maestro\CMP\CMP-2\CMP-2020\Medicore\Medicore\HospitalAppl\bin\Debug\net6.0\Microsoft.DotNet.Scaffolding.Shared.dll
+C:\Maestro\CMP\CMP-2\CMP-2020\Medicore\Medicore\HospitalAppl\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\Maestro\CMP\CMP-2\CMP-2020\Medicore\Medicore\HospitalAppl\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Maestro\CMP\CMP-2\CMP-2020\Medicore\Medicore\HospitalAppl\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Maestro\CMP\CMP-2\CMP-2020\Medicore\Medicore\HospitalAppl\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Maestro\CMP\CMP-2\CMP-2020\Medicore\Medicore\HospitalAppl\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Maestro\CMP\CMP-2\CMP-2020\Medicore\Medicore\HospitalAppl\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Maestro\CMP\CMP-2\CMP-2020\Medicore\Medicore\HospitalAppl\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Maestro\CMP\CMP-2\CMP-2020\Medicore\Medicore\HospitalAppl\bin\Debug\net6.0\Microsoft.Extensions.FileProviders.Embedded.dll
+C:\Maestro\CMP\CMP-2\CMP-2020\Medicore\Medicore\HospitalAppl\bin\Debug\net6.0\Microsoft.Extensions.Identity.Core.dll
+C:\Maestro\CMP\CMP-2\CMP-2020\Medicore\Medicore\HospitalAppl\bin\Debug\net6.0\Microsoft.Extensions.Identity.Stores.dll
+C:\Maestro\CMP\CMP-2\CMP-2020\Medicore\Medicore\HospitalAppl\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+C:\Maestro\CMP\CMP-2\CMP-2020\Medicore\Medicore\HospitalAppl\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Maestro\CMP\CMP-2\CMP-2020\Medicore\Medicore\HospitalAppl\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+C:\Maestro\CMP\CMP-2\CMP-2020\Medicore\Medicore\HospitalAppl\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+C:\Maestro\CMP\CMP-2\CMP-2020\Medicore\Medicore\HospitalAppl\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Maestro\CMP\CMP-2\CMP-2020\Medicore\Medicore\HospitalAppl\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+C:\Maestro\CMP\CMP-2\CMP-2020\Medicore\Medicore\HospitalAppl\bin\Debug\net6.0\Microsoft.NET.StringTools.dll
+C:\Maestro\CMP\CMP-2\CMP-2020\Medicore\Medicore\HospitalAppl\bin\Debug\net6.0\Microsoft.ReportViewer.Common.dll
+C:\Maestro\CMP\CMP-2\CMP-2020\Medicore\Medicore\HospitalAppl\bin\Debug\net6.0\Microsoft.ReportViewer.DataVisualization.dll
+C:\Maestro\CMP\CMP-2\CMP-2020\Medicore\Medicore\HospitalAppl\bin\Debug\net6.0\Microsoft.ReportViewer.ProcessingObjectModel.dll
+C:\Maestro\CMP\CMP-2\CMP-2020\Medicore\Medicore\HospitalAppl\bin\Debug\net6.0\Microsoft.VisualStudio.Debugger.Contracts.dll
+C:\Maestro\CMP\CMP-2\CMP-2020\Medicore\Medicore\HospitalAppl\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.dll
+C:\Maestro\CMP\CMP-2\CMP-2020\Medicore\Medicore\HospitalAppl\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+C:\Maestro\CMP\CMP-2\CMP-2020\Medicore\Medicore\HospitalAppl\bin\Debug\net6.0\dotnet-aspnet-codegenerator-design.dll
+C:\Maestro\CMP\CMP-2\CMP-2020\Medicore\Medicore\HospitalAppl\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+C:\Maestro\CMP\CMP-2\CMP-2020\Medicore\Medicore\HospitalAppl\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+C:\Maestro\CMP\CMP-2\CMP-2020\Medicore\Medicore\HospitalAppl\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+C:\Maestro\CMP\CMP-2\CMP-2020\Medicore\Medicore\HospitalAppl\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+C:\Maestro\CMP\CMP-2\CMP-2020\Medicore\Medicore\HospitalAppl\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Maestro\CMP\CMP-2\CMP-2020\Medicore\Medicore\HospitalAppl\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Maestro\CMP\CMP-2\CMP-2020\Medicore\Medicore\HospitalAppl\bin\Debug\net6.0\NuGet.Common.dll
+C:\Maestro\CMP\CMP-2\CMP-2020\Medicore\Medicore\HospitalAppl\bin\Debug\net6.0\NuGet.Configuration.dll
+C:\Maestro\CMP\CMP-2\CMP-2020\Medicore\Medicore\HospitalAppl\bin\Debug\net6.0\NuGet.DependencyResolver.Core.dll
+C:\Maestro\CMP\CMP-2\CMP-2020\Medicore\Medicore\HospitalAppl\bin\Debug\net6.0\NuGet.Frameworks.dll
+C:\Maestro\CMP\CMP-2\CMP-2020\Medicore\Medicore\HospitalAppl\bin\Debug\net6.0\NuGet.LibraryModel.dll
+C:\Maestro\CMP\CMP-2\CMP-2020\Medicore\Medicore\HospitalAppl\bin\Debug\net6.0\NuGet.Packaging.dll
+C:\Maestro\CMP\CMP-2\CMP-2020\Medicore\Medicore\HospitalAppl\bin\Debug\net6.0\NuGet.ProjectModel.dll
+C:\Maestro\CMP\CMP-2\CMP-2020\Medicore\Medicore\HospitalAppl\bin\Debug\net6.0\NuGet.Protocol.dll
+C:\Maestro\CMP\CMP-2\CMP-2020\Medicore\Medicore\HospitalAppl\bin\Debug\net6.0\NuGet.Versioning.dll
+C:\Maestro\CMP\CMP-2\CMP-2020\Medicore\Medicore\HospitalAppl\bin\Debug\net6.0\Microsoft.ReportViewer.NETCore.dll
+C:\Maestro\CMP\CMP-2\CMP-2020\Medicore\Medicore\HospitalAppl\bin\Debug\net6.0\System.CodeDom.dll
+C:\Maestro\CMP\CMP-2\CMP-2020\Medicore\Medicore\HospitalAppl\bin\Debug\net6.0\System.Composition.AttributedModel.dll
+C:\Maestro\CMP\CMP-2\CMP-2020\Medicore\Medicore\HospitalAppl\bin\Debug\net6.0\System.Composition.Convention.dll
+C:\Maestro\CMP\CMP-2\CMP-2020\Medicore\Medicore\HospitalAppl\bin\Debug\net6.0\System.Composition.Hosting.dll
+C:\Maestro\CMP\CMP-2\CMP-2020\Medicore\Medicore\HospitalAppl\bin\Debug\net6.0\System.Composition.Runtime.dll
+C:\Maestro\CMP\CMP-2\CMP-2020\Medicore\Medicore\HospitalAppl\bin\Debug\net6.0\System.Composition.TypedParts.dll
+C:\Maestro\CMP\CMP-2\CMP-2020\Medicore\Medicore\HospitalAppl\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+C:\Maestro\CMP\CMP-2\CMP-2020\Medicore\Medicore\HospitalAppl\bin\Debug\net6.0\System.Drawing.Common.dll
+C:\Maestro\CMP\CMP-2\CMP-2020\Medicore\Medicore\HospitalAppl\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Maestro\CMP\CMP-2\CMP-2020\Medicore\Medicore\HospitalAppl\bin\Debug\net6.0\System.IO.Packaging.dll
+C:\Maestro\CMP\CMP-2\CMP-2020\Medicore\Medicore\HospitalAppl\bin\Debug\net6.0\System.Resources.Extensions.dll
+C:\Maestro\CMP\CMP-2\CMP-2020\Medicore\Medicore\HospitalAppl\bin\Debug\net6.0\System.Runtime.Caching.dll
+C:\Maestro\CMP\CMP-2\CMP-2020\Medicore\Medicore\HospitalAppl\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Maestro\CMP\CMP-2\CMP-2020\Medicore\Medicore\HospitalAppl\bin\Debug\net6.0\System.Security.Permissions.dll
+C:\Maestro\CMP\CMP-2\CMP-2020\Medicore\Medicore\HospitalAppl\bin\Debug\net6.0\System.Windows.Extensions.dll
+C:\Maestro\CMP\CMP-2\CMP-2020\Medicore\Medicore\HospitalAppl\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Maestro\CMP\CMP-2\CMP-2020\Medicore\Medicore\HospitalAppl\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.resources.dll
+C:\Maestro\CMP\CMP-2\CMP-2020\Medicore\Medicore\HospitalAppl\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.resources.dll
+C:\Maestro\CMP\CMP-2\CMP-2020\Medicore\Medicore\HospitalAppl\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Maestro\CMP\CMP-2\CMP-2020\Medicore\Medicore\HospitalAppl\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.resources.dll
+C:\Maestro\CMP\CMP-2\CMP-2020\Medicore\Medicore\HospitalAppl\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Maestro\CMP\CMP-2\CMP-2020\Medicore\Medicore\HospitalAppl\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Maestro\CMP\CMP-2\CMP-2020\Medicore\Medicore\HospitalAppl\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Maestro\CMP\CMP-2\CMP-2020\Medicore\Medicore\HospitalAppl\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Maestro\CMP\CMP-2\CMP-2020\Medicore\Medicore\HospitalAppl\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Maestro\CMP\CMP-2\CMP-2020\Medicore\Medicore\HospitalAppl\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Maestro\CMP\CMP-2\CMP-2020\Medicore\Medicore\HospitalAppl\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Maestro\CMP\CMP-2\CMP-2020\Medicore\Medicore\HospitalAppl\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Maestro\CMP\CMP-2\CMP-2020\Medicore\Medicore\HospitalAppl\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Maestro\CMP\CMP-2\CMP-2020\Medicore\Medicore\HospitalAppl\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Maestro\CMP\CMP-2\CMP-2020\Medicore\Medicore\HospitalAppl\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Maestro\CMP\CMP-2\CMP-2020\Medicore\Medicore\HospitalAppl\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Maestro\CMP\CMP-2\CMP-2020\Medicore\Medicore\HospitalAppl\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Maestro\CMP\CMP-2\CMP-2020\Medicore\Medicore\HospitalAppl\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Maestro\CMP\CMP-2\CMP-2020\Medicore\Medicore\HospitalAppl\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Maestro\CMP\CMP-2\CMP-2020\Medicore\Medicore\HospitalAppl\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Maestro\CMP\CMP-2\CMP-2020\Medicore\Medicore\HospitalAppl\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Maestro\CMP\CMP-2\CMP-2020\Medicore\Medicore\HospitalAppl\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Maestro\CMP\CMP-2\CMP-2020\Medicore\Medicore\HospitalAppl\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Maestro\CMP\CMP-2\CMP-2020\Medicore\Medicore\HospitalAppl\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Maestro\CMP\CMP-2\CMP-2020\Medicore\Medicore\HospitalAppl\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Maestro\CMP\CMP-2\CMP-2020\Medicore\Medicore\HospitalAppl\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Maestro\CMP\CMP-2\CMP-2020\Medicore\Medicore\HospitalAppl\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Maestro\CMP\CMP-2\CMP-2020\Medicore\Medicore\HospitalAppl\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Maestro\CMP\CMP-2\CMP-2020\Medicore\Medicore\HospitalAppl\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Maestro\CMP\CMP-2\CMP-2020\Medicore\Medicore\HospitalAppl\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Maestro\CMP\CMP-2\CMP-2020\Medicore\Medicore\HospitalAppl\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Maestro\CMP\CMP-2\CMP-2020\Medicore\Medicore\HospitalAppl\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Maestro\CMP\CMP-2\CMP-2020\Medicore\Medicore\HospitalAppl\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Maestro\CMP\CMP-2\CMP-2020\Medicore\Medicore\HospitalAppl\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Maestro\CMP\CMP-2\CMP-2020\Medicore\Medicore\HospitalAppl\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Maestro\CMP\CMP-2\CMP-2020\Medicore\Medicore\HospitalAppl\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Maestro\CMP\CMP-2\CMP-2020\Medicore\Medicore\HospitalAppl\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Maestro\CMP\CMP-2\CMP-2020\Medicore\Medicore\HospitalAppl\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Maestro\CMP\CMP-2\CMP-2020\Medicore\Medicore\HospitalAppl\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:\Maestro\CMP\CMP-2\CMP-2020\Medicore\Medicore\HospitalAppl\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:\Maestro\CMP\CMP-2\CMP-2020\Medicore\Medicore\HospitalAppl\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:\Maestro\CMP\CMP-2\CMP-2020\Medicore\Medicore\HospitalAppl\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:\Maestro\CMP\CMP-2\CMP-2020\Medicore\Medicore\HospitalAppl\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:\Maestro\CMP\CMP-2\CMP-2020\Medicore\Medicore\HospitalAppl\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:\Maestro\CMP\CMP-2\CMP-2020\Medicore\Medicore\HospitalAppl\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:\Maestro\CMP\CMP-2\CMP-2020\Medicore\Medicore\HospitalAppl\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:\Maestro\CMP\CMP-2\CMP-2020\Medicore\Medicore\HospitalAppl\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:\Maestro\CMP\CMP-2\CMP-2020\Medicore\Medicore\HospitalAppl\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:\Maestro\CMP\CMP-2\CMP-2020\Medicore\Medicore\HospitalAppl\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:\Maestro\CMP\CMP-2\CMP-2020\Medicore\Medicore\HospitalAppl\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:\Maestro\CMP\CMP-2\CMP-2020\Medicore\Medicore\HospitalAppl\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:\Maestro\CMP\CMP-2\CMP-2020\Medicore\Medicore\HospitalAppl\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Maestro\CMP\CMP-2\CMP-2020\Medicore\Medicore\HospitalAppl\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Maestro\CMP\CMP-2\CMP-2020\Medicore\Medicore\HospitalAppl\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Maestro\CMP\CMP-2\CMP-2020\Medicore\Medicore\HospitalAppl\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Maestro\CMP\CMP-2\CMP-2020\Medicore\Medicore\HospitalAppl\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Maestro\CMP\CMP-2\CMP-2020\Medicore\Medicore\HospitalAppl\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Maestro\CMP\CMP-2\CMP-2020\Medicore\Medicore\HospitalAppl\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Maestro\CMP\CMP-2\CMP-2020\Medicore\Medicore\HospitalAppl\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Maestro\CMP\CMP-2\CMP-2020\Medicore\Medicore\HospitalAppl\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Maestro\CMP\CMP-2\CMP-2020\Medicore\Medicore\HospitalAppl\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Maestro\CMP\CMP-2\CMP-2020\Medicore\Medicore\HospitalAppl\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Maestro\CMP\CMP-2\CMP-2020\Medicore\Medicore\HospitalAppl\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Maestro\CMP\CMP-2\CMP-2020\Medicore\Medicore\HospitalAppl\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Maestro\CMP\CMP-2\CMP-2020\Medicore\Medicore\HospitalAppl\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Maestro\CMP\CMP-2\CMP-2020\Medicore\Medicore\HospitalAppl\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Maestro\CMP\CMP-2\CMP-2020\Medicore\Medicore\HospitalAppl\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Maestro\CMP\CMP-2\CMP-2020\Medicore\Medicore\HospitalAppl\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Maestro\CMP\CMP-2\CMP-2020\Medicore\Medicore\HospitalAppl\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Maestro\CMP\CMP-2\CMP-2020\Medicore\Medicore\HospitalAppl\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Maestro\CMP\CMP-2\CMP-2020\Medicore\Medicore\HospitalAppl\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Maestro\CMP\CMP-2\CMP-2020\Medicore\Medicore\HospitalAppl\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Maestro\CMP\CMP-2\CMP-2020\Medicore\Medicore\HospitalAppl\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Maestro\CMP\CMP-2\CMP-2020\Medicore\Medicore\HospitalAppl\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Maestro\CMP\CMP-2\CMP-2020\Medicore\Medicore\HospitalAppl\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Maestro\CMP\CMP-2\CMP-2020\Medicore\Medicore\HospitalAppl\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Maestro\CMP\CMP-2\CMP-2020\Medicore\Medicore\HospitalAppl\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Maestro\CMP\CMP-2\CMP-2020\Medicore\Medicore\HospitalAppl\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Maestro\CMP\CMP-2\CMP-2020\Medicore\Medicore\HospitalAppl\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Maestro\CMP\CMP-2\CMP-2020\Medicore\Medicore\HospitalAppl\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Maestro\CMP\CMP-2\CMP-2020\Medicore\Medicore\HospitalAppl\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Maestro\CMP\CMP-2\CMP-2020\Medicore\Medicore\HospitalAppl\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Maestro\CMP\CMP-2\CMP-2020\Medicore\Medicore\HospitalAppl\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Maestro\CMP\CMP-2\CMP-2020\Medicore\Medicore\HospitalAppl\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Maestro\CMP\CMP-2\CMP-2020\Medicore\Medicore\HospitalAppl\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Maestro\CMP\CMP-2\CMP-2020\Medicore\Medicore\HospitalAppl\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Maestro\CMP\CMP-2\CMP-2020\Medicore\Medicore\HospitalAppl\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Maestro\CMP\CMP-2\CMP-2020\Medicore\Medicore\HospitalAppl\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Maestro\CMP\CMP-2\CMP-2020\Medicore\Medicore\HospitalAppl\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Maestro\CMP\CMP-2\CMP-2020\Medicore\Medicore\HospitalAppl\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Maestro\CMP\CMP-2\CMP-2020\Medicore\Medicore\HospitalAppl\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Maestro\CMP\CMP-2\CMP-2020\Medicore\Medicore\HospitalAppl\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Maestro\CMP\CMP-2\CMP-2020\Medicore\Medicore\HospitalAppl\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Maestro\CMP\CMP-2\CMP-2020\Medicore\Medicore\HospitalAppl\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Maestro\CMP\CMP-2\CMP-2020\Medicore\Medicore\HospitalAppl\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Maestro\CMP\CMP-2\CMP-2020\Medicore\Medicore\HospitalAppl\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Maestro\CMP\CMP-2\CMP-2020\Medicore\Medicore\HospitalAppl\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Maestro\CMP\CMP-2\CMP-2020\Medicore\Medicore\HospitalAppl\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Maestro\CMP\CMP-2\CMP-2020\Medicore\Medicore\HospitalAppl\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Maestro\CMP\CMP-2\CMP-2020\Medicore\Medicore\HospitalAppl\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Maestro\CMP\CMP-2\CMP-2020\Medicore\Medicore\HospitalAppl\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Maestro\CMP\CMP-2\CMP-2020\Medicore\Medicore\HospitalAppl\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Maestro\CMP\CMP-2\CMP-2020\Medicore\Medicore\HospitalAppl\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Maestro\CMP\CMP-2\CMP-2020\Medicore\Medicore\HospitalAppl\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+C:\Maestro\CMP\CMP-2\CMP-2020\Medicore\Medicore\HospitalAppl\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+C:\Maestro\CMP\CMP-2\CMP-2020\Medicore\Medicore\HospitalAppl\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+C:\Maestro\CMP\CMP-2\CMP-2020\Medicore\Medicore\HospitalAppl\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+C:\Maestro\CMP\CMP-2\CMP-2020\Medicore\Medicore\HospitalAppl\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+C:\Maestro\CMP\CMP-2\CMP-2020\Medicore\Medicore\HospitalAppl\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+C:\Maestro\CMP\CMP-2\CMP-2020\Medicore\Medicore\HospitalAppl\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+C:\Maestro\CMP\CMP-2\CMP-2020\Medicore\Medicore\HospitalAppl\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+C:\Maestro\CMP\CMP-2\CMP-2020\Medicore\Medicore\HospitalAppl\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+C:\Maestro\CMP\CMP-2\CMP-2020\Medicore\Medicore\HospitalAppl\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+C:\Maestro\CMP\CMP-2\CMP-2020\Medicore\Medicore\HospitalAppl\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+C:\Maestro\CMP\CMP-2\CMP-2020\Medicore\Medicore\HospitalAppl\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+C:\Maestro\CMP\CMP-2\CMP-2020\Medicore\Medicore\HospitalAppl\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+C:\Maestro\CMP\CMP-2\CMP-2020\Medicore\Medicore\HospitalAppl\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+C:\Maestro\CMP\CMP-2\CMP-2020\Medicore\Medicore\HospitalAppl\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+C:\Maestro\CMP\CMP-2\CMP-2020\Medicore\Medicore\HospitalAppl\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+C:\Maestro\CMP\CMP-2\CMP-2020\Medicore\Medicore\HospitalAppl\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+C:\Maestro\CMP\CMP-2\CMP-2020\Medicore\Medicore\HospitalAppl\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+C:\Maestro\CMP\CMP-2\CMP-2020\Medicore\Medicore\HospitalAppl\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+C:\Maestro\CMP\CMP-2\CMP-2020\Medicore\Medicore\HospitalAppl\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+C:\Maestro\CMP\CMP-2\CMP-2020\Medicore\Medicore\HospitalAppl\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+C:\Maestro\CMP\CMP-2\CMP-2020\Medicore\Medicore\HospitalAppl\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+C:\Maestro\CMP\CMP-2\CMP-2020\Medicore\Medicore\HospitalAppl\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+C:\Maestro\CMP\CMP-2\CMP-2020\Medicore\Medicore\HospitalAppl\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+C:\Maestro\CMP\CMP-2\CMP-2020\Medicore\Medicore\HospitalAppl\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+C:\Maestro\CMP\CMP-2\CMP-2020\Medicore\Medicore\HospitalAppl\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+C:\Maestro\CMP\CMP-2\CMP-2020\Medicore\Medicore\HospitalAppl\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Maestro\CMP\CMP-2\CMP-2020\Medicore\Medicore\HospitalAppl\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Maestro\CMP\CMP-2\CMP-2020\Medicore\Medicore\HospitalAppl\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Maestro\CMP\CMP-2\CMP-2020\Medicore\Medicore\HospitalAppl\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Maestro\CMP\CMP-2\CMP-2020\Medicore\Medicore\HospitalAppl\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Maestro\CMP\CMP-2\CMP-2020\Medicore\Medicore\HospitalAppl\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Maestro\CMP\CMP-2\CMP-2020\Medicore\Medicore\HospitalAppl\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Maestro\CMP\CMP-2\CMP-2020\Medicore\Medicore\HospitalAppl\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Maestro\CMP\CMP-2\CMP-2020\Medicore\Medicore\HospitalAppl\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Maestro\CMP\CMP-2\CMP-2020\Medicore\Medicore\HospitalAppl\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Maestro\CMP\CMP-2\CMP-2020\Medicore\Medicore\HospitalAppl\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Maestro\CMP\CMP-2\CMP-2020\Medicore\Medicore\HospitalAppl\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Maestro\CMP\CMP-2\CMP-2020\Medicore\Medicore\HospitalAppl\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Maestro\CMP\CMP-2\CMP-2020\Medicore\Medicore\HospitalAppl\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Maestro\CMP\CMP-2\CMP-2020\Medicore\Medicore\HospitalAppl\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Maestro\CMP\CMP-2\CMP-2020\Medicore\Medicore\HospitalAppl\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Maestro\CMP\CMP-2\CMP-2020\Medicore\Medicore\HospitalAppl\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Maestro\CMP\CMP-2\CMP-2020\Medicore\Medicore\HospitalAppl\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Maestro\CMP\CMP-2\CMP-2020\Medicore\Medicore\HospitalAppl\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Maestro\CMP\CMP-2\CMP-2020\Medicore\Medicore\HospitalAppl\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Maestro\CMP\CMP-2\CMP-2020\Medicore\Medicore\HospitalAppl\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Maestro\CMP\CMP-2\CMP-2020\Medicore\Medicore\HospitalAppl\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Maestro\CMP\CMP-2\CMP-2020\Medicore\Medicore\HospitalAppl\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Maestro\CMP\CMP-2\CMP-2020\Medicore\Medicore\HospitalAppl\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Maestro\CMP\CMP-2\CMP-2020\Medicore\Medicore\HospitalAppl\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Maestro\CMP\CMP-2\CMP-2020\Medicore\Medicore\HospitalAppl\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Maestro\CMP\CMP-2\CMP-2020\Medicore\Medicore\HospitalAppl\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Maestro\CMP\CMP-2\CMP-2020\Medicore\Medicore\HospitalAppl\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Maestro\CMP\CMP-2\CMP-2020\Medicore\Medicore\HospitalAppl\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Maestro\CMP\CMP-2\CMP-2020\Medicore\Medicore\HospitalAppl\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Maestro\CMP\CMP-2\CMP-2020\Medicore\Medicore\HospitalAppl\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Maestro\CMP\CMP-2\CMP-2020\Medicore\Medicore\HospitalAppl\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Maestro\CMP\CMP-2\CMP-2020\Medicore\Medicore\HospitalAppl\bin\Debug\net6.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Maestro\CMP\CMP-2\CMP-2020\Medicore\Medicore\HospitalAppl\bin\Debug\net6.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+C:\Maestro\CMP\CMP-2\CMP-2020\Medicore\Medicore\HospitalAppl\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+C:\Maestro\CMP\CMP-2\CMP-2020\Medicore\Medicore\HospitalAppl\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Maestro\CMP\CMP-2\CMP-2020\Medicore\Medicore\HospitalAppl\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Maestro\CMP\CMP-2\CMP-2020\Medicore\Medicore\HospitalAppl\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+C:\Maestro\CMP\CMP-2\CMP-2020\Medicore\Medicore\HospitalAppl\obj\Debug\net6.0\HospitalAppl.csproj.AssemblyReference.cache
+C:\Maestro\CMP\CMP-2\CMP-2020\Medicore\Medicore\HospitalAppl\obj\Debug\net6.0\HospitalAppl.GeneratedMSBuildEditorConfig.editorconfig
+C:\Maestro\CMP\CMP-2\CMP-2020\Medicore\Medicore\HospitalAppl\obj\Debug\net6.0\HospitalAppl.AssemblyInfoInputs.cache
+C:\Maestro\CMP\CMP-2\CMP-2020\Medicore\Medicore\HospitalAppl\obj\Debug\net6.0\HospitalAppl.AssemblyInfo.cs
+C:\Maestro\CMP\CMP-2\CMP-2020\Medicore\Medicore\HospitalAppl\obj\Debug\net6.0\HospitalAppl.csproj.CoreCompileInputs.cache
+C:\Maestro\CMP\CMP-2\CMP-2020\Medicore\Medicore\HospitalAppl\obj\Debug\net6.0\HospitalAppl.MvcApplicationPartsAssemblyInfo.cs
+C:\Maestro\CMP\CMP-2\CMP-2020\Medicore\Medicore\HospitalAppl\obj\Debug\net6.0\HospitalAppl.MvcApplicationPartsAssemblyInfo.cache
+C:\Maestro\CMP\CMP-2\CMP-2020\Medicore\Medicore\HospitalAppl\obj\Debug\net6.0\HospitalAppl.RazorAssemblyInfo.cache
+C:\Maestro\CMP\CMP-2\CMP-2020\Medicore\Medicore\HospitalAppl\obj\Debug\net6.0\HospitalAppl.RazorAssemblyInfo.cs
+C:\Maestro\CMP\CMP-2\CMP-2020\Medicore\Medicore\HospitalAppl\obj\Debug\net6.0\staticwebassets\msbuild.HospitalAppl.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Maestro\CMP\CMP-2\CMP-2020\Medicore\Medicore\HospitalAppl\obj\Debug\net6.0\staticwebassets\msbuild.build.HospitalAppl.props
+C:\Maestro\CMP\CMP-2\CMP-2020\Medicore\Medicore\HospitalAppl\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.HospitalAppl.props
+C:\Maestro\CMP\CMP-2\CMP-2020\Medicore\Medicore\HospitalAppl\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.HospitalAppl.props
+C:\Maestro\CMP\CMP-2\CMP-2020\Medicore\Medicore\HospitalAppl\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Maestro\CMP\CMP-2\CMP-2020\Medicore\Medicore\HospitalAppl\obj\Debug\net6.0\staticwebassets.build.json
+C:\Maestro\CMP\CMP-2\CMP-2020\Medicore\Medicore\HospitalAppl\obj\Debug\net6.0\staticwebassets.development.json
+C:\Maestro\CMP\CMP-2\CMP-2020\Medicore\Medicore\HospitalAppl\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Maestro\CMP\CMP-2\CMP-2020\Medicore\Medicore\HospitalAppl\obj\Debug\net6.0\scopedcss\bundle\HospitalAppl.styles.css
+C:\Maestro\CMP\CMP-2\CMP-2020\Medicore\Medicore\HospitalAppl\obj\Debug\net6.0\scopedcss\projectbundle\HospitalAppl.bundle.scp.css
+C:\Maestro\CMP\CMP-2\CMP-2020\Medicore\Medicore\HospitalAppl\obj\Debug\net6.0\HospitalAppl.csproj.CopyComplete
+C:\Maestro\CMP\CMP-2\CMP-2020\Medicore\Medicore\HospitalAppl\obj\Debug\net6.0\HospitalAppl.dll
+C:\Maestro\CMP\CMP-2\CMP-2020\Medicore\Medicore\HospitalAppl\obj\Debug\net6.0\refint\HospitalAppl.dll
+C:\Maestro\CMP\CMP-2\CMP-2020\Medicore\Medicore\HospitalAppl\obj\Debug\net6.0\HospitalAppl.pdb
+C:\Maestro\CMP\CMP-2\CMP-2020\Medicore\Medicore\HospitalAppl\obj\Debug\net6.0\HospitalAppl.genruntimeconfig.cache
+C:\Maestro\CMP\CMP-2\CMP-2020\Medicore\Medicore\HospitalAppl\obj\Debug\net6.0\ref\HospitalAppl.dll
